@@ -1,0 +1,643 @@
+[
+  {
+    "id": "c12f119b3e572cd0",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "pi",
+    "url": "https://openrouter.ai/apps/pi",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +4313%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "23.1B",
+      "tokens_int": 23100000000,
+      "wow_pct": 4313.0,
+      "section": "trending",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 5
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 4313.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "4ae1375767d2f05f",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "LangChain",
+    "url": "https://openrouter.ai/apps/langchain",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +101%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "14.3B",
+      "tokens_int": 14300000000,
+      "wow_pct": 101.0,
+      "section": "trending",
+      "categories": [],
+      "rank_global": 11
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 101.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "487ce1f501457b2f",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "VidMuse",
+    "url": "https://openrouter.ai/apps/vidmuse",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +86%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "8.59B",
+      "tokens_int": 8590000000,
+      "wow_pct": 86.0,
+      "section": "trending",
+      "categories": [
+        "Video Generation"
+      ],
+      "rank_global": 2
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 86.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "0a8928b54d5f428b",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Mira is the leading consumer AI agent inside Telegram",
+    "url": "https://openrouter.ai/apps/mira",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +117%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "6.74B",
+      "tokens_int": 6740000000,
+      "wow_pct": 117.0,
+      "section": "trending",
+      "categories": [
+        "Personal Agents"
+      ],
+      "rank_global": 3
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 117.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "50cac3026ef2d456",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Sahasra",
+    "url": "https://openrouter.ai/apps/stan",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +1335%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "26.1B",
+      "tokens_int": 26100000000,
+      "wow_pct": 1335.0,
+      "section": "trending",
+      "categories": [],
+      "rank_global": null
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 1335.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "48e2e7868aa8cbcd",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "extra.email",
+    "url": "https://openrouter.ai/apps/extra-email",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +2283%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "3B",
+      "tokens_int": 3000000000,
+      "wow_pct": 2283.0,
+      "section": "trending",
+      "categories": [],
+      "rank_global": 5
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 2283.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "c44ba654bbfb4074",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Lemonade",
+    "url": "https://openrouter.ai/apps/lemonade",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +13%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "13.2B",
+      "tokens_int": 13200000000,
+      "wow_pct": 13.0,
+      "section": "trending",
+      "categories": [
+        "game",
+        "Programming App"
+      ],
+      "rank_global": 12
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 13.0,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "c21e87277b3be0d0",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "OpenClaw",
+    "url": "https://openrouter.ai/apps/openclaw",
+    "description_en": "Ranked #1 in OpenRouter Global App Rankings. Weekly tokens: 287B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "287B",
+      "tokens_int": 287000000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Personal Agents"
+      ],
+      "rank_global": 1
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "ab0fb37bb83310fb",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Kilo",
+    "url": "https://openrouter.ai/apps/kilo-code",
+    "description_en": "Ranked #2 in OpenRouter Global App Rankings. Weekly tokens: 198B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "198B",
+      "tokens_int": 198000000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 1
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "a07290ce4561c2c5",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Hermes",
+    "url": "https://openrouter.ai/apps/hermes-agent",
+    "description_en": "Ranked #3 in OpenRouter Global App Rankings. Weekly tokens: 189B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "189B",
+      "tokens_int": 189000000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Personal Agents",
+        "CLI Agents"
+      ],
+      "rank_global": 2
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "0c26c5269d25c4ec",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Claude",
+    "url": "https://openrouter.ai/apps/claude-code",
+    "description_en": "Ranked #4 in OpenRouter Global App Rankings. Weekly tokens: 138B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "138B",
+      "tokens_int": 138000000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 3
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "6300832d7fbad744",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Descript",
+    "url": "https://openrouter.ai/apps/descript",
+    "description_en": "Ranked #5 in OpenRouter Global App Rankings. Weekly tokens: 51.2B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "51.2B",
+      "tokens_int": 51200000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Video Generation"
+      ],
+      "rank_global": 1
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "0827e2e938d633c2",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "ISEKAI",
+    "url": "https://openrouter.ai/apps/isekai-zero",
+    "description_en": "Ranked #6 in OpenRouter Global App Rankings. Weekly tokens: 27.9B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "27.9B",
+      "tokens_int": 27900000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Game"
+      ],
+      "rank_global": 1
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "5d021342ca30a88d",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Cline",
+    "url": "https://openrouter.ai/apps/cline",
+    "description_en": "Ranked #7 in OpenRouter Global App Rankings. Weekly tokens: 26.8B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "26.8B",
+      "tokens_int": 26800000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 4
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "393511821d34fc7e",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Janitor",
+    "url": "https://openrouter.ai/apps/janitor-ai",
+    "description_en": "Ranked #8 in OpenRouter Global App Rankings. Weekly tokens: 25.2B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "25.2B",
+      "tokens_int": 25200000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "roleplay"
+      ],
+      "rank_global": 2
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "1d8092ab906b0f51",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Roo",
+    "url": "https://openrouter.ai/apps/roo-code",
+    "description_en": "Ranked #10 in OpenRouter Global App Rankings. Weekly tokens: 17.8B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "17.8B",
+      "tokens_int": 17800000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "coding",
+        "IDE Extensions",
+        "Cloud Agents"
+      ],
+      "rank_global": 10
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "e5207a1c2ffe7c8a",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "OpenHands",
+    "url": "https://openrouter.ai/apps/openhands",
+    "description_en": "Ranked #13 in OpenRouter Global App Rankings. Weekly tokens: 13B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "13B",
+      "tokens_int": 13000000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "coding",
+        "CLI Agents"
+      ],
+      "rank_global": 13
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "a200e920eb876a93",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "SillyTavern",
+    "url": "https://openrouter.ai/apps/sillytavern",
+    "description_en": "Ranked #15 in OpenRouter Global App Rankings. Weekly tokens: 7.53B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "7.53B",
+      "tokens_int": 7530000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "roleplay"
+      ],
+      "rank_global": 3
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "296bdffd672846e6",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "HammerAI",
+    "url": "https://openrouter.ai/apps/hammerai",
+    "description_en": "Ranked #17 in OpenRouter Global App Rankings. Weekly tokens: 5.88B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "5.88B",
+      "tokens_int": 5880000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Roleplay"
+      ],
+      "rank_global": 4
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "1e8a6bf39a1ed432",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Open",
+    "url": "https://openrouter.ai/apps/open-webui",
+    "description_en": "Ranked #18 in OpenRouter Global App Rankings. Weekly tokens: 5.51B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "5.51B",
+      "tokens_int": 5510000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [],
+      "rank_global": 4
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "1869714423a972de",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Agent",
+    "url": "https://openrouter.ai/apps/agent-zero",
+    "description_en": "Ranked #19 in OpenRouter Global App Rankings. Weekly tokens: 4.72B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "4.72B",
+      "tokens_int": 4720000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Cloud Agents"
+      ],
+      "rank_global": 19
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "13ae582016a307da",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Chub",
+    "url": "https://openrouter.ai/apps/chub-ai",
+    "description_en": "Ranked #20 in OpenRouter Global App Rankings. Weekly tokens: 4.59B.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "4.59B",
+      "tokens_int": 4590000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [
+        "Roleplay"
+      ],
+      "rank_global": 5
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "314cd5b3f614ad04",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "novelcrafter",
+    "url": "https://openrouter.ai/apps/novelcrafter",
+    "description_en": "Ranked #3 in OpenRouter Global App Rankings. Weekly tokens: 817M.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "817M",
+      "tokens_int": 817000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [],
+      "rank_global": 3
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "7e328037d40a2415",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "CoffeeCat",
+    "url": "https://openrouter.ai/apps/coffeecat-ai",
+    "description_en": "Ranked #4 in OpenRouter Global App Rankings. Weekly tokens: 601M.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "601M",
+      "tokens_int": 601000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [],
+      "rank_global": 4
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  },
+  {
+    "id": "c2ae1eb3ea9bb5c2",
+    "source": "openrouter",
+    "collected_at": "2026-04-29T16:59:22Z",
+    "title": "Fish",
+    "url": "https://openrouter.ai/apps/fish-audio",
+    "description_en": "Ranked #5 in OpenRouter Global App Rankings. Weekly tokens: 374M.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "374M",
+      "tokens_int": 374000000,
+      "wow_pct": 0,
+      "section": "global",
+      "categories": [],
+      "rank_global": 5
+    },
+    "is_new": false,
+    "is_trending": false,
+    "wow_growth_pct": null,
+    "thumbnail_url": null,
+    "has_video": false
+  }
+]

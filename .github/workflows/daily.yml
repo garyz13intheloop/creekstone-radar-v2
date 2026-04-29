@@ -1,0 +1,66 @@
+name: Daily Radar Run
+
+on:
+  schedule:
+    - cron: "30 9 * * *"   # UTC 09:30 = Beijing 17:30
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Comma-separated sources (empty = all)"
+        required: false
+        default: ""
+      skip_enrichment:
+        description: "Skip LLM enrichment"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-daily-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  daily-radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run radar pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'google/gemini-flash-1.5' }}
+          PRODUCTHUNT_DEVELOPER_TOKEN: ${{ secrets.PRODUCTHUNT_DEVELOPER_TOKEN }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || '' }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID || '' }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET || '' }}
+          ENABLED_SOURCES: ${{ github.event.inputs.sources || 'producthunt,github_trending,github_events,hackernews,openrouter,huggingface,x_twitter,reddit' }}
+        run: |
+          SKIP_FLAG=""
+          if [ "${{ github.event.inputs.skip_enrichment }}" = "true" ]; then
+            SKIP_FLAG="--no-enrich"
+          fi
+          python pipeline/runner.py $SKIP_FLAG
+
+      - name: Commit data
+        run: |
+          git config user.name "CreekstoneRadarBot"
+          git config user.email "radar-bot@creekstone.vc"
+          git add data/
+          git diff --cached --quiet || git commit -m "radar: daily update $(date -u +%Y-%m-%d)"
+          git push

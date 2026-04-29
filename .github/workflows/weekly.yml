@@ -1,0 +1,35 @@
+name: Weekly Brief
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"   # Every Monday UTC 10:00 = Beijing 18:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  weekly-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate weekly brief
+        run: python reports/weekly_brief.py
+
+      - name: Commit report
+        run: |
+          git config user.name "CreekstoneRadarBot"
+          git config user.email "radar-bot@creekstone.vc"
+          git add data/reports/
+          git diff --cached --quiet || git commit -m "report: weekly brief $(date -u +%Y-%m-%d)"
+          git push
