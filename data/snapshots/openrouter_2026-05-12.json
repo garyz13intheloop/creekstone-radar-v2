@@ -2,7 +2,7 @@
   {
     "id": "c12f119b3e572cd0",
     "source": "openrouter",
-    "collected_at": "2026-05-12T09:39:20Z",
+    "collected_at": "2026-05-12T11:30:13Z",
     "title": "pi",
     "url": "https://openrouter.ai/apps/pi",
     "description_en": "Trending on OpenRouter App Rankings. WoW growth: +217%.",
@@ -15,10 +15,9 @@
       "wow_pct": 217.0,
       "section": "trending",
       "categories": [
-        "coding",
-        "CLI Agents"
+        "coding"
       ],
-      "rank_global": 6,
+      "rank_global": 5,
       "cross_sources": [
         "openrouter"
       ]
