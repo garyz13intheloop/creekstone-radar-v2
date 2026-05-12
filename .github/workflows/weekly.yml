@@ -1,4 +1,4 @@
-name: Weekly Brief
+name: Weekly Radar
 
 on:
   schedule:
@@ -9,27 +9,46 @@ permissions:
   contents: write
 
 jobs:
-  weekly-brief:
+  weekly:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+      - run: pip install -r requirements.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Run weekly pipeline (includes Similarweb)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'google/gemini-flash-1.5' }}
+          S3_MODEL: ${{ vars.S3_MODEL || 'anthropic/claude-haiku-4' }}
+          PRODUCTHUNT_DEVELOPER_TOKEN: ${{ secrets.PRODUCTHUNT_DEVELOPER_TOKEN }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID || '' }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET || '' }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN || '' }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL || '' }}
+          SCRAPE_DO_TOKEN: ${{ secrets.SCRAPE_DO_TOKEN || '' }}
+        run: python pipeline/runner.py --weekly
 
       - name: Generate weekly brief
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python reports/weekly_brief.py
 
-      - name: Commit report
+      - name: Dead URL cleanup
+        run: python pipeline/self_cleaner.py
+
+      - name: Commit all
         run: |
           git config user.name "CreekstoneRadarBot"
-          git config user.email "radar-bot@creekstone.vc"
-          git add data/reports/
-          git diff --cached --quiet || git commit -m "report: weekly brief $(date -u +%Y-%m-%d)"
+          git config user.email "radar@creekstone.vc"
+          git add data/ data/reports/ data/traffic/
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%d) weekly update"
           git push

@@ -1,4 +1,4 @@
-name: Daily Radar Run
+name: Daily Radar
 
 on:
   schedule:
@@ -7,11 +7,13 @@ on:
     inputs:
       sources:
         description: "Comma-separated sources (empty = all)"
-        required: false
         default: ""
-      skip_enrichment:
-        description: "Skip LLM enrichment"
-        required: false
+      no_s3:
+        description: "Skip LLM scoring"
+        default: "false"
+        type: boolean
+      no_feishu:
+        description: "Skip Feishu push"
         default: "false"
         type: boolean
 
@@ -23,44 +25,53 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  daily-radar:
+  daily:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+      - run: pip install -r requirements.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run radar pipeline
+      - name: Run pipeline
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'google/gemini-flash-1.5' }}
+          S3_MODEL: ${{ vars.S3_MODEL || 'anthropic/claude-haiku-4' }}
           PRODUCTHUNT_DEVELOPER_TOKEN: ${{ secrets.PRODUCTHUNT_DEVELOPER_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAT || '' }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID || '' }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET || '' }}
-          ENABLED_SOURCES: ${{ github.event.inputs.sources || 'producthunt,github_trending,github_events,hackernews,openrouter,huggingface,x_twitter,reddit' }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN || '' }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL || '' }}
+          ENABLED_SOURCES: ${{ github.event.inputs.sources || 'producthunt,github_trending,github_events,arxiv,hackernews,reddit,x_twitter,openrouter,huggingface' }}
         run: |
-          SKIP_FLAG=""
-          if [ "${{ github.event.inputs.skip_enrichment }}" = "true" ]; then
-            SKIP_FLAG="--no-enrich"
-          fi
-          python pipeline/runner.py $SKIP_FLAG
+          FLAGS=""
+          [ "${{ github.event.inputs.no_s3 }}" = "true" ] && FLAGS="$FLAGS --no-s3"
+          [ "${{ github.event.inputs.no_feishu }}" = "true" ] && FLAGS="$FLAGS --no-feishu"
+          python pipeline/runner.py $FLAGS
 
       - name: Commit data
         run: |
           git config user.name "CreekstoneRadarBot"
-          git config user.email "radar-bot@creekstone.vc"
+          git config user.email "radar@creekstone.vc"
           git add data/
-          git diff --cached --quiet || git commit -m "radar: daily update $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%d) daily update"
           git push
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+        run: |
+          if [ -n "$FEISHU_WEBHOOK_URL" ]; then
+            curl -s -X POST "$FEISHU_WEBHOOK_URL" \
+              -H "Content-Type: application/json" \
+              -d '{"msg_type":"text","content":{"text":"⚠️ Creekstone Radar 每日 pipeline 失败，请检查 GitHub Actions。"}}'
+          fi
