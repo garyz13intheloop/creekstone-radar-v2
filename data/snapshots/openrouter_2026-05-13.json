@@ -1,0 +1,31 @@
+[
+  {
+    "id": "c12f119b3e572cd0",
+    "source": "openrouter",
+    "collected_at": "2026-05-13T02:55:35Z",
+    "title": "pi",
+    "url": "https://openrouter.ai/apps/pi",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +168%.",
+    "description_zh": "",
+    "keywords": [],
+    "score": 0.0,
+    "metrics": {
+      "tokens_week": "40.6B",
+      "tokens_int": 40600000000,
+      "wow_pct": 168.0,
+      "section": "trending",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 5,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "is_new": false,
+    "is_trending": true,
+    "wow_growth_pct": 168.0,
+    "thumbnail_url": null,
+    "has_video": false
+  }
+]
