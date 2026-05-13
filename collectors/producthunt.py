@@ -55,7 +55,8 @@ class ProductHuntCollector(BaseCollector):
             return []
 
         now = utcnow()
-        posted_after = (datetime.now(timezone.utc) - timedelta(days=2)).strftime(
+        # 强制拉取过去 30 天数据
+        posted_after = (datetime.now(timezone.utc) - timedelta(days=30)).strftime(
             "%Y-%m-%dT%H:%M:%SZ"
         )
         headers = {

@@ -15,17 +15,12 @@ from models.item import SignalItem, make_id
 log = logging.getLogger(__name__)
 
 ARXIV_API = "http://export.arxiv.org/api/query"
-CATEGORIES = ["cs.AI", "cs.LG", "cs.CL", "cs.RO"]   # cs.RO for robotics/A2A hardware
-
-# Keywords that suggest a product/code contribution (not just theory)
+CATEGORIES = ["cs.AI", "cs.LG", "cs.CL", "cs.RO"]
 PRODUCT_SIGNALS = {
-    "we introduce", "we present", "we release", "open-source", "open source",
-    "github.com", "code is available", "framework", "system", "platform",
-    "benchmark", "agent", "agentic", "tool use", "tool-use", "mcp",
-    "multi-agent", "autonomous", "workflow", "pipeline",
+    "agent", "ai", "model", "framework", "system", "platform",
+    "github.com", "open source", "benchmarking",
 }
-
-LOOKBACK_DAYS = 3
+LOOKBACK_DAYS = 30
 
 
 class ArxivCollector(BaseCollector):
