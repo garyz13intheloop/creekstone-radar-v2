@@ -2,16 +2,12 @@ name: Daily Radar
 
 on:
   schedule:
-    - cron: "30 9 * * *"   # UTC 09:30 = Beijing 17:30
+    - cron: "0 10 * * *"   # UTC 10:00 = SGT 18:00 每天下午6点
   workflow_dispatch:
     inputs:
-      sources:
-        description: "Comma-separated sources (empty = all)"
+      date:
+        description: "Override date YYYY-MM-DD (empty = today)"
         default: ""
-      no_s3:
-        description: "Skip LLM scoring"
-        default: "false"
-        type: boolean
       no_feishu:
         description: "Skip Feishu push"
         default: "false"
@@ -27,42 +23,61 @@ concurrency:
 jobs:
   daily:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+
       - run: pip install -r requirements.txt
 
       - name: Run pipeline
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'google/gemini-flash-1.5' }}
-          S3_MODEL: ${{ vars.S3_MODEL || 'anthropic/claude-haiku-4' }}
+          LLM_MODEL: google/gemini-2.0-flash-lite-001
+          S3_MODEL: anthropic/claude-sonnet-4-5
+          LLM_TIMEOUT: "120"
+          ENRICH_SCORE_THRESHOLD: "70"
           PRODUCTHUNT_DEVELOPER_TOKEN: ${{ secrets.PRODUCTHUNT_DEVELOPER_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID || '' }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET || '' }}
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN || '' }}
-          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL || '' }}
-          ENABLED_SOURCES: ${{ github.event.inputs.sources || 'producthunt,github_trending,github_events,arxiv,hackernews,reddit,x_twitter,openrouter,huggingface' }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          BITABLE_APP_TOKEN: ${{ secrets.BITABLE_APP_TOKEN }}
+          BITABLE_TABLE_ID: ${{ secrets.BITABLE_TABLE_ID }}
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          ENABLED_SOURCES: producthunt,github_trending,github_events,arxiv,hackernews,x_twitter,openrouter,huggingface
         run: |
-          FLAGS=""
-          [ "${{ github.event.inputs.no_s3 }}" = "true" ] && FLAGS="$FLAGS --no-s3"
-          [ "${{ github.event.inputs.no_feishu }}" = "true" ] && FLAGS="$FLAGS --no-feishu"
-          python pipeline/runner.py $FLAGS
+          DATE_ARG=""
+          [ -n "${{ github.event.inputs.date }}" ] && DATE_ARG="--date ${{ github.event.inputs.date }}"
+          FEISHU_ARG=""
+          [ "${{ github.event.inputs.no_feishu }}" = "true" ] && FEISHU_ARG="--no-feishu"
+          python pipeline/runner.py $DATE_ARG $FEISHU_ARG
+
+      - name: Refresh cache
+        run: |
+          python -c "
+          import sys; sys.path.insert(0,'.')
+          from storage.store import build_cache
+          build_cache(days=90)
+          print('Cache refreshed')
+          "
 
       - name: Commit data
         run: |
           git config user.name "CreekstoneRadarBot"
           git config user.email "radar@creekstone.vc"
           git add data/
-          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%d) daily update"
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%d) daily"
           git push
 
       - name: Alert on failure
@@ -70,8 +85,6 @@ jobs:
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         run: |
-          if [ -n "$FEISHU_WEBHOOK_URL" ]; then
-            curl -s -X POST "$FEISHU_WEBHOOK_URL" \
-              -H "Content-Type: application/json" \
-              -d '{"msg_type":"text","content":{"text":"⚠️ Creekstone Radar 每日 pipeline 失败，请检查 GitHub Actions。"}}'
-          fi
+          [ -n "$FEISHU_WEBHOOK_URL" ] && curl -s -X POST "$FEISHU_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d '{"msg_type":"text","content":{"text":"⚠️ Creekstone Radar 每日 pipeline 失败，请检查 GitHub Actions。"}}'

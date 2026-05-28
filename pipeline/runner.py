@@ -21,7 +21,8 @@ from models.item import SignalItem, extract_domain
 from pipeline.s1_filter import run_s1
 from pipeline.s2_router import run_s2
 from pipeline.s3_scorer import run_s3
-from storage.store import save_daily, save_snapshot
+from pipeline.enricher_web import enrich_descriptions
+from storage.store import save_daily, save_snapshot, build_cache
 from reports.feishu_daily import send_daily_brief
 from enrichers.self_evolution import load_few_shots
 
@@ -66,6 +67,22 @@ def run(
 
     active = sources or config.ENABLED_SOURCES
     collectors = _get_collectors()
+
+    # ── Pre-step: X dynamic keywords from yesterday's top items ──────────────
+    if "x_twitter" in active and config.LLM_API_KEY:
+        try:
+            from storage.store import load_recent_daily
+            from collectors.x_twitter import generate_dynamic_keywords
+            yesterday = load_recent_daily(days=2)
+            top_titles = [
+                d["title"] for d in sorted(yesterday, key=lambda x: x.get("score", 0), reverse=True)
+                if d.get("score", 0) >= 65
+            ][:12]
+            if top_titles:
+                generate_dynamic_keywords(top_titles, config.LLM_API_KEY)
+                log.info("[runner] X dynamic keywords generated from %d top items", len(top_titles))
+        except Exception as e:
+            log.warning("[runner] X dynamic keyword gen failed: %s", e)
 
     # ── Collect ────────────────────────────────────────────────────────────────
     raw_items: list[SignalItem] = []
@@ -124,6 +141,9 @@ def run(
         for item in s2_passed:
             item.track = "unknown"
 
+    # ── Web enrichment: fill thin descriptions before S3 ──────────────────────
+    s2_passed = enrich_descriptions(s2_passed)
+
     # ── S3: Full scoring ───────────────────────────────────────────────────────
     if not skip_s3:
         s3_items = run_s3(s2_passed, few_shot_loader=load_few_shots)
@@ -151,6 +171,13 @@ def run(
         pushable = [i for i in s3_items if i.score > 40] if not skip_s3 else s3_items
         send_daily_brief(pushable)
 
+    # ── Refresh cache for frontend ──────────────────────────────────────────────
+    try:
+        build_cache(days=90)
+        log.info("[runner] cache refreshed")
+    except Exception as e:
+        log.warning("[runner] cache refresh failed: %s", e)
+
     # ── Console summary ───────────────────────────────────────────────────────
     _print_summary(s3_items, date_str, skip_s3)
     return s3_items
@@ -174,7 +201,7 @@ def _print_summary(items: list[SignalItem], date_str: str, skip_s3: bool) -> Non
 
     if not skip_s3:
         print(f"\n  Track distribution:")
-        for track in ("A", "B", "C", "unknown"):
+        for track in ("A", "B", "C", "Hardware", "Tech", "Multimodal", "Lifestyle", "unknown"):
             ti = by_track.get(track, [])
             if ti:
                 avg = sum(i.score for i in ti) / len(ti)

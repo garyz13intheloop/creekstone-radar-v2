@@ -26,36 +26,45 @@ KEYWORD_BLOCKLIST = {
 
 # ── Allowlist (must hit at least one) ─────────────────────────────────────────
 AI_AGENT_SIGNALS = {
-    # Core agent terms
+    # Core agent / AI terms
     "agent", "agentic", "autonomous", "multi-agent", "subagent",
+    "artificial intelligence", " ai ", "ai-", "-ai", "ai tool",
+    "ai app", "ai product", "ai platform", "ai model", "ai assistant",
+    "ai powered", "ai-powered", "powered by ai", "built with ai",
     # Infrastructure
     "mcp", "tool use", "tool-use", "function call", "orchestrat",
     "workflow", "pipeline", "rag", "retrieval", "embedding",
+    "vector", "knowledge base", "context",
     # Model layer
-    "llm", "gpt", "claude", "gemini", "mistral", "qwen",
-    "fine-tun", "inference", "prompt", "context window",
+    "llm", "gpt", "claude", "gemini", "mistral", "qwen", "llama",
+    "deepseek", "openai", "anthropic", "fine-tun", "inference",
+    "prompt", "context window", "token", "transformer",
     # Modalities
     "multimodal", "vision model", "audio model", "diffusion",
+    "text to image", "text to video", "voice ai", "speech",
+    "image generation", "video generation",
     # Product signals
     "copilot", "assistant", "chatbot", "coding agent",
-    "vibe coding", "ai coding", "ai-native",
+    "vibe coding", "ai coding", "ai-native", "generative",
+    "automation", "automate", "no-code", "low-code",
+    "developer tool", "devtool", "productivity",
     # Track C
     "a2a", "agent network", "agent protocol", "agent marketplace",
-    "robot", "physical ai",
+    "robot", "physical ai", "embodied",
 }
 
 # ── Per-source minimum thresholds ─────────────────────────────────────────────
 SOURCE_THRESHOLDS: dict[str, dict] = {
-    "producthunt":     {"votes": 10},
-    "github_trending": {"stars_today": 20},
-    "github_events":   {"stars_per_day": 15},
-    "arxiv":           {},   # all papers pass (already filtered by category)
-    "hackernews":      {"points": 10},
-    "discord":         {},   # all pass (already filtered at collection)
-    "reddit":          {"upvotes": 30},
-    "x_twitter":       {"likes": 20},
-    "openrouter":      {"tokens_int": 1_000_000_000},  # 1B tokens
-    "huggingface":     {"likes": 20},
+    "producthunt":     {"votes": 0},     # PH 全收，S2/S3负责筛选质量
+    "github_trending": {"stars_today": 10},  # 降低：周末/非热门日
+    "github_events":   {"stars_per_day": 10},
+    "arxiv":           {},
+    "hackernews":      {"points": 5},   # 降低：早期评论区
+    "discord":         {},
+    "reddit":          {"upvotes": 20},
+    "x_twitter":       {"likes": 10},
+    "openrouter":      {},              # OR 榜单全收
+    "huggingface":     {"likes": 100},  # HF likes基数大，提高避免噪音
 }
 
 # ── Fast-pass conditions (bypass threshold check) ─────────────────────────────

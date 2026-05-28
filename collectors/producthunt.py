@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 PH_GQL_URL = "https://api.producthunt.com/v2/api/graphql"
 
 GQL_QUERY = """
-query GetPosts($after: String) {
+query GetPosts($postedAfter: DateTime!, $after: String) {
   posts(order: VOTES, postedAfter: $postedAfter, first: 50, after: $after) {
     pageInfo { hasNextPage endCursor }
     edges {
@@ -55,8 +55,8 @@ class ProductHuntCollector(BaseCollector):
             return []
 
         now = utcnow()
-        # 强制拉取过去 30 天数据
-        posted_after = (datetime.now(timezone.utc) - timedelta(days=30)).strftime(
+        # 拉取过去 2 天，确保今日 + 昨日都覆盖
+        posted_after = (datetime.now(timezone.utc) - timedelta(days=2)).strftime(
             "%Y-%m-%dT%H:%M:%SZ"
         )
         headers = {

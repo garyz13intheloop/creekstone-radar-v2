@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Creekstone Radar</title>
+<style>
+:root{--gold:#C9A84C;--bg:#080808;--s1:#111;--bd:#1e1e1e;--t1:#e8e8e8;--t2:#888;--t3:#3a3a3a;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,'SF Pro Text','Inter','Helvetica Neue',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;}
+.wrap{text-align:center;padding:48px 32px;max-width:560px;}
+.logo-ring{width:80px;height:80px;border-radius:50%;border:1.5px solid rgba(201,168,76,.3);display:flex;align-items:center;justify-content:center;margin:0 auto 28px;background:rgba(201,168,76,.06);}
+.logo-sym{font-size:32px;color:var(--gold);}
+.brand{font-size:11px;font-weight:700;letter-spacing:.16em;color:var(--gold);margin-bottom:12px;}
+h1{font-size:28px;font-weight:800;color:var(--t1);margin-bottom:10px;letter-spacing:-.01em;}
+.sub{font-size:14px;color:var(--t2);line-height:1.7;margin-bottom:36px;}
+.btn{display:inline-flex;align-items:center;gap:10px;background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.3);color:var(--gold);padding:13px 28px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;letter-spacing:.02em;transition:all .18s;}
+.btn:hover{background:rgba(201,168,76,.18);border-color:rgba(201,168,76,.5);}
+.btn svg{flex-shrink:0;}
+.divider{width:48px;height:1px;background:var(--bd);margin:36px auto;}
+.stats{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;}
+.stat{text-align:center;}
+.stat-n{font-size:20px;font-weight:800;color:var(--gold);}
+.stat-l{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-top:3px;}
+.footer{margin-top:36px;font-size:11px;color:var(--t3);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo-ring"><span class="logo-sym">◈</span></div>
+  <div class="brand">CREEKSTONE</div>
+  <h1>Radar Intelligence</h1>
+  <p class="sub">每日 AI 产品情报平台<br>覆盖 Product Hunt · GitHub · arXiv · X · OpenRouter</p>
+  <a class="btn" href="https://creekstone-radar.streamlit.app" target="_blank">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    进入 Radar Dashboard
+  </a>
+  <div class="divider"></div>
+  <div class="stats">
+    <div class="stat"><div class="stat-n">7+</div><div class="stat-l">数据来源</div></div>
+    <div class="stat"><div class="stat-n">90</div><div class="stat-l">历史天数</div></div>
+    <div class="stat"><div class="stat-n">Claude</div><div class="stat-l">评分模型</div></div>
+    <div class="stat"><div class="stat-n">每日</div><div class="stat-l">自动更新</div></div>
+  </div>
+  <div class="footer">Creekstone Ventures · Intelligence Platform</div>
+</div>
+</body>
+</html>

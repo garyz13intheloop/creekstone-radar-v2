@@ -33,10 +33,10 @@ class HuggingFaceCollector(BaseCollector):
             resp = requests.get(
                 f"{HF_API}/models",
                 params={
-                    "sort": "trending",
+                    "sort": "likes",
+                    "direction": "-1",
                     "limit": 50,
                     "full": "false",
-                    "cardData": "false",
                 },
                 timeout=20,
             )
@@ -54,8 +54,9 @@ class HuggingFaceCollector(BaseCollector):
             resp = requests.get(
                 f"{HF_API}/spaces",
                 params={
-                    "sort": "trending",
-                    "limit": 30,
+                    "sort": "likes",
+                    "direction": "-1",
+                    "limit": 50,
                     "full": "false",
                 },
                 timeout=20,

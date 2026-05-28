@@ -1,0 +1,16 @@
+[build]
+  publish = "netlify"
+  command = "echo 'Static site — no build needed'"
+
+[[redirects]]
+  from = "/app"
+  to = "https://creekstone-radar.streamlit.app"
+  status = 302
+
+[[redirects]]
+  from = "/radar"
+  to = "https://creekstone-radar.streamlit.app"
+  status = 302
+
+[build.environment]
+  NODE_VERSION = "18"

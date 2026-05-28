@@ -5,7 +5,7 @@ from pathlib import Path
 
 try:
     from dotenv import load_dotenv
-    load_dotenv(Path(__file__).parent / ".env", override=False)
+    load_dotenv(Path(__file__).parent / ".env", override=True)
 except ImportError:
     pass
 
@@ -14,7 +14,10 @@ LLM_API_KEY: str = os.getenv("OPENROUTER_API_KEY", os.getenv("OPENAI_API_KEY", "
 LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "https://openrouter.ai/api/v1")
 LLM_MODEL: str = os.getenv("LLM_MODEL", "google/gemini-2.0-flash-001")   # S2: cheap fast
 S3_MODEL: str = os.getenv("S3_MODEL", "google/gemini-2.0-flash-001")       # S3: can upgrade to claude-haiku
-LLM_TIMEOUT: float = float(os.getenv("LLM_TIMEOUT", "60"))
+LLM_TIMEOUT: float = float(os.getenv("LLM_TIMEOUT", "90"))
+
+# Score threshold: items >= this get full profile + web-search enrichment
+ENRICH_SCORE_THRESHOLD: int = int(os.getenv("ENRICH_SCORE_THRESHOLD", "72"))
 
 # ── X / Twitter ──────────────────────────────────────────────────────────────
 X_API_KEY: str = os.getenv("X_API_KEY", "")
@@ -38,6 +41,12 @@ DISCORD_BOT_TOKEN: str = os.getenv("DISCORD_BOT_TOKEN", "")
 
 # ── Feishu ────────────────────────────────────────────────────────────────────
 FEISHU_WEBHOOK_URL: str = os.getenv("FEISHU_WEBHOOK_URL", "")
+
+# Feishu Bitable sourcing table
+BITABLE_APP_TOKEN: str = os.getenv("BITABLE_APP_TOKEN", "")
+BITABLE_TABLE_ID: str = os.getenv("BITABLE_TABLE_ID", "")
+FEISHU_APP_ID: str = os.getenv("FEISHU_APP_ID", "")
+FEISHU_APP_SECRET: str = os.getenv("FEISHU_APP_SECRET", "")
 
 # ── Similarweb ────────────────────────────────────────────────────────────────
 SCRAPE_DO_TOKEN: str = os.getenv("SCRAPE_DO_TOKEN", "")

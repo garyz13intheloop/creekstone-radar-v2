@@ -64,8 +64,10 @@ def load_few_shots(max_items: int = 4) -> list[dict]:
 def save_feedback(
     item_id: str,
     title: str,
-    action: str,           # interested|ignored|watchlist
+    action: str,           # interested|ignored|watchlist|follow_up
+    score: float = 0,      # actual score (used by web UI)
     track: str = "",
+    note: str = "",        # Gary's free-text note
     score_override: int = 0,
     score_reason: str = "",
     dim_flag: str = "",    # "ai_native:high" etc.
@@ -80,6 +82,8 @@ def save_feedback(
         "title": title,
         "action": action,
         "track": track,
+        "score": score,
+        "note": note,
         "score_override": score_override,
         "score_reason": score_reason,
         "dim_flag": dim_flag,

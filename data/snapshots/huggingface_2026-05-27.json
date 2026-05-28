@@ -1,0 +1,82 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-05-27T07:29:47Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 4,709,606.",
+    "description_zh": "DeepSeek-R1 是 DeepSeek AI 发布的开源大语言模型，主要用于文本生成任务。该模型基于 Transformer 架构，并使用了 DeepSeek 团队的专有训练数据。DeepSeek-R1 旨在提供高质量的文本生成能力，包括对话、代码生成等。目前，该模型已在 Hugging Face 上发布，用户可以通过 API 或直接下载模型进行使用。DeepSeek-R1 的目标用户包括研究人员、开发者和企业，他们希望利用先进的语言模型来构建各种应用。目前，该模型已获得大量下载和用户点赞，但具体成果和数据有待进一步公开。",
+    "keywords": [
+      "大语言模型",
+      "开源",
+      "文本生成",
+      "Transformer",
+      "DeepSeek AI"
+    ],
+    "track": "Tech",
+    "track_reason": "纯基础模型无商业化",
+    "track_confidence": "high",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 40.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 4709606,
+      "likes": 13341,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 10,
+      "niche": 12,
+      "business": 0,
+      "team": 10,
+      "bonus": 0,
+      "penalty": -8,
+      "total": 40,
+      "reason": "该项目是开源模型，商业模式不清晰，且缺乏明确的商业化路径。虽然技术上可能存在优势，但信息不足，难以判断其长期价值，因此给出了较低的评分。",
+      "plus": [],
+      "minus": [
+        "信息不足，商业模式不清晰，缺乏明确的商业化路径。"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源大语言模型，提供文本生成能力，核心亮点是模型架构和训练数据，DeepSeek AI团队。",
+      "overview_zh": "DeepSeek-R1 是 DeepSeek AI 发布的开源大语言模型，主要用于文本生成任务。该模型基于 Transformer 架构，并使用了 DeepSeek 团队的专有训练数据。DeepSeek-R1 旨在提供高质量的文本生成能力，包括对话、代码生成等。目前，该模型已在 Hugging Face 上发布，用户可以通过 API 或直接下载模型进行使用。DeepSeek-R1 的目标用户包括研究人员、开发者和企业，他们希望利用先进的语言模型来构建各种应用。目前，该模型已获得大量下载和用户点赞，但具体成果和数据有待进一步公开。",
+      "biz_model_zh": "由于 DeepSeek-R1 是一个开源模型，其商业模式主要依赖于社区贡献和潜在的商业合作。目前，该模型本身不直接收费。DeepSeek AI 可能会通过提供 API 服务、定制模型、技术支持等方式来实现商业变现。与竞品相比，DeepSeek-R1 的优势在于其开源特性，可以吸引更多的开发者和用户。但其商业模式的清晰度有待提高，需要进一步探索。",
+      "insight_zh": "DeepSeek-R1 属于基础模型，其价值在于技术创新和社区影响力。DeepSeek AI 在模型架构和训练数据方面可能存在技术优势，但具体细节有待考证。市场低估了开源模型在推动 AI 技术发展中的作用，以及其潜在的商业价值。风险在于开源模型的同质化竞争，以及商业模式的不确定性。我们的投资论文可以关注 DeepSeek AI 的技术实力、社区反馈和潜在的商业合作机会。",
+      "score_narrative_zh": "AI Native 得10分，因为该模型是基础模型，没有明显的 AI-native 设计。Niche 得12分，因为开源模型竞争激烈，但 DeepSeek AI 在技术上可能存在一定优势。商业模式得0分，因为目前是开源项目，没有明确的变现计划。团队得10分，因为 DeepSeek AI 团队背景信息有限。减分8分，因为信息不足，且没有明确的商业模式，难以判断其长期价值。",
+      "metrics_summary": "下载量：4,709,606；点赞数：13,341；暂无其他公开数据。",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]

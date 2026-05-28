@@ -1,0 +1,89 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-05-17T10:08:48Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 3,849,902.\n\nTitle: deepseek-ai/DeepSeek-R1 · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/DeepSeek-R1\n\nMarkdown Content:\n# deepseek-ai/DeepSeek-R1 · Hugging Face\n\n[![Image 1: Hugging Face's logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n        *   [Learn](https://huggingface.co/learn)\n        *   [Discord](https://h",
+    "description_zh": "DeepSeek-R1 是一款在推理能力上实现重大突破的开源大模型。其核心机制在于通过大规模强化学习(RL)训练，使模型能够自主生成思维链(Chain-of-Thought)，在数学、代码及复杂逻辑推理任务中表现出媲美甚至超越闭源顶尖模型(如o1)的性能。该模型不仅验证了纯强化学习在提升模型推理深度上的有效性，还通过开源权重极大地降低了高性能推理模型的门槛，对全球AI学术界和工业界产生了深远影响。",
+    "keywords": [
+      "DeepSeek-R1",
+      "强化学习",
+      "推理链",
+      "开源模型",
+      "推理能力"
+    ],
+    "track": "Tech",
+    "track_reason": "开源基础模型，无商业化",
+    "track_confidence": "high",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 82.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 3849902,
+      "likes": 13331,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 28,
+      "niche": 22,
+      "business": 5,
+      "team": 15,
+      "bonus": 12,
+      "penalty": 0,
+      "total": 82,
+      "reason": "作为开源推理模型的里程碑，技术贡献极高，但因缺乏商业闭环，故未给予90+分。",
+      "plus": [
+        "开源社区极高认可度",
+        "推理范式突破",
+        "极高的性价比",
+        "技术影响力巨大"
+      ],
+      "minus": [
+        "无商业化变现计划",
+        "面临算力获取限制",
+        "开源模型易被同质化竞争"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 具备深度推理能力的开源大模型，通过强化学习实现推理链(CoT)突破，由DeepSeek AI团队开发。",
+      "overview_zh": "DeepSeek-R1 是一款在推理能力上实现重大突破的开源大模型。其核心机制在于通过大规模强化学习(RL)训练，使模型能够自主生成思维链(Chain-of-Thought)，在数学、代码及复杂逻辑推理任务中表现出媲美甚至超越闭源顶尖模型(如o1)的性能。该模型不仅验证了纯强化学习在提升模型推理深度上的有效性，还通过开源权重极大地降低了高性能推理模型的门槛，对全球AI学术界和工业界产生了深远影响。",
+      "biz_model_zh": "目前该项目为纯开源学术贡献，无直接商业化变现计划。其商业逻辑主要体现在通过技术影响力建立品牌护城河，吸引顶级人才，并为DeepSeek母公司在AI基础设施及相关应用层面的长期布局提供技术背书。对于开发者而言，其价值在于替代昂贵的闭源API，降低推理成本。",
+      "insight_zh": "DeepSeek-R1 的Alpha在于证明了“推理能力”可以通过算法优化而非单纯堆砌参数获得，这打破了Scaling Law的单一叙事。市场低估了其对开源生态的重塑能力，即通过极高的性价比迫使闭源模型降价。风险在于其缺乏明确的商业闭环，且面临地缘政治带来的算力获取限制。我们的投资论文适配点在于：关注那些能够利用DeepSeek-R1作为底层基座，在垂直领域构建高壁垒Agent应用的企业，而非直接投资模型本身。",
+      "score_narrative_zh": "AI Native得28分，因为其推理链设计是模型架构层面的原生进化；Niche得22分，因为其在推理范式上的突破具有极高技术壁垒；商业模式得5分，因为其明确为开源项目，无变现计划；团队得15分，DeepSeek团队展现了极强的工程化与算法创新能力；加分项得12分，包含开源社区极高认可度(13k+ likes)、技术范式突破及对行业格局的颠覆性影响。总分82分，属于值得深度关注的Alpha信号。",
+      "metrics_summary": "HuggingFace下载量: 3,849,902; Likes: 13,331; 引用论文: arXiv:2501.12948",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
