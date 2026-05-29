@@ -1,17 +1,23 @@
 {
-  "generated_at": "2026-05-28T13:44:12.788625+00:00",
+  "generated_at": "2026-05-29T12:45:04.305355+00:00",
   "source_titles": [
-    "nexu-io/open-design",
-    "strukto-ai/mirage",
-    "nduckmink/arkon"
+    "deepseek-ai/DeepSeek-R1",
+    "anthropics/skills",
+    "anthropics/claude-plugins-official",
+    "antirez/ds4",
+    "Memori",
+    "AgenticCalling AI",
+    "affaan-m/ECC",
+    "can1357/oh-my-pi",
+    "microsoft/agent-governance-toolkit",
+    "strukto-ai/mirage"
   ],
   "keywords": [
-    "Agent Frameworks + LLM",
-    "Open Design + AI Tools",
-    "Mirage AI + Multimodal",
-    "Arkon + Agentic Systems",
-    "LLM Agents + Design",
-    "Agentic Workflows + Open Design",
-    "Multimodal Agents + Mirage"
+    "DeepSeek-R1 OR Claude Plugins",
+    "AgenticCalling AI OR Agent Governance",
+    "LLM Agents AND Skills",
+    "Agentic AI Tools",
+    "Multi-Agent Systems AND Mirage",
+    "ECC AND Agent Frameworks"
   ]
 }
