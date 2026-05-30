@@ -497,7 +497,7 @@ def main():
 
         st.markdown('<div style="height:6px;"></div>', unsafe_allow_html=True)
         st.markdown('<div class="sb-sec">查看最近</div>', unsafe_allow_html=True)
-        days_back = st.slider("查看最近", 1, 120, 7, format="%d 天", label_visibility="collapsed")
+        days_back = st.slider("查看最近", 1, 120, 30, format="%d 天", label_visibility="collapsed")
         raw_items = load_items(days=days_back)
         items = [to_item(d) for d in raw_items]
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")

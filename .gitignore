@@ -8,5 +8,4 @@ dist/
 build/
 .venv/
 venv/
-data/cache_all.json
 data/structured/*.old.ndjson
