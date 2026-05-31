@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-05-30T11:16:04.341650+00:00",
+  "generated_at": "2026-05-31T11:39:31.359921+00:00",
   "source_titles": [
     "deepseek-ai/DeepSeek-R1",
     "anthropics/knowledge-work-plugins",
     "anthropics/claude-plugins-official",
-    "deeplethe/forkd",
-    "Memori",
-    "🎉 Meet Step 3.7 Flash from , a 198B sparse MoE vision-language model built fo...",
     "/monitor by Firecrawl",
+    "Integuru",
     "affaan-m/ECC",
+    "dograh-hq/dograh",
     "can1357/oh-my-pi",
-    "antirez/ds4"
+    "microsoft/agent-governance-toolkit",
+    "OpenBMB/PilotDeck"
   ],
   "keywords": [
-    "DeepSeek-R1 updates",
-    "Claude plugins",
-    "MoE vision-language model",
-    "Agent tools LLM",
-    "Knowledge work plugins",
-    "LLM agent performance",
-    "Forkd AI",
-    "Agent framework benchmarks"
+    "Agent Governance Toolkit",
+    "Claude Plugins",
+    "DeepSeek-R1 LLM",
+    "Knowledge Work Plugins",
+    "Multi-Agent Systems + PilotDeck",
+    "Agent Frameworks + ECC",
+    "LLM Tools + Firecrawl"
   ]
 }
