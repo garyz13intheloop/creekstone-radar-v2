@@ -3,46 +3,830 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Creekstone Radar</title>
+<title>Creekstone Intelligence Terminal</title>
 <style>
-:root{--gold:#C9A84C;--bg:#080808;--s1:#111;--bd:#1e1e1e;--t1:#e8e8e8;--t2:#888;--t3:#3a3a3a;}
-*{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--bg);color:var(--t1);font-family:-apple-system,'SF Pro Text','Inter','Helvetica Neue',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;}
-.wrap{text-align:center;padding:48px 32px;max-width:560px;}
-.logo-ring{width:80px;height:80px;border-radius:50%;border:1.5px solid rgba(201,168,76,.3);display:flex;align-items:center;justify-content:center;margin:0 auto 28px;background:rgba(201,168,76,.06);}
-.logo-sym{font-size:32px;color:var(--gold);}
-.brand{font-size:11px;font-weight:700;letter-spacing:.16em;color:var(--gold);margin-bottom:12px;}
-h1{font-size:28px;font-weight:800;color:var(--t1);margin-bottom:10px;letter-spacing:-.01em;}
-.sub{font-size:14px;color:var(--t2);line-height:1.7;margin-bottom:36px;}
-.btn{display:inline-flex;align-items:center;gap:10px;background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.3);color:var(--gold);padding:13px 28px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;letter-spacing:.02em;transition:all .18s;}
-.btn:hover{background:rgba(201,168,76,.18);border-color:rgba(201,168,76,.5);}
-.btn svg{flex-shrink:0;}
-.divider{width:48px;height:1px;background:var(--bd);margin:36px auto;}
-.stats{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;}
-.stat{text-align:center;}
-.stat-n{font-size:20px;font-weight:800;color:var(--gold);}
-.stat-l{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-top:3px;}
-.footer{margin-top:36px;font-size:11px;color:var(--t3);}
+:root {
+    --bg: #080808;
+    --s1: #111111;
+    --s2: #161616;
+    --s3: #1c1c1c;
+    --bd: #1c1c1c;
+    --bd-hover: #333333;
+    --t1: #ebebeb;
+    --t2: #aaaaaa;
+    --t3: #555555;
+    --t4: #333333;
+    --gold: #C9A84C;
+    --gold2: #9B7A2F;
+    --gold3: rgba(201,168,76,.1);
+    --gold-bg: rgba(201,168,76,.05);
+    
+    /* Semantic Ramps */
+    --A-clr: #6b9de8;
+    --A-bg: rgba(91,143,232,.12);
+    --B-clr: #5ecc82;
+    --B-bg: rgba(82,196,122,.12);
+    --C-clr: #C9A84C;
+    --C-bg: rgba(201,168,76,.12);
+    --HW-clr: #a48de8;
+    --HW-bg: rgba(155,127,232,.1);
+    --Te-clr: #7ab4e8;
+    --Te-bg: rgba(100,160,220,.08);
+    --MM-clr: #e09c62;
+    --MM-bg: rgba(224,140,82,.1);
+    --LS-clr: #e07272;
+    --LS-bg: rgba(224,82,82,.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background: var(--bg);
+    color: var(--t1);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ── Layout ── */
+.layout { display: flex; width: 100vw; height: 100vh; overflow: hidden; }
+
+/* ── Sidebar ── */
+.sidebar {
+    width: 250px;
+    background: var(--s1);
+    border-right: 1.5px solid var(--bd);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.brand-zone {
+    padding: 24px 20px 20px;
+    border-bottom: 1.5px solid var(--bd);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.brand-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--gold3);
+    border: 1px solid rgba(201,168,76,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--gold);
+    flex-shrink: 0;
+}
+.brand-text { display: flex; flex-direction: column; }
+.brand-name { font-size: 13.5px; font-weight: 700; color: var(--gold); letter-spacing: .14em; line-height: 1; }
+.brand-sub { font-size: 10px; color: var(--t3); letter-spacing: .02em; margin-top: 4px; }
+
+.nav { flex: 1; overflow-y: auto; padding: 12px 0; }
+.nav-sec { font-size: 9.5px; font-weight: 600; color: var(--t4); text-transform: uppercase; letter-spacing: .12em; padding: 16px 20px 6px; }
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    color: var(--t2);
+    font-size: 12.5px;
+    cursor: pointer;
+    transition: all .12s;
+    border-left: 2.5px solid transparent;
+}
+.nav-item:hover { color: var(--t1); background: var(--s2); }
+.nav-item.active {
+    color: var(--gold);
+    background: var(--gold-bg);
+    border-left-color: var(--gold);
+    font-weight: 500;
+}
+.dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; background: var(--t4); }
+
+.nav-stats-box { padding: 4px 18px 12px; display: flex; gap: 6px; }
+.nav-stat { flex: 1; background: #141414; border: 1px solid #1e1e1e; border-radius: 7px; padding: 8px 6px; text-align: center; }
+.nav-stat-n { font-size: 16px; font-weight: 700; color: var(--gold); line-height: 1; }
+.nav-stat-l { font-size: 8.5px; color: #444; margin-top: 4px; text-transform: uppercase; letter-spacing: .02em; }
+
+/* ── Main Area ── */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background: var(--bg);
+}
+
+/* ── Topbar (macOS Style Glass Look) ── */
+.topbar {
+    background: var(--s1);
+    border-bottom: 1.5px solid var(--bd);
+    padding: 16px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+}
+.topbar-left { display: flex; flex-direction: column; }
+.top-title { font-size: 15px; font-weight: 700; color: var(--t1); }
+.top-sub { font-size: 11px; color: var(--t3); margin-top: 2px; }
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--s2);
+    border: 1.5px solid var(--bd);
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: 320px;
+}
+.search-box svg { flex-shrink: 0; stroke: var(--t4); }
+.search-box input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--t1);
+    font-size: 12.5px;
+    flex: 1;
+}
+.search-box input::placeholder { color: var(--t4); }
+
+/* ── Stats Area ── */
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    padding: 24px 28px 12px;
+}
+.stat {
+    background: var(--s1);
+    border: 1.5px solid var(--bd);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+    transition: background .15s;
+}
+.stat:hover { background: var(--s2); }
+.stat-n { font-size: 22px; font-weight: 800; color: var(--gold); }
+.stat-l { font-size: 9.5px; color: #555; margin-top: 4px; text-transform: uppercase; letter-spacing: .05em; }
+
+/* ── Viewport ── */
+.viewport {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 28px 40px;
+}
+
+/* ── Interactive View Switch Row ── */
+.view-ctrl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.view-txt { font-size: 11.5px; color: var(--t3); }
+.view-tabs { display: flex; gap: 4px; background: var(--s1); border: 1.5px solid var(--bd); border-radius: 6px; padding: 3px; }
+.view-tab { font-size: 11.5px; color: var(--t2); padding: 4px 12px; border-radius: 4px; cursor: pointer; transition: all .12s; }
+.view-tab:hover { color: var(--t1); }
+.view-tab.active { background: var(--s3); color: var(--gold); font-weight: 500; }
+
+/* ── Section Dividers ── */
+.sec-div { display: flex; align-items: center; gap: 12px; margin: 24px 0 16px; }
+.sec-line { flex: 1; height: 1.5px; background: var(--bd); }
+.sec-text { font-size: 10.5px; font-weight: 600; color: var(--t4); text-transform: uppercase; letter-spacing: .12em; }
+
+/* ── Card (Creekstone High Art) ── */
+.card {
+    background: var(--s1);
+    border: 1.5px solid var(--bd);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 12px;
+    transition: all .2s;
+    position: relative;
+}
+.card:hover {
+    border-color: var(--bd-hover);
+    transform: translateY(-0.5px);
+}
+.card.featured {
+    border-color: rgba(201,168,76,.28);
+    background: linear-gradient(135deg, rgba(201,168,76,.03) 0%, var(--s1) 60%);
+}
+.card.featured::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 1.5px;
+    background: linear-gradient(90deg, transparent, rgba(201,168,76,.45), transparent);
+    border-radius: 12px 12px 0 0;
+}
+
+/* ── Card Headers ── */
+.ct-row { display: flex; justify-content: space-between; align-items: flex-start; }
+.ct-title { font-size: 16.5px; font-weight: 600; color: var(--t1); line-height: 1.35; margin-bottom: 2px; }
+.ct-title a { color: var(--t1); text-decoration: none; transition: color .15s; }
+.ct-title a:hover { color: var(--gold); }
+.ct-meta { font-size: 11.5px; color: #555555; margin-bottom: 10px; }
+
+/* ── Score Rings ── */
+.sc-capsule { display: flex; align-items: center; gap: 4px; }
+.sc-val { font-size: 28px; font-weight: 800; line-height: 1; }
+.sc-max { font-size: 11px; color: var(--t4); font-weight: 500; }
+
+.badge { display: inline-block; padding: 2px 9px; border-radius: 3px; font-size: 10px; font-weight: 600; letter-spacing: .04em; margin-right: 6px; margin-bottom: 8px; }
+.b-A { background: var(--A-bg); color: var(--A-clr); border: 0.5px solid rgba(91,143,232,0.2); }
+.b-B { background: var(--B-bg); color: var(--B-clr); border: 0.5px solid rgba(82,196,122,0.2); }
+.b-C { background: var(--C-bg); color: var(--C-clr); border: 0.5px solid rgba(201,168,76,0.2); }
+.b-Hardware { background: var(--HW-bg); color: var(--HW-clr); border: 0.5px solid rgba(155,127,232,0.2); }
+.b-Tech { background: var(--Te-bg); color: var(--Te-clr); border: 0.5px solid rgba(100,160,220,0.2); }
+.b-Multimodal { background: var(--MM-bg); color: var(--MM-clr); border: 0.5px solid rgba(224,140,82,0.2); }
+.b-Lifestyle { background: var(--LS-bg); color: var(--LS-clr); border: 0.5px solid rgba(224,82,82,0.2); }
+.b-src { background: #1c1c1c; color: var(--t3); border: 0.5px solid #242424; }
+
+.card-one-liner { font-size: 13.8px; color: var(--t2); line-height: 1.6; margin-top: 8px; margin-bottom: 14px; }
+
+/* ── Hand-drawn Accordion ── */
+.expand-head { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; color: var(--t3); cursor: pointer; user-select: none; margin-top: 14px; text-transform: uppercase; letter-spacing: .04em; }
+.expand-head:hover { color: var(--t2); }
+.expand-head::before { content: '▸'; font-size: 12px; }
+.expand-head.active::before { content: '▾'; color: var(--gold); }
+.expand-content { display: none; padding-top: 16px; border-top: 1.5px solid #161616; margin-top: 12px; }
+.expand-content.active { display: block; }
+
+/* ── Grid sub-bars ── */
+.bar-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 16px; }
+.bar-cell { display: flex; flex-direction: column; }
+.bar-label { font-size: 10px; color: var(--t4); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+.bar-val { font-size: 11px; font-weight: 600; color: var(--t2); margin-top: 3px; }
+
+/* ── Content Blocks ── */
+.sl { font-size: 10px; font-weight: 600; color: var(--t4) !important; text-transform: uppercase; letter-spacing: .08em; margin: 16px 0 5px; display: block; }
+.insight-blk { background: rgba(201,168,76,.05); border-left: 2.5px solid var(--gold); border-radius: 0 8px 8px 0; padding: 12px 16px; font-size: 13.5px !important; color: #cbb47a !important; line-height: 1.65; margin: 6px 0 12px; }
+.body-txt { font-size: 13px !important; color: #9c9c9c !important; line-height: 1.7; }
+.kw-block { margin-top: 12px; }
+.kw { display: inline-block; background: #141414; border: 1.5px solid #1e1e1e; border-radius: 4px; padding: 2px 8px; font-size: 11px !important; color: var(--t3) !important; margin: 2px 4px 2px 0; }
+
+/* ── Flat Rounded macOS Buttons ── */
+.actions { display: flex; gap: 8px; margin-top: 20px; }
+.act-btn {
+    background: #141414; border: 1.5px solid #222; border-radius: 6px;
+    color: #88888a; font-size: 12px; font-weight: 500; padding: 6px 14px;
+    cursor: pointer; transition: all 0.15s; outline: none;
+}
+.act-btn:hover { background: #1e1e1e; border-color: #333; color: var(--t1); transform: translateY(-0.5px); }
+.act-btn.primary { background: rgba(201, 168, 76, 0.12) !important; border-color: rgba(201, 168, 76, 0.35) !important; color: var(--gold) !important; }
+.act-btn.primary:hover { background: rgba(201,168,76,.18) !important; }
+
+/* ── "Load More" trigger ── */
+.load-more-btn {
+    display: block; width: 100%; max-width: 200px; margin: 24px auto;
+    background: #111111; border: 1.5px solid var(--bd); border-radius: 8px;
+    color: var(--t2); padding: 10px 18px; text-align: center; cursor: pointer; font-size: 12.5px;
+    transition: all .15s;
+}
+.load-more-btn:hover { background: #161616; border-color: var(--bd-hover); color: var(--t1); }
+
+/* ── Toast container ── */
+.toast {
+    position: fixed; bottom: 24px; right: 28px; background: #141414; border: 1px solid rgba(201,168,76,.4);
+    border-radius: 8px; padding: 12px 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+    font-size: 13px; color: var(--gold); display: flex; align-items: center; gap: 10px;
+    transform: translateY(100px); opacity: 0; transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); z-index: 1000;
+}
+.toast.active { transform: translateY(0); opacity: 1; }
+
+.nb { background: #141414; border: 1px solid #1c1c1c; border-radius: 8px; padding: 10px 14px; font-size: 13px !important; color: #666 !important; line-height: 1.65; max-width: 100%; overflow-x: auto; }
+
+/* ── Scrollbars ── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #222222; border-radius: 2px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <div class="logo-ring"><span class="logo-sym">◈</span></div>
-  <div class="brand">CREEKSTONE</div>
-  <h1>Radar Intelligence</h1>
-  <p class="sub">每日 AI 产品情报平台<br>覆盖 Product Hunt · GitHub · arXiv · X · OpenRouter</p>
-  <a class="btn" href="https://creekstone-radar-v2-zzp94sybpypfs3whvr33gq.streamlit.app/" target="_blank">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-    进入 Radar Dashboard
-  </a>
-  <div class="divider"></div>
-  <div class="stats">
-    <div class="stat"><div class="stat-n">7+</div><div class="stat-l">数据来源</div></div>
-    <div class="stat"><div class="stat-n">90</div><div class="stat-l">历史天数</div></div>
-    <div class="stat"><div class="stat-n">Claude</div><div class="stat-l">评分模型</div></div>
-    <div class="stat"><div class="stat-n">每日</div><div class="stat-l">自动更新</div></div>
-  </div>
-  <div class="footer">Creekstone Ventures · Intelligence Platform</div>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="brand-zone">
+            <div class="brand-logo">◈</div>
+            <div class="brand-text">
+                <div class="brand-name">CREEKSTONE</div>
+                <div class="brand-sub">Sourcing Intelligence</div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav-sec">数据概览</div>
+            <div class="nav-stats-box">
+                <div id="statTotal" class="nav-stat"><div class="nav-stat-n">7,754</div><div class="nav-stat-l">总信号</div></div>
+                <div id="statHeighed" class="nav-stat"><div class="nav-stat-n">527</div><div class="nav-stat-l">高评分</div></div>
+            </div>
+            
+            <div class="sb-divider" style="border-top:1.5px solid var(--bd); margin:8px 0;"></div>
+            
+            <div class="nav-sec">雷达 Track 库</div>
+            <div class="nav-item active" onclick="filterTrack('all')"><span class="dot" style="background:#555"></span>显示全部</div>
+            <div class="nav-item" onclick="filterTrack('A')"><span class="dot" style="background:#6b9de8"></span>Track A · 框架</div>
+            <div class="nav-item" onclick="filterTrack('B')"><span class="dot" style="background:#5ecc82"></span>Track B · 垂直 FDE</div>
+            <div class="nav-item" onclick="filterTrack('C')"><span class="dot" style="background:#C9A84C"></span>Track C · A2A</div>
+            <div class="nav-item" onclick="filterTrack('Hardware')"><span class="dot" style="background:#9B7FE8"></span>Hardware · 硬件</div>
+            <div class="nav-item" onclick="filterTrack('Multimodal')"><span class="dot" style="background:#e09c62"></span>Multimodal · 多模态</div>
+            <div class="nav-item" onclick="filterTrack('Tech')"><span class="dot" style="background:#7ab4e8"></span>Tech · 投研学术</div>
+            <div class="nav-item" onclick="filterTrack('Lifestyle')"><span class="dot" style="background:#e07272"></span>Lifestyle · 陪伴生活</div>
+            
+            <div class="sb-divider" style="border-top:1.5px solid var(--bd); margin:8px 0;"></div>
+            
+            <div class="nav-sec">投研来源</div>
+            <div id="sourceNav"></div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+        <div class="topbar">
+            <div class="topbar-left">
+                <div class="top-title">Creekstone Radar Terminal</div>
+                <div class="top-sub" id="subDateRange">Connecting to high-fidelity cache...</div>
+            </div>
+            <div class="search-box">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                <input id="searchInput" type="text" placeholder="搜索产品、KOL、Creekstone 视角...">
+            </div>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat"><div class="stat-n" id="statM1">-</div><div class="stat-l">总收录</div></div>
+            <div class="stat"><div class="stat-n" id="statM2">-</div><div class="stat-l">今日新增</div></div>
+            <div class="stat"><div class="stat-n" id="statM3">-</div><div class="stat-l">平均评分</div></div>
+            <div class="stat"><div class="stat-n" id="statM4">-</div><div class="stat-l">高分 ≥75</div></div>
+            <div class="stat"><div class="stat-n" id="statM5">-</div><div class="stat-l">数据源数量</div></div>
+        </div>
+
+        <div class="viewport">
+            <div class="view-ctrl">
+                <div id="displayCount" class="view-txt">显示 0 / 共 0 条</div>
+                <div class="view-tabs">
+                    <div id="tabSortScore" class="view-tab active" onclick="changeSort('score')">评分降序</div>
+                    <div id="tabSortDate" class="view-tab" onclick="changeSort('date')">日期最新</div>
+                </div>
+            </div>
+
+            <div id="featuredHeader" class="sec-div" style="display:none;">
+                <span class="sec-text">💯 Creekstone 投决推荐 (Score ≥ 75)</span>
+                <div class="sec-line"></div>
+            </div>
+            <div id="featuredContainer"></div>
+
+            <div id="regularHeader" class="sec-div">
+                <span class="sec-text">📡 信号列表</span>
+                <div class="sec-line"></div>
+            </div>
+            <div id="regularContainer"></div>
+            
+            <div id="loadMoreTrigger" class="load-more-btn" style="display:none;" onclick="loadNextPage()">加载更多项目</div>
+        </div>
+    </div>
+
 </div>
+
+<!-- Toast -->
+<div id="toastBox" class="toast"><span>◈</span><div id="toastMsg">已同步至飞书 Sourcing 底表</div></div>
+
+<script>
+
+// ── Track Constants ──
+const TRACK_CLS = {
+    "A":"b-A","B":"b-B","C":"b-C","Hardware":"b-Hardware",
+    "Tech":"b-Tech","Multimodal":"b-Multimodal","Lifestyle":"b-Lifestyle","unknown":"b-src"
+};
+const TRACK_LBL = {
+    "A":"Track A · Framework","B":"Track B · FDE","C":"Track C · A2A",
+    "Hardware":"Hardware","Tech":"Tech / Research",
+    "Multimodal":"Multimodal","Lifestyle":"Lifestyle","unknown":"Unclassified"
+};
+function score_color(s) {
+    if (s >= 80) return "#5ecc82";
+    if (s >= 72) return "#C9A84C";
+    if (s >= 60) return "#6b9de8";
+    return "#3a3a3a";
+}
+
+// ── Global State ──
+let allItems = [];
+let filteredItems = [];
+let currentTrack = 'all';
+let currentSource = 'all';
+let currentSort = 'score';  // 'score' | 'date'
+let renderOffset = 0;
+const PAGE_SIZE = 30;
+
+// ── HTML Rendering Elements ──
+const regContainer = document.getElementById('regularContainer');
+const featContainer = document.getElementById('featuredContainer');
+const featHeader = document.getElementById('featuredHeader');
+const loadMoreBtn = document.getElementById('loadMoreTrigger');
+
+const SOURCE_LABEL = {
+    "producthunt":"Product Hunt", "github_trending":"GitHub Trending",
+    "github_events":"GitHub Events", "arxiv":"arXiv", "hackernews":"Hacker News",
+    "x_twitter":"X", "openrouter":"OpenRouter", "huggingface":"HuggingFace", "clawhub": "ClawHub"
+};
+
+// ── Initial Connection & DataLoader ──
+async function init() {
+    try {
+        const r = await fetch('data.json');
+        if (!r.ok) throw new Error('Data file missing');
+        allItems = await r.json();
+        
+        // Sorting default: by date first, then by score
+        allItems.forEach(i => i.sc = i.sc || 0);
+        
+        // Stats
+        document.getElementById('statTotal').querySelector('.nav-stat-n').textContent = formatNum(allItems.length);
+        const highSc = allItems.filter(i => i.sc >= 75).length;
+        document.getElementById('statHeighed').querySelector('.nav-stat-n').textContent = formatNum(highSc);
+        
+        const dates = allItems.map(i => i.at ? i.at.substring(0, 10) : '').filter(Boolean).sort();
+        if (dates.length > 0) {
+            document.getElementById('subDateRange').textContent = `${dates[0]} 至 ${dates[dates.length - 1]} · 双日报 · 投决分析`;
+        }
+        
+        buildSourceNav();
+        applyFilters();
+        
+        // Search handler with debounce
+        let timer;
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+                applyFilters();
+            }, 180);
+        });
+        
+    } catch (e) {
+        console.error(e);
+        document.getElementById('subDateRange').textContent = '数据加载失败，请确认是否部署完成并在云端上传了 data.json';
+    }
+}
+
+function formatNum(n) {
+    return new Intl.NumberFormat().format(n);
+}
+
+// ── Build Source Navigation ──
+function buildSourceNav() {
+    const counts = {};
+    allItems.forEach(i => counts[i.src] = (counts[i.src] || 0) + 1);
+    
+    const container = document.getElementById('sourceNav');
+    container.innerHTML = `<div class="nav-item active" id="src_all" onclick="filterSource('all')"><span class="dot"></span>全部来源 (${allItems.length})</div>`;
+    
+    Object.keys(counts).sort().forEach(src => {
+        const lbl = SOURCE_LABEL[src] || src;
+        const div = document.createElement('div');
+        div.className = 'nav-item';
+        div.id = `src_${src}`;
+        div.innerHTML = `<span class="dot"></span>${lbl} (${counts[src]})`;
+        div.onclick = () => filterSource(src);
+        container.appendChild(div);
+    });
+}
+
+// ── Filters & Search ──
+function filterTrack(track) {
+    currentTrack = track;
+    document.querySelectorAll('.sidebar .nav-item').forEach(e => {
+        if (e.onclick && e.onclick.toString().includes(`filterTrack('${track}')`)) {
+            e.classList.add('active');
+        } else if (e.onclick && e.onclick.toString().includes('filterTrack')) {
+            e.classList.remove('active');
+        }
+    });
+    applyFilters();
+}
+
+function filterSource(src) {
+    currentSource = src;
+    document.querySelectorAll('#sourceNav .nav-item').forEach(e => {
+        e.classList.remove('active');
+    });
+    document.getElementById(`src_${src}`).classList.add('active');
+    applyFilters();
+}
+
+function changeSort(sort) {
+    currentSort = sort;
+    document.getElementById('tabSortScore').classList.toggle('active', sort === 'score');
+    document.getElementById('tabSortDate').classList.toggle('active', sort === 'date');
+    applyFilters();
+}
+
+function applyFilters() {
+    const q = document.getElementById('searchInput').value.trim().toLowerCase();
+    
+    filteredItems = allItems.filter(i => {
+        if (currentTrack !== 'all' && i.tr !== currentTrack) return false;
+        if (currentSource !== 'all' && i.src !== currentSource) return false;
+        
+        if (q) {
+            const label = (i.t || '').toLowerCase();
+            const desc = (i.description_zh || '').toLowerCase() || (i.description_en || '').toLowerCase();
+            const ol = ((i.fp || {}).ol || '').toLowerCase();
+            const ov = ((i.fp || {}).ov || '').toLowerCase();
+            const kwMatched = (i.kws || []).some(k => k.toLowerCase().includes(q));
+            
+            return label.includes(q) || desc.includes(q) || ol.includes(q) || ov.includes(q) || kwMatched;
+        }
+        return true;
+    });
+
+    // Sort
+    if (currentSort === 'score') {
+        filteredItems.sort((a,b) => b.sc - a.sc);
+    } else {
+        filteredItems.sort((a,b) => {
+            const da = a.at || '';
+            const db = b.at || '';
+            return db.localeCompare(da);
+        });
+    }
+
+    // Update global Stats Row for current results
+    updateStatsBlock();
+
+    renderOffset = 0;
+    featContainer.innerHTML = '';
+    regContainer.innerHTML = '';
+    
+    renderBatch();
+}
+
+function updateStatsBlock() {
+    const total = filteredItems.length;
+    // Current date items (today = latest date in dataset)
+    const dates = filteredItems.map(i => (i.at || '').substring(0, 10)).filter(Boolean).sort();
+    const latestDate = dates.length ? dates[dates.length - 1] : '';
+    const todayCount = filteredItems.filter(i => (i.at || '').startsWith(latestDate)).length;
+    
+    // Average score
+    const scored = filteredItems.filter(i => i.sc > 0);
+    const avg = scored.length ? Math.round(scored.reduce((sum, i) => sum + i.sc, 0) / scored.length) : 0;
+    
+    // High shares
+    const high = filteredItems.filter(i => i.sc >= 75).length;
+    
+    // Unique source count
+    const srcSet = new Set(filteredItems.map(i => i.src));
+
+    document.getElementById('statM1').textContent = formatNum(total);
+    document.getElementById('statM2').textContent = formatNum(todayCount);
+    document.getElementById('statM3').textContent = formatNum(avg);
+    document.getElementById('statM4').textContent = formatNum(high);
+    document.getElementById('statM5').textContent = srcSet.size;
+}
+
+// ── Batch Renderer ──
+function renderBatch() {
+    const end = Math.min(renderOffset + PAGE_SIZE, filteredItems.length);
+    const batch = filteredItems.slice(renderOffset, end);
+
+    const featured = [];
+    const regular = [];
+
+    batch.forEach((item, idx) => {
+        const isFeatured = item.sc >= 75;
+        const cardHtml = makeCardHTML(item, renderOffset + idx);
+        if (isFeatured) {
+            featured.push(cardHtml);
+        } else {
+            regular.push(cardHtml);
+        }
+    });
+
+    if (featured.length > 0) {
+        featHeader.style.display = 'flex';
+        featured.forEach(html => {
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            featContainer.appendChild(div.firstElementChild);
+        });
+    } else if (renderOffset === 0) {
+        featHeader.style.display = 'none';
+    }
+
+    regular.forEach(html => {
+        const div = document.createElement('div');
+        div.innerHTML = html;
+        regContainer.appendChild(div.firstElementChild);
+    });
+
+    renderOffset = end;
+    
+    document.getElementById('displayCount').innerHTML = `显示 <strong style="color:var(--gold);">${renderOffset}</strong> / 共 ${filteredItems.length} 条项目`;
+    loadMoreBtn.style.display = renderOffset < filteredItems.length ? 'block' : 'none';
+}
+
+function loadNextPage() {
+    renderBatch();
+}
+
+// ── HTML Template Builder ──
+function makeCardHTML(i, idx) {
+    const trackClass = TRACK_CLS[i.tr] || "tb-sr";
+    const trackLabel = TRACK_LBL[i.tr] || i.tr;
+    const srcLabel = SOURCE_LABEL[i.src] || i.src;
+    
+    const isFeatured = i.sc >= 75;
+    const sColor = score_color(i.sc);
+    
+    let badgesHtml = `<span class="tb ${trackClass}">${trackLabel}</span><span class="tb tb-sr">${srcLabel}</span>`;
+    if (i.hot) badgesHtml += `<span class="tb" style="background:rgba(201,168,76,0.06);color:#b39c60;">trending</span>`;
+    if (i.new) badgesHtml += `<span class="tb" style="background:rgba(82,196,122,0.06);color:#4ca664;">new</span>`;
+    
+    const oneLiner = (i.fp || {}).ol || i.description_zh || i.description_en || '';
+    
+    // Build collapsible details area
+    let detailsHtml = '';
+    if (i.sc > 0 && i.sb) {
+        const ai_pct = Math.round(i.sb.ai / 30 * 100);
+        const nc_pct = Math.round(i.sb.nc / 25 * 100);
+        const bz_pct = Math.round(i.sb.bz / 20 * 100);
+        const tm_pct = Math.round(i.sb.tm / 15 * 100);
+        const bp_pct = Math.max(0, Math.round(i.sb.bp / 10 * 100)); // safe range
+        
+        detailsHtml += `
+        <div class="expand-head" onclick="toggleExpand(${idx})">详情</div>
+        <div class="expand-content" id="exp_${idx}">
+            <span class="sl">评分明细</span>
+            <div class="bar-grid">
+                <div class="bar-cell"><span class="bar-label">AI Native</span><div class="bw"><div class="bf" style="width:${ai_pct}%; background:#6b9de8;"></div></div><span class="bar-val">${i.sb.ai}/30</span></div>
+                <div class="bar-cell"><span class="bar-label">Niche 壁垒</span><div class="bw"><div class="bf" style="width:${nc_pct}%; background:#5ecc82;"></div></div><span class="bar-val">${i.sb.nc}/25</span></div>
+                <div class="bar-cell"><span class="bar-label">商业模式</span><div class="bw"><div class="bf" style="width:${bz_pct}%; background:#C9A84C;"></div></div><span class="bar-val">${i.sb.bz}/20</span></div>
+                <div class="bar-cell"><span class="bar-label">团队背景</span><div class="bw"><div class="bf" style="width:${tm_pct}%; background:#a48de8;"></div></div><span class="bar-val">${i.sb.tm}/15</span></div>
+                <div class="bar-cell"><span class="bar-label">加减分</span><div class="bw"><div class="bf" style="width:${bp_pct}%; background:#e09c62;"></div></div><span class="bar-val">${i.sb.bp >= 0 ? '+' : ''}${i.sb.bp}</span></div>
+            </div>
+        `;
+        
+        if (i.sb.p && i.sb.p.length) detailsHtml += `<div class="bt" style="color:#5ecc82 !important; margin-bottom: 4px;">+ ${i.sb.p.join(' · ')}</div>`;
+        if (i.sb.mi && i.sb.mi.length) detailsHtml += `<div class="bt" style="color:#f08383 !important; margin-bottom: 4px;">− ${i.sb.mi.join(' · ')}</div>`;
+        if (i.sb.rs) detailsHtml += `<div class="nb" style="margin-top:8px;">${i.sb.rs}</div>`;
+        
+        if (i.fp) {
+            if (i.fp.ov) detailsHtml += `<span class="sl">产品介绍</span><div class="bt">${i.fp.ov}</div>`;
+            if (i.fp.bm) detailsHtml += `<span class="sl">商业模式</span><div class="bt">${i.fp.bm}</div>`;
+            if (i.fp.is) detailsHtml += `<span class="sl">Creekstone 视角</span><div class="ib">${i.fp.is}</div>`;
+            if (i.fp.sn) detailsHtml += `<span class="sl">评分解读</span><div class="bt">${i.fp.sn}</div>`;
+            if (i.fp.ms) detailsHtml += `<span class="sl">数据指标</span><div class="bt">${i.fp.ms}</div>`;
+            if (i.fp.fd) detailsHtml += `<span class="sl font-glow">Founder 细节</span><div class="nb" style="margin-top:8px;">${i.fp.fd}</div>`;
+        }
+        
+        if (i.tm) {
+            detailsHtml += `<span class="sl">团队 & 投资</span>`;
+            if (i.tm.fds && i.tm.fds.length) detailsHtml += `<div class="bt"><span style="color:#3e3e3e;">创始人:</span> ${i.tm.fds.join(' / ')}</div>`;
+            if (i.tm.fin) detailsHtml += `<div class="bt"><span style="color:#3e3e3e;">融资轮次:</span> ${i.tm.fin}</div>`;
+            if (i.tm.ch) detailsHtml += `<div class="bt" style="color:#C9A84C !important; margin-top:4px;">◈ 华人核心团队</div>`;
+        }
+
+        if (i.kws && i.kws.length) {
+            detailsHtml += `<div class="kw-block">` + i.kws.map(k => `<span class="kw">${k}</span>`).join('') + `</div>`;
+        }
+
+        // Action row inside expander
+        detailsHtml += `
+            <div class="dl"></div>
+            <div class="actions">
+                <button class="act-btn primary" onclick="syncBitable('${i.id}', this)">跟进</button>
+                <button class="act-btn" onclick="toast('已忽略该信号', '#e07272')">忽略</button>
+                <button class="act-btn" onclick="toast('已添加至 Watchlist')">Watchlist</button>
+                <button class="act-btn" onclick="enrichFounder('${i.id}', this)">◎ 扒 Founder</button>
+            </div>
+        </div>`;
+    }
+
+    return `
+    <div class="card ${isFeatured ? 'featured' : ''}" id="card_${i.id}">
+        <div class="ct-row">
+            <div>
+                ${badgesHtml}
+                <div class="ct"><a href="${i.u}" target="_blank">${i.t}</a></div>
+                <div class="card-meta">${i.at ? i.at.substring(0, 10) : ''} &middot; URL: ${i.u.substring(0, 60)}...</div>
+            </div>
+            ${i.sc > 0 ? `
+            <div class="sc-capsule">
+                <span class="sc-val" style="color:${sColor}">${Math.round(i.sc)}</span>
+                <span class="sc-max">/100</span>
+            </div>` : ''}
+        </div>
+        <div class="card-one-liner">${oneLiner}</div>
+        ${detailsHtml}
+    </div>`;
+}
+
+// ── Interactive Actions ──
+function toggleExpand(idx) {
+    const head = document.querySelector(`.expand-head[onclick="toggleExpand(${idx})"]`);
+    const val = document.getElementById(`exp_${idx}`);
+    head.classList.toggle('active');
+    val.classList.toggle('active');
+}
+
+function toast(msg, clr = '#C9A84C') {
+    const box = document.getElementById('toastBox');
+    const txt = document.getElementById('toastMsg');
+    box.style.borderColor = clr;
+    box.style.color = clr;
+    txt.textContent = msg;
+    box.classList.add('active');
+    
+    setTimeout(() => {
+        box.classList.remove('active');
+    }, 2500);
+}
+
+// ── Sync to Feishu Bitable Serverless post ──
+async function syncBitable(id, btn) {
+    toast('✓ 已记录「跟进」(在 Netlify 部署中可同步到飞书)', '#52C47A');
+    return;
+    const _placeholder = true;
+    const originalText = btn.textContent;
+    btn.textContent = '同步中...';
+    btn.style.opacity = '0.7';
+    
+    try {
+        const item = allItems.find(i => i.id === id);
+        throw new Error('Bitable sync not available on static host'); const r = await fetch('/.netlify/functions/sync_DISABLED', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ item })
+        });
+        const res = await r.json();
+        
+        if (res.ok) {
+            toast('✓ 已自动同步到飞书 Sourcing 底表', '#52C47A');
+            btn.textContent = '已同步';
+            btn.classList.add('disabled');
+        } else {
+            toast('✕ 同步失败: netlify/secrets 未配置', '#e07272');
+            btn.textContent = originalText;
+            btn.style.opacity = '1';
+        }
+    } catch (e) {
+        toast('✕ 无法连接到 Serverless 后台', '#e07272');
+        btn.textContent = originalText;
+        btn.style.opacity = '1';
+    }
+}
+
+// ── On-demand founder enrichment ──
+async function enrichFounder(id, btn) {
+    toast('Founder 深度调研仅在 Netlify 部署中可用', '#C9A84C');
+    return;
+    const _placeholder2 = true;
+    const originalText = btn.textContent;
+    btn.textContent = '扒取中...';
+    btn.style.opacity = '0.7';
+    
+    try {
+        // Post to function
+        const item = allItems.find(i => i.id === id);
+        throw new Error('Founder enrichment not available on static host'); const r = await fetch('/.netlify/functions/enrich_founder_DISABLED', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id, url: item.u, title: item.t, desc: (item.fp||{}).ov || item.t })
+        });
+        const res = await r.json();
+        if (res.ok && res.text) {
+            // Append detail under card
+            const block = document.createElement('div');
+            block.className = 'nb';
+            block.style.marginTop = '10px';
+            block.style.color = '#cbb47a';
+            block.textContent = res.text;
+            btn.parentNode.insertBefore(block, btn);
+            
+            toast('✓ Founder 背景深度扒取完成！', '#52C47A');
+            btn.remove(); // removes button after successful search
+        } else {
+            toast('✕ 调研失败: API 调用限制', '#e07272');
+            btn.textContent = originalText;
+            btn.style.opacity = '1';
+        }
+    } catch (e) {
+        toast('✕ 无法连接到后端 AI Studio', '#e07272');
+        btn.textContent = originalText;
+        btn.style.opacity = '1';
+    }
+}
+
+init();
+</script>
 </body>
 </html>
