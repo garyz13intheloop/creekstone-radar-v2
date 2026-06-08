@@ -9,3 +9,7 @@ build/
 .venv/
 venv/
 data/structured/*.old.ndjson
+node_modules/
+netlify/node_modules/
+netlify/package-lock.json
+netlify/node_modules/

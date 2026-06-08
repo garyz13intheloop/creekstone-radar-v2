@@ -1,16 +1,16 @@
 [build]
   publish = "netlify"
-  command = "echo 'Static site — no build needed'"
+  functions = "netlify/functions"
+  command = "echo 'Static spa ready'"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["axios"]
 
 [[redirects]]
-  from = "/app"
-  to = "https://creekstone-radar.streamlit.app"
-  status = 302
-
-[[redirects]]
-  from = "/radar"
-  to = "https://creekstone-radar.streamlit.app"
-  status = 302
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [build.environment]
   NODE_VERSION = "18"
