@@ -68,15 +68,16 @@ jobs:
           python -c "
           import sys; sys.path.insert(0,'.')
           from storage.store import build_cache
-          build_cache(days=90)
+          build_cache()
           print('Cache refreshed')
           "
+          python pipeline/build_netlify_data.py
 
       - name: Commit data
         run: |
           git config user.name "CreekstoneRadarBot"
           git config user.email "radar@creekstone.vc"
-          git add data/
+          git add data/ netlify/data.json
           git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%d) daily"
           git push
 
