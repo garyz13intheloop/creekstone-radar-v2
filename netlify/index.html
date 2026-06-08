@@ -400,6 +400,24 @@ body {
 <div id="toastBox" class="toast"><span>◈</span><div id="toastMsg">已同步至飞书 Sourcing 底表</div></div>
 
 <script>
+
+// ── Track Constants ──
+const TRACK_CLS = {
+    "A":"b-A","B":"b-B","C":"b-C","Hardware":"b-Hardware",
+    "Tech":"b-Tech","Multimodal":"b-Multimodal","Lifestyle":"b-Lifestyle","unknown":"b-src"
+};
+const TRACK_LBL = {
+    "A":"Track A · Framework","B":"Track B · FDE","C":"Track C · A2A",
+    "Hardware":"Hardware","Tech":"Tech / Research",
+    "Multimodal":"Multimodal","Lifestyle":"Lifestyle","unknown":"Unclassified"
+};
+function score_color(s) {
+    if (s >= 80) return "#5ecc82";
+    if (s >= 72) return "#C9A84C";
+    if (s >= 60) return "#6b9de8";
+    return "#3a3a3a";
+}
+
 // ── Global State ──
 let allItems = [];
 let filteredItems = [];
