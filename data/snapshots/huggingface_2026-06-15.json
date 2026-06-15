@@ -1,0 +1,92 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-06-15T15:42:11Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 4,522,682.\n\nTitle: deepseek-ai/DeepSeek-R1 · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/DeepSeek-R1\n\nMarkdown Content:\n# deepseek-ai/DeepSeek-R1 · Hugging Face\n\n[![Image 1: Hugging Face's logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n        *   [Learn](https://huggingface.co/learn)\n        *   [Discord](https://h",
+    "description_zh": "DeepSeek-R1是一个开源的大语言推理模型，专注于复杂推理任务。产品通过强化学习训练，使模型具备类似OpenAI o1的思维链(Chain-of-Thought)能力，能在数学、编程、科学推理等领域展现深度思考过程。模型在HuggingFace上已获得450万+下载量和1.3万+点赞，采用MIT开源协议，支持text-generation pipeline。目标用户包括AI研究者、开发者和需要高质量推理能力的企业。产品已通过大规模下载量证明其技术价值，成为开源社区中推理模型的重要选择，直接挑战OpenAI在推理模型领域的闭源垄断地位。",
+    "keywords": [
+      "推理模型",
+      "开源AI",
+      "强化学习",
+      "思维链",
+      "中国AI"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 88.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 4522682,
+      "likes": 13391,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 30,
+      "niche": 24,
+      "business": 14,
+      "team": 15,
+      "bonus": 10,
+      "penalty": -5,
+      "total": 88,
+      "reason": "88分因为：技术壁垒极高(推理模型)+开源社区验证(450万下载)+战略价值(打破垄断)，但商业化路径不明确限制了更高分数。这是技术Alpha明确但商业Alpha待验证的典型案例。",
+      "plus": [
+        "450万+下载量证明真实技术价值和社区认可度",
+        "1.3万+点赞数在HuggingFace模型中属于顶级水平",
+        "MIT开源协议降低使用门槛，利于生态构建",
+        "推理模型赛道壁垒极高，DeepSeek在开源领域几乎独占",
+        "打破OpenAI o1在推理模型的闭源垄断，战略意义重大"
+      ],
+      "minus": [
+        "商业模式不清晰，开源策略的变现路径需要验证",
+        "缺乏创始人和团队详细背景信息",
+        "全球化能力存疑，中国团队的国际市场拓展是挑战",
+        "与OpenAI o1相比性能差距未知，技术领先性需要更多benchmark验证",
+        "纯开源模式可能导致被大厂fork后失去先发优势"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源推理模型，通过强化学习实现类o1级别的思维链能力，450万+下载量，1.3万+点赞，中国AI团队打破OpenAI推理模型垄断",
+      "overview_zh": "DeepSeek-R1是一个开源的大语言推理模型，专注于复杂推理任务。产品通过强化学习训练，使模型具备类似OpenAI o1的思维链(Chain-of-Thought)能力，能在数学、编程、科学推理等领域展现深度思考过程。模型在HuggingFace上已获得450万+下载量和1.3万+点赞，采用MIT开源协议，支持text-generation pipeline。目标用户包括AI研究者、开发者和需要高质量推理能力的企业。产品已通过大规模下载量证明其技术价值，成为开源社区中推理模型的重要选择，直接挑战OpenAI在推理模型领域的闭源垄断地位。",
+      "biz_model_zh": "当前为完全开源模式(MIT协议)，无直接收费。商业化路径可能包括：①企业级API服务，为B端提供推理能力调用；②私有化部署方案，向大型企业收取license费用；③云服务订阅，提供优化版本和技术支持；④生态系统构建，通过开发者社区建立护城河后推出商业产品。用户愿意使用的核心原因是开源免费+性能接近闭源顶级模型，打破了OpenAI o1的技术垄断。与竞品差异：OpenAI o1闭源且昂贵，DeepSeek-R1开源免费但需自行部署，适合有技术能力的团队。",
+      "insight_zh": "Creekstone视角：①推理模型是2024-2025年AI最重要的突破方向，DeepSeek用开源策略在中国团队中率先突破，具有战略Alpha；②市场严重低估开源推理模型的颠覆性——当o1级别能力可以本地部署时，闭源API的护城河将被削弱；③风险在于开源模式的变现路径不清晰，且中国团队的全球化能力存疑；④我们的投资论文适配点：如果DeepSeek能在开源基础上构建商业化闭环(如企业版/云服务)，将成为中国AI基础设施的关键玩家，估值潜力巨大。需要关注其后续商业化动作和团队背景。",
+      "score_narrative_zh": "AI Native得满分30分：这是纯粹的AI-native产品，通过强化学习实现推理能力的自进化，代表了从对话模型到推理模型的范式转变，已形成技术飞轮。Niche得24分：推理模型是极高壁垒的细分赛道，需要大量算力和RL专业知识，DeepSeek在开源领域几乎无竞争对手，但相比闭源o1仍有差距故未满分。商业模式得14分：开源策略获得巨大社区认可(450万下载)，但变现路径尚不明确，需要观察后续商业化动作。团队得15分满分：DeepSeek是中国顶级AI团队，有持续推出高质量模型的能力。加分10分：开源13k stars证明社区强认可+4，450万下载量证明实际使用+4，打破OpenAI垄断的战略价值+2。减分5分：商业模式不清晰导致exit路径模糊-5。",
+      "metrics_summary": "HuggingFace下载量: 4,522,682 | HuggingFace点赞数: 13,391 | Pipeline类型: text-generation | 开源协议: MIT | Tags包含: transformers, safetensors, deepseek_v3, conversational, custom_code, eval-results | 暂无ARR/用户数/融资等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
