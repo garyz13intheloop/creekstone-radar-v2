@@ -1,0 +1,83 @@
+[
+  {
+    "id": "a07290ce4561c2c5",
+    "source": "openrouter",
+    "collected_at": "2026-06-16T15:07:43Z",
+    "title": "Hermes Agent",
+    "url": "https://openrouter.ai/apps/hermes-agent",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +34%.\n\nTitle: Hermes Agent | OpenRouter\n\nURL Source: https://openrouter.ai/apps/hermes-agent\n\nMarkdown Content:\n# Hermes Agent | OpenRouter\n\n[Skip to content](https://openrouter.ai/apps/hermes-agent#skip)\n\n[OpenRouter](https://openrouter.ai/)\n\n/ \n\nJune 2026\n\n![Image 1: Favicon for openrouter](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://openrouter.ai/&size=256)\n\nFusion\n\n![Image 2: Favicon for moonshotai](https://openrouter.ai/images/icons/MoonshotAI.png)\n\nKimi K2.7 Code\n\n![Image 3: Favicon for nvidia](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://nvidia.com/&size=256)\n\nLlama Nemotron Rerank VL 1B V2 (free)\n\n![Image 4: Favicon for anthropic](https://openrouter.ai/images/icons/Anthropic.svg)\n\nClaude Fable Latest\n\n![Image 5: Favicon for anthropic](https://openrouter.ai/images/icons/Anthropic.svg)\n\nClaude Fable 5\n\n![Image 6: Favicon for nex-agi](https://openrouter.ai/images/icons/NexAGI.svg)\n\nNex-N2-Pro (free)\n\n![Image 7: Favicon for sourceful](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.sourceful.com/&size=256)\n\nRiverflow V2.",
+    "description_zh": "Hermes Agent是OpenRouter平台上的一个Agent应用，被分类为Personal Agents和CLI Agents。根据OpenRouter数据，该产品本周token使用量达到856B（8560亿tokens），周环比增长34%，在OpenRouter全球应用排名中位列第1。从分类推测，这是一个命令行界面的个人助理Agent，可能提供自动化任务执行、工具调用等功能。然而，除了使用量数据外，产品的具体功能、技术实现、用户场景、商业模式等核心信息完全缺失。无法确认是独立产品还是OpenRouter生态内的示例应用，也无法判断其真实的产品成熟度和商业价值。",
+    "keywords": [
+      "CLI Agent",
+      "OpenRouter生态",
+      "Personal Agent",
+      "高增长",
+      "信息不足"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 34.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "856B",
+      "tokens_int": 856000000000,
+      "wow_pct": 34.0,
+      "section": "trending",
+      "categories": [
+        "Personal Agents",
+        "CLI Agents"
+      ],
+      "rank_global": 1,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 12,
+      "niche": 8,
+      "business": 6,
+      "team": 0,
+      "bonus": 19,
+      "penalty": -3,
+      "total": 42,
+      "reason": "OpenRouter第1排名和34%增长是强需求信号，但产品/团队/商业模式信息黑洞使其无法获得中高分。42分反映「有潜力但需大量补充信息」。",
+      "plus": [
+        "OpenRouter平台全球排名第1，证明在该生态内有强势地位",
+        "周增长+34%显示快速扩张动能，856B tokens使用量证明已有规模",
+        "CLI Agent方向符合开发者工具趋势，与Cursor/Aider等热门产品同赛道",
+        "Personal Agents分类暗示面向C端或小团队，市场空间大于纯企业工具"
+      ],
+      "minus": [
+        "产品信息几乎完全缺失，无法判断核心功能、技术实现、用户场景",
+        "团队背景、融资情况、公司实体完全未知，无法评估执行能力",
+        "CLI Agent市场已有Cursor、Aider、OpenHands等强势开源/商业产品",
+        "OpenRouter生态依赖可能导致平台风险，token使用量不等于真实商业价值",
+        "无付费用户数、留存率、NPS等验证产品market fit的关键指标"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Hermes Agent — OpenRouter平台上的CLI/个人Agent工具，周增长+34%达856B tokens使用量，排名全球第1，但产品信息严重缺失",
+      "overview_zh": "Hermes Agent是OpenRouter平台上的一个Agent应用，被分类为Personal Agents和CLI Agents。根据OpenRouter数据，该产品本周token使用量达到856B（8560亿tokens），周环比增长34%，在OpenRouter全球应用排名中位列第1。从分类推测，这是一个命令行界面的个人助理Agent，可能提供自动化任务执行、工具调用等功能。然而，除了使用量数据外，产品的具体功能、技术实现、用户场景、商业模式等核心信息完全缺失。无法确认是独立产品还是OpenRouter生态内的示例应用，也无法判断其真实的产品成熟度和商业价值。",
+      "biz_model_zh": "商业模式完全不明。作为OpenRouter平台上的应用，可能采用以下几种方式之一：①通过OpenRouter的API调用按token计费，平台分成；②免费工具用于展示OpenRouter能力，间接导流；③独立订阅但依赖OpenRouter基础设施。856B tokens的使用量如果按市场价计算价值可观，但无法确认是付费用户产生还是免费试用。CLI Agent通常面向开发者，可能采用freemium模式，但缺乏定价、付费转化率等关键信息，无法评估商业可持续性。",
+      "insight_zh": "Creekstone视角：这是一个典型的「数据强、信息弱」案例。OpenRouter排名第1和34%增长显示强劲需求信号，CLI Agent方向符合开发者工具趋势，但信息黑洞使其无法评估。三个可能性：①真实的高增长Agent产品，被OpenRouter生态放大；②OpenRouter自己的showcase项目，数据不代表独立商业价值；③早期产品流量爆发但留存/变现未验证。风险在于：CLI Agent市场已有Cursor、Aider等强势玩家，纯API调用层产品壁垒极低。如果是独立公司，需要立即获取：创始团队背景、融资情况、付费用户数、与OpenRouter的关系、技术差异化。当前信息不足以支持",
+      "score_narrative_zh": "AI Native得12分：CLI Agent暗示有工具调用和自动化能力，但无法确认是否有真正的agent规划、记忆、自进化机制，可能只是简单的prompt wrapper。Niche得8分：CLI Agent是明确方向但竞争激烈，OpenRouter生态依赖可能是伪壁垒，无私有数据或独特场景证据。商业模式得6分：完全不透明，token使用量不等于收入，可能是平台补贴或免费流量。团队得0分：无任何创始人、公司、融资信息。加分19分：OpenRouter全球排名第1(+8)、周增长34%(+6)、856B tokens使用量证明规模(+5)。减分-3：信息严重不足导致无法全面评估。总分42分反映了「有增长信号但投资决策信息缺失」的现状。",
+      "metrics_summary": "OpenRouter周token使用量: 856B (8560亿tokens) | 周环比增长: +34% | OpenRouter全球排名: #1 | 分类: Personal Agents, CLI Agents | 其他数据(GitHub stars/用户数/ARR/融资): 暂无公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/hermes-agent"
+      ]
+    }
+  }
+]
