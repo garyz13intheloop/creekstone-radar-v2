@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-06-21T12:09:28Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 6,797,273.",
+    "description_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。模型在HuggingFace上已获得680万次下载和1.3万个点赞，显示出较高的社区关注度。从技术标签看，这是基于DeepSeek V3架构的推理增强模型，支持conversational对话和custom code能力，并通过eval-results标签表明经过系统性评测。模型采用transformers框架和safetensors格式，支持text-generation-inference推理加速。DeepSeek团队背景为幻方量化，是中国AI领域的重要玩家，此前已发布多个开源模型获得业界认可。",
+    "keywords": [
+      "开源大模型",
+      "DeepSeek",
+      "推理增强",
+      "幻方量化",
+      "MIT协议"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 6797273,
+      "likes": 13405,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 9,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 48,
+      "reason": "这是技术展示而非商业产品:虽有强社区认可但缺乏变现路径和应用层壁垒,更适合战略投资者而非早期VC关注的Alpha机会",
+      "plus": [
+        "680万下载量+1.3万点赞证明强社区认可和技术实力",
+        "MIT开源协议降低使用门槛,利于生态构建",
+        "幻方量化背景代表中国顶级量化团队的AI能力",
+        "支持推理增强和custom code,技术路线有一定差异化"
+      ],
+      "minus": [
+        "纯开源模型无清晰商业变现路径,不符合VC投资逻辑",
+        "通用文本生成赛道极度拥挤,与Llama/Mistral/Qwen等直接竞争",
+        "作为基础设施层缺乏应用层数据飞轮,难以形成持续壁垒",
+        "信息严重不足:无团队详情、产品roadmap、商业计划等关键信息(-3分)",
+        "无法确认是否有垂直场景应用或Agent能力的实际落地"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 中国团队开源大语言模型，680万下载量+1.3万点赞，MIT协议，DeepSeek团队（幻方量化背景）推出的推理增强模型",
+      "overview_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。模型在HuggingFace上已获得680万次下载和1.3万个点赞，显示出较高的社区关注度。从技术标签看，这是基于DeepSeek V3架构的推理增强模型，支持conversational对话和custom code能力，并通过eval-results标签表明经过系统性评测。模型采用transformers框架和safetensors格式，支持text-generation-inference推理加速。DeepSeek团队背景为幻方量化，是中国AI领域的重要玩家，此前已发布多个开源模型获得业界认可。",
+      "biz_model_zh": "作为开源模型，DeepSeek-R1采用MIT协议完全免费开放，不存在直接的商业变现模式。团队可能的盈利路径包括：①为企业提供私有化部署和定制化服务；②通过API调用收费（类似OpenAI模式）；③吸引开发者生态后推出商业版本；④作为幻方量化的技术品牌建设投入，间接服务于母公司量化交易业务。当前阶段更像是技术实力展示和生态构建，商业化路径尚不明确，这是典型的开源模型策略——先占领心智再考虑变现。",
+      "insight_zh": "Creekstone视角：这是一个**技术展示项目而非投资标的**。虽然下载量和社区热度高，但作为纯开源基础模型，缺乏清晰的商业护城河和变现路径。市场被低估之处在于中国AI团队的技术实力正在快速追赶，DeepSeek代表了非OpenAI/Anthropic阵营的崛起，但这更适合战略投资者而非早期VC。主要风险：①开源模型同质化严重，差异化不足；②商业化路径不清晰；③与Llama/Mistral等竞争激烈；④作为基础设施层，很难形成应用层的数据飞轮。我们的投资论文更关注**基于此类模型构建的垂直应用**，而非模型本身。",
+      "score_narrative_zh": "AI Native得18分：作为大语言模型本身就是AI-native，但仅是基础设施层，未形成应用层的数据闭环和自进化能力，缺乏从对话到工作流的跃迁。Niche得12分：通用文本生成模型，竞争极其激烈（Llama、Mistral、Qwen等），技术路径无明显非共识性，虽有推理增强特性但壁垒有限。商业模式得6分：完全开源无直接变现，商业路径模糊，可能依赖服务或API但未见明确计划。团队得9分：幻方量化背景有技术实力，但信息有限，无法确认核心团队的AI+domain双栈能力和年龄结构。加6分：680万下载+1.3万stars证明强社区认可(+4)，中国顶级量化背景(+2)。减3分：信息严重不足，无法判断具体产品形态、团队构成、商业计划等关键要素。",
+      "metrics_summary": "HuggingFace下载量: 6,797,273次 | 点赞数: 13,405 | Pipeline类型: text-generation | 开源协议: MIT | 技术标签: transformers, safetensors, DeepSeek V3架构, conversational, custom_code支持 | 评测状态: 已通过eval-results验证 | 暂无ARR、用户数、融资等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
