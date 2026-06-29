@@ -1,0 +1,84 @@
+[
+  {
+    "id": "a07290ce4561c2c5",
+    "source": "openrouter",
+    "collected_at": "2026-06-29T14:00:56Z",
+    "title": "Hermes Agent",
+    "url": "https://openrouter.ai/apps/hermes-agent",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +18%.\n\nTitle: Hermes Agent | OpenRouter\n\nURL Source: https://openrouter.ai/apps/hermes-agent\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/hermes-agent#skip)\n\n[OpenRouter](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Enterprise](https://openrouter.ai/enterprise)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n![Image 1: Favicon for https://nousresearch.com](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://nousresearch.com&size=256)\n\n# Hermes Agent\n\nSpawn Docs Visit\n\nHermes Agent is an open-source, self-improving AI agent by Nous Research that runs persistently with memory across sessions, and builds reusable skills from experience. It comes with 40+ built-in tools, including web search, browser automation, and vision, plus scheduled automations and subagents.\n\nShow more \n\nTotal tokens\n\n25.4T\n\nDaily global rank\n\n#1\n\nActive since\n\nMar 2026\n\nModels used\n\n378\n\n[#1 in Productivity](https://o",
+    "description_zh": "Hermes Agent是Nous Research推出的开源AI Agent框架，核心特性包括：①持久化运行，跨会话保留记忆 ②从经验中自我改进，构建可复用技能库 ③内置40+工具（网页搜索、浏览器自动化、视觉能力等）④支持定时自动化任务和子Agent调度。产品在OpenRouter平台周增长+18%，全球排名#1，累计处理25.4T tokens，显示出强劲的开发者采用趋势。属于Personal Agents和CLI Agents类别，主要面向开发者和技术用户，提供命令行级别的Agent能力。Nous Research是知名开源AI组织，此前发布过多个开源模型。",
+    "keywords": [
+      "开源Agent框架",
+      "持久化记忆",
+      "自我改进",
+      "CLI工具",
+      "Nous Research"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 68.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 18.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "1.01T",
+      "tokens_int": 1010000000000,
+      "wow_pct": 18.0,
+      "section": "trending",
+      "categories": [
+        "Personal Agents",
+        "CLI Agents"
+      ],
+      "rank_global": 1,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 24,
+      "niche": 16,
+      "business": 9,
+      "team": 11,
+      "bonus": 11,
+      "penalty": -3,
+      "total": 68,
+      "reason": "技术方向正确且有强劲采用数据，但开源属性+商业化信息缺失导致无法给更高分。需要看到明确商业化转折点才能重新评估。",
+      "plus": [
+        "OpenRouter平台排名#1，周增长+18%证明强劲的开发者采用趋势",
+        "25.4T tokens处理量显示真实大规模使用",
+        "持久化+跨会话记忆+自我改进的Agent架构，技术方向符合AI Native 2.0演进",
+        "40+内置工具集成降低开发者门槛，生态潜力大",
+        "Nous Research背书，开源AI社区认可度高"
+      ],
+      "minus": [
+        "完全开源项目，商业化路径不明确，面临LangChain式变现困境",
+        "Nous Research作为研究组织而非商业公司，执行力和Exit路径存疑",
+        "CLI Agent市场相对小众，主要面向技术用户而非企业付费场景",
+        "开源框架壁垒有限，容易被大厂整合或fork",
+        "缺少创始人、融资、估值等关键商业信息(-3分惩罚)"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Hermes Agent — Nous Research开源的持久化AI Agent，跨会话记忆+自我改进+40+工具集成，OpenRouter排名#1但商业化路径不明，团队为知名开源AI研究组织",
+      "overview_zh": "Hermes Agent是Nous Research推出的开源AI Agent框架，核心特性包括：①持久化运行，跨会话保留记忆 ②从经验中自我改进，构建可复用技能库 ③内置40+工具（网页搜索、浏览器自动化、视觉能力等）④支持定时自动化任务和子Agent调度。产品在OpenRouter平台周增长+18%，全球排名#1，累计处理25.4T tokens，显示出强劲的开发者采用趋势。属于Personal Agents和CLI Agents类别，主要面向开发者和技术用户，提供命令行级别的Agent能力。Nous Research是知名开源AI组织，此前发布过多个开源模型。",
+      "biz_model_zh": "当前为完全开源项目，未见明确商业化路径。可能的变现方向：①API服务收费（类似LangChain模式）②企业版订阅（提供托管服务、SLA保障）③云端部署收费。但目前信息显示仍处于开源社区驱动阶段，OpenRouter上的高使用量更多反映开发者采用而非付费用户。与LangChain类似，面临开源项目商业化的经典困境：生态价值大但直接变现难。需要观察是否会推出Hermes Cloud等商业化产品。",
+      "insight_zh": "Creekstone视角：①Alpha在于「持久化+自我改进」的Agent设计，这是从对话式走向工作流式Agent的关键演进，符合我们对AI Native 2.0的判断 ②OpenRouter #1排名证明开发者强需求，但开源属性意味着需要找到LangChain之外的商业化路径 ③风险：Nous Research作为研究组织，商业化执行力存疑；开源框架容易被大厂fork或整合 ④投资论文适配度中等：技术方向正确，但需要看到明确的商业化转折点（如推出托管服务或被收购意向）。更适合作为生态观察标的，而非直接投资对象，除非出现商业化团队分拆或明确的企业服务计划。",
+      "score_narrative_zh": "AI Native得24分：持久化记忆、跨会话学习、技能库构建显示真正的Agent架构，但未达到数据飞轮级别（28-30分），因为自我改进机制的具体实现和效果未知。Niche得16分：CLI Agent + 40+工具集成有一定技术深度，但开源框架本身壁垒有限，容易被复制。商业模式得9分：完全开源无明确变现路径，仅靠社区驱动。团队得11分：Nous Research是知名开源组织但非商业化团队，缺少创始人背景信息。加分11分：OpenRouter #1排名+18% WoW增长证明强劲采用(+4)，开源项目有社区认可(+2)，25.4T tokens使用量证明真实需求(+3)，持久化Agent方向符合趋势(+2)。减分-3：商业化信息严重不足，难以评估Exit路径。",
+      "metrics_summary": "OpenRouter全球排名: #1 | 周增长: +18% | 累计tokens: 25.4T | 分类: Personal Agents, CLI Agents | 活跃时间: 自3月起 | GitHub stars: 未知 | 付费用户: 未知(开源项目) | ARR: 未知",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/hermes-agent"
+      ]
+    }
+  }
+]
