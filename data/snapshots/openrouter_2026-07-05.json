@@ -1,0 +1,84 @@
+[
+  {
+    "id": "0c26c5269d25c4ec",
+    "source": "openrouter",
+    "collected_at": "2026-07-05T11:26:45Z",
+    "title": "Claude Code",
+    "url": "https://openrouter.ai/apps/claude-code",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +27%.\n\nTitle: Claude Code | OpenRouter\n\nURL Source: https://openrouter.ai/apps/claude-code\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/claude-code#skip)\n\n[OpenRouter](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Enterprise](https://openrouter.ai/enterprise)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n![Image 1: Favicon for https://claude.ai/apple-touch-icon.png](https://openrouter.ai/api/frontend/v1/image-proxy?url=https%3A%2F%2Fclaude.ai%2Fapple-touch-icon.png)\n\n# Claude Code\n\nSpawn Docs Visit\n\nClaude Code is Anthropic's agentic coding tool that reads your entire codebase, plans and executes changes across files, runs tests, and iterates on failures, all from natural language prompts.\n\nTotal tokens\n\n4.17T\n\nDaily global rank\n\n#3\n\nActive since\n\nDec 2025\n\nModels used\n\n322\n\n[#3 in Coding Agents](https://openrouter.ai/apps/category/coding)[#3 in CLI Agents](https://openrouter.ai/apps/category/coding/cli-agent)\n\n### Claude Code OpenRou",
+    "description_zh": "Claude Code是Anthropic推出的AI原生编程agent，核心能力是：①读取整个代码库上下文 ②从自然语言prompt生成跨文件修改计划 ③自动执行代码变更 ④运行测试并根据失败结果自主迭代修复。产品定位CLI Agent，直接集成开发工作流。在OpenRouter平台上周token使用量达168B（1680亿tokens），周增长27%，全球排名第3，已调用322个不同模型。这是Anthropic继Claude主产品后在垂直开发场景的深度布局，利用Claude 3.5 Sonnet的长上下文和推理能力，将对话式AI转化为确定性的代码执行工作流。产品2024年12月上线，快速获得开发者采用，证明了从prompt到production的闭环价值。",
+    "keywords": [
+      "Claude Code",
+      "Agentic Coding",
+      "CLI Agent",
+      "Anthropic",
+      "代码生成"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 81.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 27.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "168B",
+      "tokens_int": 168000000000,
+      "wow_pct": 27.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "CLI Agents"
+      ],
+      "rank_global": 3,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 27,
+      "niche": 21,
+      "business": 16,
+      "team": 14,
+      "bonus": 3,
+      "penalty": 0,
+      "total": 81,
+      "reason": "81分定位：Anthropic顶级团队+真实高增长数据+AI-native工作流设计，但竞争激烈且非独立投资标的，我们的Alpha在其生态而非产品本身",
+      "plus": [
+        "Anthropic官方出品，模型质量和企业信任度顶级",
+        "OpenRouter数据证明真实高频使用：168B周token+27%增长+全球第3",
+        "从对话到工作流的成功转化案例，验证agent商业化路径",
+        "调用322个模型说明架构设计是模型无关的orchestration层，有middleware价值",
+        "CLI形态比IDE插件更轻量，开发者接受度快"
+      ],
+      "minus": [
+        "面临Cursor和GitHub Copilot Workspace的激烈竞争，先发优势不明显",
+        "作为Anthropic自有产品，不是直接投资标的",
+        "具体团队信息、roadmap、企业客户案例等细节缺失",
+        "商业模式依赖母公司API定价，独立性存疑",
+        "尚未看到开源社区或第三方生态的明确信号"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Claude Code — Anthropic官方agentic编程工具，从自然语言直接规划并执行跨文件代码修改+测试迭代，OpenRouter周增27%排名全球第3，Claude团队出品",
+      "overview_zh": "Claude Code是Anthropic推出的AI原生编程agent，核心能力是：①读取整个代码库上下文 ②从自然语言prompt生成跨文件修改计划 ③自动执行代码变更 ④运行测试并根据失败结果自主迭代修复。产品定位CLI Agent，直接集成开发工作流。在OpenRouter平台上周token使用量达168B（1680亿tokens），周增长27%，全球排名第3，已调用322个不同模型。这是Anthropic继Claude主产品后在垂直开发场景的深度布局，利用Claude 3.5 Sonnet的长上下文和推理能力，将对话式AI转化为确定性的代码执行工作流。产品2024年12月上线，快速获得开发者采用，证明了从prompt到production的闭环价值。",
+      "biz_model_zh": "商业模式依托Anthropic的API付费体系，按token消费计费。Claude Code作为高频开发工具，单次任务可能消耗数万至数十万tokens（读取代码库+多轮迭代），客单价显著高于普通对话场景。用户付费意愿来自：①替代人工代码审查和重构的时间成本 ②跨文件修改的复杂度降低 ③测试-修复循环的自动化。与GitHub Copilot的补全模式不同，Claude Code做的是'任务级'而非'行级'辅助，定价锚点是节省的开发时间而非代码行数。Anthropic通过OpenRouter等分发渠道快速触达开发者，避免自建IDE插件的冷启动成本，商业模式清晰且已有真实消费数据支撑。",
+      "insight_zh": "Creekstone视角的Alpha信号：①这是Claude生态的'Cursor时刻'——Anthropic终于从对话走向工作流，168B周token量证明开发者愿为确定性任务付费 ②CLI Agent是被低估的入口，比IDE插件更轻、比web界面更贴近真实开发流 ③OpenRouter数据显示其调用322个模型，说明产品设计是模型无关的orchestration层，这是可防御的middleware价值 ④风险在于GitHub Copilot Workspace和Cursor的先发优势，但Anthropic的模型质量+企业客户关系可能形成差异化 ⑤这不是纯工具投资机会（Anthropic自己做",
+      "score_narrative_zh": "AI Native得27分：产品设计完全围绕agent能力（规划-执行-测试-迭代），从对话走向确定性工作流，有明确的数据飞轮（代码库理解→执行反馈→模型优化），但尚未看到用户行为直接训练模型的证据，故未给满分。Niche得21分：CLI coding agent是清晰的细分场景，有Anthropic的模型护城河，但Cursor/GitHub Copilot已占据IDE入口，竞争激烈，技术路径并非完全非共识。商业模式得16分：token付费清晰，168B周消费证明真实需求，但订阅制vs按量付费的长期留存还需观察，且依赖Anthropic主体的定价策略。团队得14分：Anthropic是顶级AI公司，但Claude Code具体团队信息不足，按母公司背景给中上分。加分3分：OpenRouter全球排名第3+周增27%证明强劲增长势头，Claude生态加持。无减分：信息充分，产品真实，非套壳。",
+      "metrics_summary": "OpenRouter周token使用量: 168B (1680亿tokens) | 周增长率: +27% | 全球排名: #3 | 已调用模型数: 322 | 活跃时间: 2024年12月至今 | 分类: Coding Agents #3, CLI Agents #3 | 累计token使用: 4.17T (4.17万亿tokens)",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/claude-code"
+      ]
+    }
+  }
+]
