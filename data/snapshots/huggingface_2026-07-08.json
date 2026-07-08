@@ -1,0 +1,90 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-07-08T11:44:27Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 8,592,821.",
+    "description_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，采用DeepSeek-V3架构，专注于text-generation任务。模型在HuggingFace上已获得859万次下载和1.3万个点赞，采用MIT开源协议。从pipeline_tag和tags判断，这是一个支持对话、推理增强的通用文本生成模型，支持transformers框架和text-generation-inference部署。DeepSeek团队背靠幻方量化，此前已发布多个开源模型。但从提供信息看，缺乏具体的产品形态、应用场景、商业化路径等关键信息，更像是基础模型发布而非完整产品。",
+    "keywords": [
+      "开源大模型",
+      "DeepSeek",
+      "推理增强",
+      "幻方量化",
+      "基础模型"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 8592821,
+      "likes": 13448,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 12,
+      "bonus": 3,
+      "penalty": -3,
+      "total": 48,
+      "reason": "基础模型而非应用产品，商业化路径不明，信息严重不足。虽有技术社区认可但不符合Creekstone寻找的应用层Alpha机会，需要看到基于此模型的具体产品或API业务数据才能重新评估。",
+      "plus": [
+        "HuggingFace 860万下载+1.3万点赞证明技术社区认可度高",
+        "幻方量化背景团队，资金和算力资源充足",
+        "MIT开源协议降低开发者使用门槛，有利于生态构建"
+      ],
+      "minus": [
+        "信息严重不足：无产品形态、商业模式、付费数据、创始人详情",
+        "基础模型而非应用层产品，不符合Creekstone应用层投资偏好",
+        "通用大模型赛道极度拥挤，中国已有Qwen/GLM/Baichuan等强竞争",
+        "开源MIT协议导致变现路径不清晰，缺乏商业化验证",
+        "无AI-native应用场景证明，仅是模型发布"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 中国团队开源大语言模型，860万下载量+1.3万点赞，MIT协议，DeepSeek团队（幻方量化背景）推出的推理增强模型",
+      "overview_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，采用DeepSeek-V3架构，专注于text-generation任务。模型在HuggingFace上已获得859万次下载和1.3万个点赞，采用MIT开源协议。从pipeline_tag和tags判断，这是一个支持对话、推理增强的通用文本生成模型，支持transformers框架和text-generation-inference部署。DeepSeek团队背靠幻方量化，此前已发布多个开源模型。但从提供信息看，缺乏具体的产品形态、应用场景、商业化路径等关键信息，更像是基础模型发布而非完整产品。",
+      "biz_model_zh": "商业模式严重不明确。作为MIT协议的开源模型，直接变现路径不清晰。可能的方向包括：①API服务收费（类似OpenAI模式）②企业私有化部署授权 ③生态服务费用。但从提供信息无法判断DeepSeek是否有API服务、定价策略、付费用户数据。开源模型的典型困境是下载量高但变现难，除非有明确的云服务或企业服务配套。当前信息显示这更像是技术展示而非商业产品，缺乏清晰的收入模型和用户付费意愿验证。",
+      "insight_zh": "Creekstone视角的核心问题：这是基础模型而非应用层产品，不符合我们寻找的AI-native应用机会。中国开源大模型赛道已极度拥挤（Qwen、GLM、Baichuan等），DeepSeek虽有幻方背景和技术实力，但基础模型本身难以形成投资Alpha。真正机会在于：①基于此模型的垂直应用 ②模型API的商业化服务 ③特定场景的fine-tune方案。风险包括：OpenAI/Anthropic的技术代差、中国监管不确定性、开源模型变现困境。除非DeepSeek有明确的应用层产品线或API业务数据，否则这更适合关注其生态而非直接投资标的。",
+      "score_narrative_zh": "AI Native得18分：虽然是大模型但仅是基础设施层，未见AI-native应用形态，无数据飞轮证据，推理增强(R1命名暗示)有一定技术亮点但信息不足。Niche得12分：通用大模型赛道极度拥挤，中国已有多个开源模型竞争，技术壁垒存疑，未见独特场景切入。商业模式得6分：开源MIT协议，变现路径完全不明，无付费用户/ARR数据，可能依赖生态补贴。团队得12分：幻方量化背景是加分项，但缺乏创始人具体信息，无法判断是否符合1990后+AI双栈标准。加3分：860万下载+1.3万likes证明社区认可度。减3分：信息严重不足，无产品形态/商业数据/团队详情，难以全面评判。",
+      "metrics_summary": "HuggingFace下载量: 8,592,821次 | 点赞数: 13,448 | Pipeline: text-generation | 开源协议: MIT | 论文: arxiv:2501.12948 | 支持框架: transformers, text-generation-inference | 暂无ARR/付费用户/API调用量/融资信息/团队规模等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
