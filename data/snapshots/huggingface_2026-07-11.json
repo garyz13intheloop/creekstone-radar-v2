@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-07-11T10:58:58Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 8,978,847.",
+    "description_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。从技术标签看使用了deepseek_v3架构和custom_code，支持conversational对话和text-generation-inference推理加速。模型在HuggingFace平台获得近900万次下载和1.3万+点赞，显示出较高的开发者关注度。从arxiv论文编号(2501.12948)推测这是2025年1月发布的最新研究成果，likely是在DeepSeek-V3基础上增强了推理能力的版本。但目前信息仅限于模型发布页面，缺乏产品化应用、商业模式、实际用户案例等关键信息。",
+    "keywords": [
+      "开源大模型",
+      "推理增强",
+      "DeepSeek",
+      "text-generation",
+      "中国AI"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 8978847,
+      "likes": 13458,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 9,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 48,
+      "reason": "这是开源模型而非产品，技术有亮点但商业价值不明。信息严重不足且不符合Creekstone投资逻辑(寻找AI-native产品而非基础设施)，给低分反映投资吸引力弱。",
+      "plus": [
+        "HuggingFace近900万下载量证明开发者高度关注",
+        "MIT开源协议降低使用门槛利于生态扩张",
+        "推理增强(R1)方向对标OpenAI o1有技术前瞻性",
+        "1.3万+likes显示社区认可度"
+      ],
+      "minus": [
+        "仅是模型发布非完整产品，无应用层价值",
+        "商业模式完全不明确，开源模型变现是行业难题",
+        "团队信息缺失，无法判断创始人背景和执行力",
+        "信息严重不足：无用户案例/ARR/API业务数据",
+        "text-generation红海赛道，与GPT-4/Claude/Llama直接竞争"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源大语言模型(text-generation)，MIT协议，HuggingFace下载量近900万次，DeepSeek团队出品的推理增强模型",
+      "overview_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。从技术标签看使用了deepseek_v3架构和custom_code，支持conversational对话和text-generation-inference推理加速。模型在HuggingFace平台获得近900万次下载和1.3万+点赞，显示出较高的开发者关注度。从arxiv论文编号(2501.12948)推测这是2025年1月发布的最新研究成果，likely是在DeepSeek-V3基础上增强了推理能力的版本。但目前信息仅限于模型发布页面，缺乏产品化应用、商业模式、实际用户案例等关键信息。",
+      "biz_model_zh": "商业模式严重不明确。作为MIT开源模型，本身不直接收费。可能的变现路径包括：①API服务收费(类似OpenAI模式)但未见公开定价 ②企业私有化部署服务 ③云服务商合作分成。DeepSeek作为中国AI公司，可能通过模型能力吸引开发者生态，再通过云服务或企业解决方案变现，但这些都是推测。与Llama/Mistral等开源模型面临同样的商业化挑战：如何在开源的同时建立可持续收入？目前看更像是技术展示和生态布局阶段，短期商业回报不明朗。",
+      "insight_zh": "Creekstone视角：这是典型的「开源模型发布」而非「AI产品」，不符合我们寻找的Alpha机会。虽然下载量和社区关注度高，但这反映的是技术影响力而非商业价值。中国大模型公司普遍面临困境：①烧钱做开源争夺开发者心智 ②商业化路径不清晰 ③与OpenAI/Anthropic的能力差距仍存在。DeepSeek-R1的「推理增强」方向有意义(对标OpenAI o1)，但作为投资标的存在致命问题：开源模型本身不是business，是infrastructure。除非DeepSeek有清晰的SaaS产品线或API业务数据，否则这更像是学术/技术贡献而非投资机会。市场可能低估了中国开源模型的技术进步，",
+      "score_narrative_zh": "AI Native得18分：作为大语言模型本身就是AI-native，有推理增强能力(R1命名暗示reasoning)，但仅是模型发布不是完整产品，未见agent能力或数据飞轮证据，给中等偏下分数。Niche得12分：text-generation是红海赛道，虽然推理增强有差异化但Llama/GPT-4/Claude都在做，技术壁垒存疑，开源意味着护城河更弱。商业模式得6分：完全不清晰，开源模型的变现是行业难题，无付费用户/ARR等任何商业数据。团队得9分：DeepSeek是中国AI公司但具体团队信息缺失，无法判断创始人背景，给保守分数。加分6分：HuggingFace下载量900万+证明技术认可度(+2)，1.3万likes显示社区热度(+2)，MIT开源协议利于生态(+2)。减分-3：信息严重不足，无产品化证据、无商业数据、无团队详情。",
+      "metrics_summary": "HuggingFace下载量: 8,978,847次 | Likes: 13,458 | Pipeline: text-generation | 开源协议: MIT | 论文: arxiv:2501.12948 | 架构标签: deepseek_v3, custom_code, conversational | 暂无ARR/用户数/API调用量等商业指标",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
