@@ -1,0 +1,90 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-07-12T11:07:32Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 8,739,585.",
+    "description_zh": "DeepSeek-R1是一个开源的大语言模型，专注于文本生成任务。从HuggingFace数据看，该模型已获得870万次下载和1.3万个点赞，采用MIT开源协议。模型基于deepseek_v3架构，支持对话场景和自定义代码。DeepSeek是中国的AI研究团队，此前已发布多个模型版本。但从提供的信息看，无法判断其具体技术创新点、与GPT-4/Claude等的性能对比、实际应用场景、以及是否有独特的训练方法或数据优势。下载量虽高但不代表商业价值，开源模型的变现路径不明确。",
+    "keywords": [
+      "开源LLM",
+      "DeepSeek",
+      "文本生成",
+      "中国AI",
+      "MIT协议"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 8739585,
+      "likes": 13458,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 12,
+      "bonus": 3,
+      "penalty": -3,
+      "total": 48,
+      "reason": "开源LLM技术产品，高下载量但商业模式不清晰，信息严重不足无法判断投资价值，48分反映'技术有认可但非投资标的'现状",
+      "plus": [
+        "HuggingFace平台870万下载量，证明技术被开发者社区认可",
+        "MIT开源协议降低使用门槛，有利于生态扩张",
+        "中国团队在LLM领域的工程化能力和成本优势"
+      ],
+      "minus": [
+        "信息严重不足：无创始人背景、融资情况、商业模式、技术差异化等关键信息（-3分）",
+        "开源模型无明确变现路径，LLaMA/Mistral前车之鉴",
+        "通用LLM赛道极度拥挤，未见独特niche或技术壁垒",
+        "仅是模型而非完整产品，缺乏agent能力和应用层价值",
+        "无付费用户、ARR等商业验证数据"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源大语言模型，870万下载量，1.3万点赞，MIT协议，DeepSeek团队（中国AI实验室）推出的text-generation模型",
+      "overview_zh": "DeepSeek-R1是一个开源的大语言模型，专注于文本生成任务。从HuggingFace数据看，该模型已获得870万次下载和1.3万个点赞，采用MIT开源协议。模型基于deepseek_v3架构，支持对话场景和自定义代码。DeepSeek是中国的AI研究团队，此前已发布多个模型版本。但从提供的信息看，无法判断其具体技术创新点、与GPT-4/Claude等的性能对比、实际应用场景、以及是否有独特的训练方法或数据优势。下载量虽高但不代表商业价值，开源模型的变现路径不明确。",
+      "biz_model_zh": "作为开源模型，DeepSeek-R1采用MIT协议，意味着完全免费且可商用。目前看不到明确的商业模式：①可能通过API服务收费（但无证据）②可能为企业提供私有化部署服务③可能依靠生态建设获得间接收益。开源模型的典型困境是：高使用量≠高收入，LLaMA/Mistral等都面临变现难题。与OpenAI的闭源付费、Anthropic的API订阅完全不同，缺乏清晰的收入来源。除非有企业服务或云平台合作的证据，否则这是典型的'技术优先、商业滞后'模式。",
+      "insight_zh": "Creekstone视角：这是一个**技术产品而非投资标的**。开源LLM赛道已极度拥挤（LLaMA 3/Mistral/Qwen等），DeepSeek需证明：①性能是否真正超越现有开源模型②是否有独特的中文/垂直领域优势③团队是否有从开源到商业化的清晰路径。中国AI团队的优势在于工程化能力和成本控制，但劣势是全球市场拓展和企业信任度。Alpha机会可能在：如果DeepSeek能以更低成本达到GPT-4级性能，可能吸引大量API用户；或在特定垂直场景（如代码生成、中文理解）建立壁垒。但当前信息严重不足，无法判断其差异化价值。",
+      "score_narrative_zh": "AI Native得18分：作为LLM本身是AI-native，但仅是模型而非完整产品，无agent能力、无数据飞轮证据，只是基础设施层。Niche得12分：通用LLM赛道极度拥挤，未见明确的垂直场景或技术非共识，870万下载说明有用户但不代表壁垒。商业模式得6分：开源MIT协议，无明确变现路径，典型的'技术优先'困境。团队得12分：DeepSeek是中国AI团队，有一定技术积累，但缺乏创始人背景、融资信息、商业化经验等关键数据。加3分：HuggingFace高下载量证明技术被认可。减3分：信息严重不足，无法判断核心竞争力、商业模式、团队背景，作为投资标的评估困难。",
+      "metrics_summary": "HuggingFace下载量: 8,739,585 | 点赞数: 13,458 | Pipeline: text-generation | 开源协议: MIT | 论文: arxiv:2501.12948 | 暂无ARR/用户数/融资/估值等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
