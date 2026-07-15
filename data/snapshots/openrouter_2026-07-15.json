@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5d021342ca30a88d",
+    "source": "openrouter",
+    "collected_at": "2026-07-15T11:25:26Z",
+    "title": "Cline",
+    "url": "https://openrouter.ai/apps/cline",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +43%.\n\nTitle: Cline | OpenRouter\n\nURL Source: https://openrouter.ai/apps/cline\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/cline#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n![Image 3: Favicon for https://cline.bot/](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cline.bot/&size=256)\n\n# Cline\n\nDocs Visit\n\nCline is an open-source AI coding agent that lives inside your IDE, autonomously exploring your codebase, editing files, running terminal commands, and using browser automation.\n\nTotal tokens\n\n2.2T\n\nDaily global rank\n\n#6\n\nActive since\n\nOct 2024\n\nModels used\n\n299\n\n[#3 in IDE Extensions](https://openrouter.ai/apps/category/coding/ide-extension)[#6 in Coding Agents](https://openrouter.ai/apps/category/coding)[#6 in CLI A",
+    "description_zh": "",
+    "keywords": [],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 0.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 43.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "107B",
+      "tokens_int": 107000000000,
+      "wow_pct": 43.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "IDE Extensions",
+        "CLI Agents"
+      ],
+      "rank_global": 6,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null
+  }
+]
