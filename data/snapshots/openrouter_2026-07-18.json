@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0c26c5269d25c4ec",
+    "source": "openrouter",
+    "collected_at": "2026-07-18T10:57:30Z",
+    "title": "Claude Code",
+    "url": "https://openrouter.ai/apps/claude-code",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +31%.\n\nTitle: Claude Code | OpenRouter\n\nURL Source: https://openrouter.ai/apps/claude-code\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/claude-code#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n![Image 3: Favicon for https://claude.ai/apple-touch-icon.png](https://openrouter.ai/api/frontend/v1/image-proxy?url=https%3A%2F%2Fclaude.ai%2Fapple-touch-icon.png)\n\n# Claude Code\n\nSpawn Docs Visit\n\nClaude Code is Anthropic's agentic coding tool that reads your entire codebase, plans and executes changes across files, runs tests, and iterates on failures, all from natural language prompts.\n\nTotal tokens\n\n5.83T\n\nDaily global rank\n\n#4\n\nActive since\n\nDec 2025\n\nModels used\n\n295\n\n[#4 in Coding Agents](https://openrouter.ai/apps/category/coding)[#4 in CLI Agents](https://openrouter.ai/app",
+    "description_zh": "",
+    "keywords": [],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 0.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 31.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "222B",
+      "tokens_int": 222000000000,
+      "wow_pct": 31.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "CLI Agents"
+      ],
+      "rank_global": 4,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null
+  }
+]
