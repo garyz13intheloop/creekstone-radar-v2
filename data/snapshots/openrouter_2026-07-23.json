@@ -1,0 +1,78 @@
+[
+  {
+    "id": "0e20b36063a6bead",
+    "source": "openrouter",
+    "collected_at": "2026-07-23T11:47:33Z",
+    "title": "Command Code",
+    "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcommandcode.ai%2F",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +591%.\n\nTitle: Not Found | OpenRouter\n\nURL Source: https://openrouter.ai/apps/url/https://commandcode.ai/\n\nWarning: Target URL returned error 404: Not Found\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/url/https://commandcode.ai/#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n## 404: Not Found\n\n[Go Home](https://openrouter.ai/)[Browse Models](https://openrouter.ai/models)\n\n## Verify your email\n\nWe could not find a primary email address on your account. Please contact support.\n\nCancel\n\nClose",
+    "description_zh": "Command Code是一个在OpenRouter平台上出现的应用，过去一周token使用量达1.06T，周增长率高达591%，显示出极强的用户增长势头。然而，产品官网返回404错误，无法访问任何产品信息。从名称推测可能是AI编程相关工具（Code暗示编程方向），但具体功能、目标用户、技术实现方式完全不明。OpenRouter是LLM API聚合平台，该产品在此平台的高增长可能意味着：①产品刚上线处于快速测试期 ②通过某渠道获得流量爆发 ③可能是B端工具通过API大量调用。缺乏任何可验证的产品细节、用户反馈或团队信息，无法判断是真实创新还是短期流量现象。",
+    "keywords": [
+      "AI编程",
+      "OpenRouter",
+      "高增长",
+      "信息不足",
+      "Stealth模式"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 591.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "1.06T",
+      "tokens_int": 1060000000000,
+      "wow_pct": 591.0,
+      "section": "trending",
+      "categories": [],
+      "rank_global": null,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 12,
+      "niche": 8,
+      "business": 6,
+      "team": 0,
+      "bonus": 4,
+      "penalty": -8,
+      "total": 42,
+      "reason": "唯一正面信号是OpenRouter高增长，但官网404和零信息披露导致无法验证产品实质，信息不足惩罚严重，42分反映'有潜在但风险极高'的现状",
+      "plus": [
+        "OpenRouter平台周增长+591%，显示强劲的使用增长趋势，可能存在真实需求",
+        "1.06T token使用量说明产品有一定规模的实际调用，不是纯概念项目"
+      ],
+      "minus": [
+        "官网404错误，无法获取任何产品信息、功能描述或使用案例（-4分）",
+        "团队信息完全缺失，无法评估创始人背景和执行能力（-4分）",
+        "商业模式、定价策略、目标用户完全未知，无法判断商业可行性",
+        "无GitHub仓库、社区讨论或用户反馈，无法验证产品质量",
+        "高增长可能是短期测试流量或刷量，缺乏可持续性证据"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Command Code — 疑似AI编程工具，OpenRouter周增长+591%但官网404，产品形态、团队、商业模式完全未知",
+      "overview_zh": "Command Code是一个在OpenRouter平台上出现的应用，过去一周token使用量达1.06T，周增长率高达591%，显示出极强的用户增长势头。然而，产品官网返回404错误，无法访问任何产品信息。从名称推测可能是AI编程相关工具（Code暗示编程方向），但具体功能、目标用户、技术实现方式完全不明。OpenRouter是LLM API聚合平台，该产品在此平台的高增长可能意味着：①产品刚上线处于快速测试期 ②通过某渠道获得流量爆发 ③可能是B端工具通过API大量调用。缺乏任何可验证的产品细节、用户反馈或团队信息，无法判断是真实创新还是短期流量现象。",
+      "biz_model_zh": "商业模式完全未知。从OpenRouter使用量推测可能采用API调用付费模式，但无法确认：①是否直接向终端用户收费 ②定价策略（按token/订阅/免费+增值）③目标客群是开发者还是企业 ④与OpenRouter的分成机制。高token消耗可能意味着重度AI调用场景，但也可能是测试流量或inefficient的prompt设计导致。没有官网、产品页面或任何公开信息，无法评估其商业可持续性和用户付费意愿。这种信息黑箱状态对投资评估极为不利。",
+      "insight_zh": "Creekstone视角：这是一个高度矛盾的信号——OpenRouter +591%增长显示某种真实需求存在，但404官网和零信息披露又极不寻常。可能情况：①早期stealth模式产品，刻意低调但已有核心用户在用 ②技术团队优先产品开发，marketing/网站建设滞后 ③可能是某个大公司内部工具意外泄露到公开平台 ④也可能是刷量或测试导致的虚假信号。Alpha机会：如果是①，这可能是发现超早期项目的机会；风险：②③④的概率更高，且信息不透明意味着尽调成本极高。建议：通过OpenRouter侧面了解该应用的实际使用模式，或等待更多信息披露后再评估。当前阶段不适合主动接触。",
+      "score_narrative_zh": "AI Native得12分：仅从名称和OpenRouter使用推测可能是AI编程工具，但无任何产品截图、功能描述或用户反馈证明其AI能力深度，给予最低可能分。Niche得8分：编程工具赛道拥挤，且无法确认其差异化定位，信息不足严重影响评分。商业模式得6分：完全未知的变现路径，仅因OpenRouter使用量暗示可能有付费用户而给予基础分。团队得0分：无任何创始人、公司背景信息，按规则给0分。加分+4：OpenRouter高增长是唯一正面信号，证明某种真实使用存在。减分-8：官网404 + 信息严重不足各-4分，这种透明度对早期项目是致命缺陷。总分42分反映了'有潜在信号但风险极高'的现状。",
+      "metrics_summary": "OpenRouter周token使用量: 1.06T | 周增长率: +591% | 官网状态: 404错误 | GitHub stars: 未知 | 用户数: 未知 | 融资情况: 未知 | 团队规模: 未知 | 其他所有关键指标: 暂无公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/url/https%3A%2F%2Fcommandcode.ai%2F"
+      ]
+    }
+  }
+]
