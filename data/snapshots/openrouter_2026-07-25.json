@@ -1,0 +1,79 @@
+[
+  {
+    "id": "0e20b36063a6bead",
+    "source": "openrouter",
+    "collected_at": "2026-07-25T11:04:56Z",
+    "title": "Command Code",
+    "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fcommandcode.ai%2F",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +189%.\n\nTitle: Not Found | OpenRouter\n\nURL Source: https://openrouter.ai/apps/url/https://commandcode.ai/\n\nPublished Time: Sat, 25 Jul 2026 06:34:54 GMT\n\nWarning: Target URL returned error 404: Not Found\nWarning: This page maybe not yet fully loaded, consider explicitly specify a timeout.\nWarning: This page contains shadow DOM that are currently hidden, consider enabling shadow DOM processing.\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/url/https://commandcode.ai/#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\n## 404: Not Found\n\n[Go Home](https://openrouter.ai/)[Browse Models](https://openrouter.ai/models)\n\n## Verify your email\n\nWe could not find a primary email address on your account. Please contact support.\n\nCancel\n\nClose",
+    "description_zh": "Command Code是一个在OpenRouter平台上快速增长的AI应用，上周token使用量达747B，环比增长189%。然而，产品官网返回404错误，无法获取任何产品描述、功能介绍或团队信息。从OpenRouter的分类来看，该产品可能是某种代码相关的AI工具（从命名推测），但具体是IDE插件、代码生成工具、还是开发者效率平台完全不明。唯一确定的是：它正在被大量使用，且增长迅猛，这表明产品可能处于早期快速迭代阶段，或者是某个内部工具/企业产品尚未公开发布。缺乏基本的产品信息使得全面评估几乎不可能。",
+    "keywords": [
+      "Command Code",
+      "代码工具",
+      "OpenRouter",
+      "高增长",
+      "信息缺失"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 189.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "747B",
+      "tokens_int": 747000000000,
+      "wow_pct": 189.0,
+      "section": "trending",
+      "categories": [],
+      "rank_global": null,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 12,
+      "niche": 8,
+      "business": 6,
+      "team": 0,
+      "bonus": 4,
+      "penalty": -8,
+      "total": 42,
+      "reason": "189%增长显示市场信号，但404页面和零信息导致无法验证真实性和质量，信息不足必须给低分，等待更多数据再评估",
+      "plus": [
+        "OpenRouter平台周增长189%，显示强劲的市场需求和用户采用速度",
+        "747B token使用量证明产品有实际使用场景，不是纸面项目",
+        "在OpenRouter trending榜单上，说明在开发者社区有一定认知度"
+      ],
+      "minus": [
+        "官网404错误，无法获取任何产品信息，严重信息不足(-3分)",
+        "零团队背景信息，无法评估执行能力和可信度",
+        "无产品截图、功能描述、技术文档，无法判断AI Native程度和技术壁垒",
+        "无商业模式、定价、目标用户等关键信息，商业可行性存疑",
+        "可能是内部工具、测试项目或数据异常，真实性存疑"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Command Code — OpenRouter平台上周增长189%的AI应用，具体产品形态未知，官网404无法访问，仅有API调用数据证明存在",
+      "overview_zh": "Command Code是一个在OpenRouter平台上快速增长的AI应用，上周token使用量达747B，环比增长189%。然而，产品官网返回404错误，无法获取任何产品描述、功能介绍或团队信息。从OpenRouter的分类来看，该产品可能是某种代码相关的AI工具（从命名推测），但具体是IDE插件、代码生成工具、还是开发者效率平台完全不明。唯一确定的是：它正在被大量使用，且增长迅猛，这表明产品可能处于早期快速迭代阶段，或者是某个内部工具/企业产品尚未公开发布。缺乏基本的产品信息使得全面评估几乎不可能。",
+      "biz_model_zh": "商业模式完全未知。从OpenRouter平台的特性推测，可能采用API调用付费模式（按token计费），但无法确认是否有直接的用户付费、订阅制度，还是免费使用阶段。747B token的使用量如果按市场价计算可能产生可观收入，但不清楚是少数大客户还是广泛的开发者使用。缺乏定价信息、目标客户画像、收费逻辑等关键商业要素，无法判断商业模式的可持续性和竞争力。",
+      "insight_zh": "Creekstone视角：这是一个极端的信息不对称案例。189%的周增长和747B token使用量显示强烈的市场需求信号，但404页面和零公开信息形成巨大反差。可能的解读：①产品处于隐秘开发阶段，有意限制曝光；②企业内部工具意外泄露到公开平台；③技术故障导致官网下线但API仍在运行；④刻意的饥饿营销策略。风险极高：无法验证团队背景、技术实力、产品真实性。如果是真实的高增长产品，可能是重大Alpha机会；如果是数据异常或虚假项目，则是陷阱。建议：通过OpenRouter官方渠道核实数据真实性，尝试联系开发者，但在获得实质信息前不应投入资源。",
+      "score_narrative_zh": "AI Native得12分：仅从'Command Code'命名和OpenRouter平台推测可能是AI代码工具，但无任何产品界面、功能描述或技术架构信息，无法判断是否真正AI-native，给予最低可能分数。Niche得8分：代码工具市场竞争激烈，无差异化信息，且连基本定位都不清楚。商业模式得6分：完全未知，仅因OpenRouter平台特性推测可能有API付费，但无确凿证据。团队得0分：零团队信息，无法评估。加分4分：OpenRouter平台189%增长和747B token使用量是强烈的市场验证信号(+4)。减分8分：官网404无法访问，信息严重不足(-3)，无任何产品实质内容(-5)。总分42分反映了数据增长的潜在价值与信息缺失的巨大风险之间的矛盾。",
+      "metrics_summary": "OpenRouter token使用量: 747B (本周) | WoW增长: +189% | 官网状态: 404错误 | GitHub stars: 未知 | 用户数: 未知 | ARR: 未知 | 团队规模: 未知 | 融资情况: 未知",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/url/https%3A%2F%2Fcommandcode.ai%2F"
+      ]
+    }
+  }
+]
