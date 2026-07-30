@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-07-30T11:48:17Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 9,473,051.",
+    "description_zh": "DeepSeek-R1是一个开源的推理增强型大语言模型，采用text-generation pipeline，在HuggingFace上已获得947万次下载和1.35万点赞。该模型专注于复杂推理任务，通过Chain-of-Thought机制增强逻辑推理能力。DeepSeek是中国头部AI公司，此前发布的DeepSeek-V3已证明其技术实力。R1版本采用MIT开源协议，允许商业使用，支持transformers框架和text-generation-inference部署。模型在conversational和eval-results标签下表现突出，表明其在对话和基准测试中有良好表现。作为开源替代方案，直接对标OpenAI的闭源o1模型。",
+    "keywords": [
+      "开源大模型",
+      "推理增强",
+      "DeepSeek",
+      "o1替代",
+      "基础设施"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 52.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 9473051,
+      "likes": 13521,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 13,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 52,
+      "reason": "这是优秀的开源基础模型，但不是VC投资标的。技术强但商业化路径不清晰，真正机会在基于它构建的应用层产品。",
+      "plus": [
+        "947万下载量证明真实技术需求和社区认可度极高",
+        "MIT开源协议降低商业使用门槛，利于生态构建",
+        "DeepSeek团队技术实力已通过V3系列证明，中国AI独角兽背景",
+        "推理增强方向是当前AI前沿，对标OpenAI o1但完全开放"
+      ],
+      "minus": [
+        "开源模型本身无直接商业变现路径，护城河极弱",
+        "缺少关键信息：创始人背景、公司估值、具体商业计划、roadmap",
+        "基础设施层项目，不是应用层，难以直接捕获用户价值",
+        "推理模型赛道拥挤，OpenAI/Anthropic/Google都在投入，差异化不足",
+        "无任何付费用户、ARR、企业客户等商业化证据"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源推理增强大语言模型，下载量947万次，MIT协议，DeepSeek团队（中国AI独角兽）出品，对标OpenAI o1但完全开源",
+      "overview_zh": "DeepSeek-R1是一个开源的推理增强型大语言模型，采用text-generation pipeline，在HuggingFace上已获得947万次下载和1.35万点赞。该模型专注于复杂推理任务，通过Chain-of-Thought机制增强逻辑推理能力。DeepSeek是中国头部AI公司，此前发布的DeepSeek-V3已证明其技术实力。R1版本采用MIT开源协议，允许商业使用，支持transformers框架和text-generation-inference部署。模型在conversational和eval-results标签下表现突出，表明其在对话和基准测试中有良好表现。作为开源替代方案，直接对标OpenAI的闭源o1模型。",
+      "biz_model_zh": "这是一个完全开源的基础模型项目，采用MIT协议意味着任何人可免费商业使用。DeepSeek的商业模式可能包括：①API服务收费（类似其V3模型）②企业私有化部署咨询服务③通过开源模型建立生态吸引开发者，为后续商业产品导流。但从当前信息看，R1本身不直接产生收入，更像是技术展示和生态建设工具。与闭源竞品（如OpenAI o1按token收费）相比，开源策略牺牲了直接变现能力，换取社区影响力和潜在的间接商业机会。",
+      "insight_zh": "Creekstone视角：这是基础设施层的开源项目，不是我们典型的投资标的。Alpha机会在于：①中国团队在推理模型上追平甚至超越美国头部公司，证明技术路径的非共识性②947万下载量显示真实需求，但开源模型本身难以捕获价值③真正的投资机会在基于R1构建的垂直应用层（如coding agent、数学辅导、法律推理等）。风险：开源意味着护城河极弱，任何人可fork并改进；DeepSeek作为公司的估值可能已经很高；推理模型的商业化路径尚不清晰。我们应关注的是：谁在用R1构建什么样的agent产品，而非R1本身。",
+      "score_narrative_zh": "AI Native得18分：这是纯AI模型，但仅是基础设施层，未形成应用层的数据飞轮，推理能力虽强但缺乏自进化闭环。Niche得12分：推理增强模型是明确方向，但OpenAI/Anthropic都在做，同质化竞争激烈，开源虽有差异但壁垒弱。商业模式得6分：完全开源无直接变现，可能有API服务但信息不足，主要靠生态而非产品收费。团队得13分：DeepSeek是中国顶级AI团队，技术实力已证明，但具体创始人信息缺失。加6分：947万下载+1.35万stars证明强社区认可(+4)，顶级开源生态(+2)。减3分：信息严重不足，无商业数据、团队细节、roadmap等关键信息(-3)。",
+      "metrics_summary": "HuggingFace下载量: 9,473,051次 | 点赞数: 13,521 | Pipeline类型: text-generation | 开源协议: MIT | 支持框架: transformers, safetensors, text-generation-inference | 论文: arxiv:2501.12948 | 标签包含: conversational, eval-results | 暂无GitHub stars、用户数、ARR、付费用户等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
