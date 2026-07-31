@@ -1,0 +1,83 @@
+[
+  {
+    "id": "4363d336a9dd4d4a",
+    "source": "openrouter",
+    "collected_at": "2026-07-31T11:54:24Z",
+    "title": "Hello Minds, powered by Ethoswarm",
+    "url": "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.hellominds.ai%2F",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +131%.\n\nTitle: Not Found | OpenRouter\n\nURL Source: https://openrouter.ai/apps/url/https://www.hellominds.ai/\n\nWarning: Target URL returned error 404: Not Found\n\nMarkdown Content:\nGPT 5.6 Terra and Luna 50% off for a limited time. See all discounted models [here(opens in new tab)](https://openrouter.ai/collections/discounted-models)\n\nDismiss\n\n[Skip to content](https://openrouter.ai/apps/url/https://www.hellominds.ai/#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n## 404: Not Found\n\n[Go Home](https://openrouter.ai/)[Browse Models](https://openrouter.ai/models)\n\n## Verify your email\n\nWe could not find a primary email address on your account. Please contact support.\n\nCancel\n\nClose",
+    "description_zh": "Hello Minds是一个在OpenRouter平台上快速增长的应用，被归类为Roleplay、Personal Agents和Creative三个类别，过去一周token使用量达58.2B，环比增长131%，全球排名第8。然而产品官网(hellominds.ai)返回404错误，无法获取产品详细信息。从分类推测可能是角色扮演型AI对话应用或个人AI助手，但具体功能机制、目标用户、技术实现均无法确认。Ethoswarm作为底层技术提供方的角色也不清晰。唯一确定的是该产品在OpenRouter生态内有真实用户使用且增长迅速，但这可能只是短期流量波动而非可持续增长。",
+    "keywords": [
+      "Roleplay",
+      "Personal Agents",
+      "OpenRouter生态",
+      "高增长",
+      "信息不足"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 131.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "58.2B",
+      "tokens_int": 58200000000,
+      "wow_pct": 131.0,
+      "section": "trending",
+      "categories": [
+        "Roleplay",
+        "Personal Agents",
+        "Creative"
+      ],
+      "rank_global": 8,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 12,
+      "niche": 8,
+      "business": 6,
+      "team": 0,
+      "bonus": 4,
+      "penalty": -8,
+      "total": 42,
+      "reason": "有增长信号(+131%)但基本面完全不明：官网404、团队未知、产品形态模糊、商业模式不清。信息不足时必须给低分，42分已是对增长数据的认可。",
+      "plus": [
+        "OpenRouter平台周增长+131%，证明有真实用户traction和快速增长动能",
+        "58.2B token周使用量显示有一定规模的用户基础",
+        "全球排名第8说明在OpenRouter生态内有竞争力"
+      ],
+      "minus": [
+        "官网404错误，严重影响产品可信度和成熟度评估(-5分)",
+        "无任何团队、创始人背景信息，无法判断执行能力",
+        "产品形态、技术架构、具体功能完全不明",
+        "Roleplay赛道同质化严重，无明确差异化信息",
+        "商业模式不透明，可能过度依赖OpenRouter生态"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Hello Minds (powered by Ethoswarm) — OpenRouter上Roleplay/Personal Agents类应用，周增长+131%但官网404，产品形态、团队、商",
+      "overview_zh": "Hello Minds是一个在OpenRouter平台上快速增长的应用，被归类为Roleplay、Personal Agents和Creative三个类别，过去一周token使用量达58.2B，环比增长131%，全球排名第8。然而产品官网(hellominds.ai)返回404错误，无法获取产品详细信息。从分类推测可能是角色扮演型AI对话应用或个人AI助手，但具体功能机制、目标用户、技术实现均无法确认。Ethoswarm作为底层技术提供方的角色也不清晰。唯一确定的是该产品在OpenRouter生态内有真实用户使用且增长迅速，但这可能只是短期流量波动而非可持续增长。",
+      "biz_model_zh": "商业模式完全不明。从OpenRouter平台特性推测，可能采用API调用付费模式(用户为token使用付费)，但无法确认是否有独立订阅、是否向终端用户收费、还是仅依赖OpenRouter生态的流量分成。Roleplay类应用通常面临变现困难(用户付费意愿低、竞争激烈)，Personal Agents类则可能有订阅潜力，但缺乏具体信息无法判断其定价策略和用户付费逻辑。官网不可访问严重影响商业化能力评估。",
+      "insight_zh": "Creekstone视角：这是一个典型的「信号强但信息弱」案例。+131%增长和58.2B token用量证明有真实用户traction，但404官网暴露严重的产品成熟度问题。Roleplay/Personal Agents赛道本身拥挤(Character.ai、Replika等)，除非有独特数据飞轮或niche场景，否则难有Alpha。Ethoswarm作为技术层的价值不明——如果只是套壳OpenRouter API则无壁垒，如果是多Agent协作框架则可能有技术深度。当前最大风险：①产品可能只是昙花一现的流量 ②团队执行力存疑(连官网都维护不好) ③商业模式不清晰。需要紧急获取：创始人背景",
+      "score_narrative_zh": "AI Native得12分：从Roleplay/Personal Agents分类推测有对话能力，但无法确认是否有记忆、工具调用、主动规划等agent特性，保守给低分。Niche得8分：Roleplay赛道同质化严重，Personal Agents稍好但仍竞争激烈，无明确差异化信息。商业模式得6分：完全不透明，可能依赖OpenRouter生态但独立变现能力存疑。团队得0分：无任何创始人或团队信息。加4分：OpenRouter真实用户使用+高增长证明有traction。减8分：官网404严重减分(-5)，信息严重不足(-3)。总分42分反映了「有增长信号但基本面不明」的现状。",
+      "metrics_summary": "OpenRouter周token使用量: 58.2B | 环比增长: +131% | 全球排名: 第8位 | 分类: Roleplay, Personal Agents, Creative | 官网状态: 404错误 | 其他数据(GitHub stars/PH票数/用户数/ARR): 暂无公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/url/https%3A%2F%2Fwww.hellominds.ai%2F"
+      ]
+    }
+  }
+]
