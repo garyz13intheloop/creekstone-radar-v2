@@ -1,0 +1,82 @@
+[
+  {
+    "id": "c12f119b3e572cd0",
+    "source": "openrouter",
+    "collected_at": "2026-08-02T11:13:18Z",
+    "title": "pi",
+    "url": "https://openrouter.ai/apps/pi",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +41%.\n\nTitle: pi | OpenRouter\n\nURL Source: https://openrouter.ai/apps/pi\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/pi#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-light.png)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-dark.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Home](https://openrouter.ai/workspaces)[Models](https://openrouter.ai/models)[Fusion](https://openrouter.ai/fusion)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Docs](https://openrouter.ai/docs/quickstart)\n\n![Image 3: Favicon for https://pi.dev/](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pi.dev/&size=256)\n\n# pi\n\nSpawn Visit\n\nThere are many coding agents, but this one is yours.\n\nTotal tokens\n\n2.34T\n\nDaily global rank\n\n#6\n\nActive since\n\nFeb 2026\n\nModels used\n\n327\n\n[#6 in Coding Agents](https://openrouter.ai/apps/category/coding)[#6 in CLI Agents](https://openrouter.ai/apps/category/coding/cli-agent)\n\n### pi OpenRouter Usage\n\nLast 30 days\n\n### Top models used by pi this month\n\nShow more\n\n[![Image 4: OpenRouter](https://openrouter.ai/brand/v2/",
+    "description_zh": "pi是一个coding agent产品，主要通过CLI（命令行界面）提供服务。从OpenRouter平台数据看，该产品在2025年2月上线，目前全球排名第6，过去一周token使用量增长41%，累计使用2.34T tokens，调用了327个不同模型。产品slogan是'There are many coding agents, but this one is yours'，暗示个性化或定制化方向。但除了使用数据外，缺乏产品机制、技术实现、目标用户、商业模式等关键信息。无法确认是否有独特的agent架构、工具调用能力或数据飞轮。",
+    "keywords": [
+      "coding agent",
+      "CLI工具",
+      "OpenRouter生态",
+      "多模型调用",
+      "信息不足"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 41.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "97B",
+      "tokens_int": 97000000000,
+      "wow_pct": 41.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "CLI Agents"
+      ],
+      "rank_global": 6,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 12,
+      "niche": 8,
+      "business": 6,
+      "team": 0,
+      "bonus": 0,
+      "penalty": -16,
+      "total": 42,
+      "reason": "信息严重不足导致低分。虽有使用量数据，但缺失团队、产品机制、商业模式等核心要素，无法判断是否有真实Alpha。Coding agent赛道拥挤，需要更多证据支持投资价值。",
+      "plus": [
+        "OpenRouter平台周增长41%显示有用户需求",
+        "2.34T tokens使用量证明有一定用户基数",
+        "调用327个模型显示技术栈灵活性"
+      ],
+      "minus": [
+        "无任何团队信息，创始人背景完全未知（-5分）",
+        "产品机制、技术架构、差异化完全不明（-3分信息不足）",
+        "coding agent红海赛道，无明显壁垒证据（-8分同质化）",
+        "商业模式不透明，无付费数据验证",
+        "可能只是OpenRouter平台流量受益者，非独立产品价值"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "pi — CLI coding agent工具，OpenRouter平台上周增长41%，2.34T tokens使用量，但信息严重不足无法判断核心差异化",
+      "overview_zh": "pi是一个coding agent产品，主要通过CLI（命令行界面）提供服务。从OpenRouter平台数据看，该产品在2025年2月上线，目前全球排名第6，过去一周token使用量增长41%，累计使用2.34T tokens，调用了327个不同模型。产品slogan是'There are many coding agents, but this one is yours'，暗示个性化或定制化方向。但除了使用数据外，缺乏产品机制、技术实现、目标用户、商业模式等关键信息。无法确认是否有独特的agent架构、工具调用能力或数据飞轮。",
+      "biz_model_zh": "商业模式完全不明。从OpenRouter平台特性推测，可能采用API调用付费模式（用户为token使用付费），但无法确认是否有订阅制、企业版或其他变现方式。不清楚定价策略、目标客户付费意愿、与Cursor/GitHub Copilot等成熟产品的差异化竞争策略。2.34T的token使用量显示有一定用户基础，但无法判断是免费用户还是付费转化，也不知道单位经济模型是否健康。",
+      "insight_zh": "Creekstone视角：这是一个典型的信息不足案例，无法做出有效投资判断。虽然OpenRouter数据显示使用量增长快（41% WoW），但这可能只是平台流量红利而非产品本身的护城河。Coding agent赛道已极度拥挤（Cursor、GitHub Copilot、Cody等），除非有明确的技术突破或场景切入点，否则很难建立壁垒。CLI agent定位可能针对开发者深度工作流，但Cursor SDK已占据这个位置。最大风险是：①无团队信息无法判断执行力 ②无产品细节无法评估技术深度 ③商业模式不清晰 ④可能只是OpenRouter生态的流量受益者而非真正有Alpha的标的。需要补充：创始团",
+      "score_narrative_zh": "AI Native得12分：仅从'coding agent'定位和多模型调用（327个模型）推测有基本agent能力，但无证据显示有工具调用、记忆系统或自进化机制，可能只是prompt wrapper。Niche得8分：CLI coding agent方向已被Cursor/Cody占据，无明显差异化信息，'this one is yours'的个性化承诺缺乏实质支撑。商业模式得6分：完全不透明，只能推测基于API付费，无订阅或企业版证据。团队得0分：无任何创始人或团队信息，这是重大减分项。减分-16：信息严重不足-3分，无团队背景-5分，coding agent红海赛道同质化风险-8分。无加分项：虽有OpenRouter使用数据，但不足以证明产品质量或社区认可（无GitHub stars/PH数据）。",
+      "metrics_summary": "OpenRouter平台数据：全球排名#6，周增长+41%，累计tokens 2.34T，调用模型数327个，上线时间2025年2月，分类为Coding Agents和CLI Agents。无GitHub stars、Product Hunt投票、用户数、ARR、付费转化率等其他关键指标。",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/pi"
+      ]
+    }
+  }
+]
