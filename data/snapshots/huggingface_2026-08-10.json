@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-08-10T11:03:03Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 8,690,797.",
+    "description_zh": "DeepSeek-R1是DeepSeek团队发布的开源推理增强大模型，采用类似OpenAI o1的思维链推理架构。模型在HuggingFace上已获得870万次下载和1.3万点赞，采用MIT开源协议。产品定位为可本地部署的推理模型，支持复杂逻辑推理、数学问题求解等场景。DeepSeek团队背靠幻方量化，此前已发布DeepSeek-V3等模型。该模型通过transformers框架集成，支持文本生成和对话任务，提供safetensors格式权重文件，开发者可直接调用API或本地部署。目标用户包括需要强推理能力的开发者、研究机构和企业AI应用场景。",
+    "keywords": [
+      "开源大模型",
+      "推理增强",
+      "DeepSeek",
+      "o1替代",
+      "本地部署"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 52.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 8690797,
+      "likes": 13558,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 13,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 52,
+      "reason": "开源推理模型有技术亮点和社区认可，但商业模式不清晰、信息不足、缺乏付费验证，作为基础设施层项目投资价值有限，52分反映其技术影响力但商业化存疑的现状",
+      "plus": [
+        "870万下载+1.3万点赞证明强社区认可，开源生态影响力显著",
+        "MIT协议允许商业使用，降低企业采用门槛",
+        "幻方量化背景可能带来金融科技场景的独特验证",
+        "填补开源推理增强模型空白，对标OpenAI o1"
+      ],
+      "minus": [
+        "信息严重不足：无付费用户、ARR、具体应用案例等关键商业数据(-3分)",
+        "开源模型商业化路径不清晰，难以建立护城河",
+        "推理增强模型实际应用场景仍在探索，市场需求未充分验证",
+        "作为基础模型层项目，直接投资价值有限，更适合关注上层应用",
+        "与OpenAI、Anthropic等闭源模型相比，长期竞争力存疑"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 中国团队开源推理增强大模型，870万下载+1.3万点赞，MIT协议，DeepSeek团队（幻方量化背景）出品，对标OpenAI o1但完全开源",
+      "overview_zh": "DeepSeek-R1是DeepSeek团队发布的开源推理增强大模型，采用类似OpenAI o1的思维链推理架构。模型在HuggingFace上已获得870万次下载和1.3万点赞，采用MIT开源协议。产品定位为可本地部署的推理模型，支持复杂逻辑推理、数学问题求解等场景。DeepSeek团队背靠幻方量化，此前已发布DeepSeek-V3等模型。该模型通过transformers框架集成，支持文本生成和对话任务，提供safetensors格式权重文件，开发者可直接调用API或本地部署。目标用户包括需要强推理能力的开发者、研究机构和企业AI应用场景。",
+      "biz_model_zh": "作为开源模型，DeepSeek-R1本身不直接收费，采用MIT协议允许商业使用。商业模式推测：①DeepSeek可能通过API服务收费（类似其他模型提供商）②企业级部署支持和定制化服务 ③为母公司幻方量化的量化交易业务提供AI能力支撑。开源策略旨在建立生态影响力，吸引开发者使用后转化为付费API用户或企业客户。与OpenAI闭源o1形成差异化竞争，通过开源获取社区反馈快速迭代。但当前信息未显示明确的变现路径或付费用户数据，商业模式清晰度较低。",
+      "insight_zh": "Creekstone视角：DeepSeek-R1代表中国AI基础设施层的突破尝试，在推理增强模型赛道对标OpenAI o1。Alpha点在于：①完全开源的o1级推理能力填补市场空白，可能成为企业私有化部署首选 ②幻方量化的金融科技背景可能带来独特应用场景验证。风险：①开源模型难以建立商业护城河，容易被fork和改进 ②推理增强模型的实际应用场景仍在探索，市场需求未被充分验证 ③与Anthropic、OpenAI等闭源模型相比，开源路径的长期竞争力存疑。投资论文适配度：作为基础设施层项目，更适合关注其上层应用生态，而非模型本身的直接投资价值。",
+      "score_narrative_zh": "AI Native得18分：作为推理增强模型具备明显AI-native特征，采用思维链架构，但作为开源模型缺乏数据飞轮和用户行为反馈闭环，未达到自进化水平。Niche得12分：推理增强模型是相对新兴方向，但OpenAI o1已占领认知高地，DeepSeek作为开源替代品场景护城河较弱，技术路径非共识性不足。商业模式得6分：开源协议下变现路径不明确，无明确订阅或API付费数据，可能依赖生态补贴或母公司支持。团队得13分：DeepSeek背靠幻方量化，具备AI+金融双栈能力，但信息有限无法确认核心团队背景和年龄结构。加6分：870万下载+1.3万点赞证明强社区认可度(+4)，开源生态影响力(+2)。减3分：信息严重不足，无付费用户、ARR、具体应用案例等关键商业数据。",
+      "metrics_summary": "HuggingFace下载量: 8,690,797次 | 点赞数: 13,558 | 开源协议: MIT | Pipeline标签: text-generation, conversational | 支持框架: transformers, text-generation-inference | 论文: arxiv:2501.12948 | 暂无ARR、付费用户数、API调用量、企业客户数等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
