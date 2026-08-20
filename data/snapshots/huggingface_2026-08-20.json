@@ -1,0 +1,92 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-08-20T10:23:18Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 6,388,560.",
+    "description_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。模型在HuggingFace上已获得638万次下载和1.3万点赞，显示出较高的社区关注度。从pipeline_tag和tags来看，这是一个支持conversational对话、具备推理能力的生成模型，使用了DeepSeek V3架构。模型支持transformers框架和safetensors格式，有custom_code实现，并有对应的学术论文(arxiv:2501.12948)支撑。DeepSeek团队背靠幻方量化，在中国AI开源社区有一定影响力，但从提供的信息看，缺乏明确的商业化路径和产品化应用场景的具体描述。",
+    "keywords": [
+      "开源大模型",
+      "DeepSeek",
+      "推理模型",
+      "中国AI",
+      "幻方量化"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 6388560,
+      "likes": 13581,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 9,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 48,
+      "reason": "这是开源模型而非商业产品,虽有技术实力和社区关注,但缺乏商业化路径、团队信息和明确的投资价值主张,更适合技术跟踪而非投资标的",
+      "plus": [
+        "HuggingFace上638万下载量显示较高采用度",
+        "1.3万点赞反映社区认可",
+        "MIT开源协议利于生态传播",
+        "有学术论文支撑技术路线",
+        "幻方量化背景提供资金支持"
+      ],
+      "minus": [
+        "通用大模型赛道高度拥挤,与Llama/Mistral等同质化严重",
+        "无明确商业模式和变现路径",
+        "仅是模型而非完整产品或应用",
+        "团队信息严重不足,无法判断创始人背景",
+        "缺乏付费用户、ARR等商业数据"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 中国团队开源大语言模型，638万下载量+1.3万点赞，MIT协议，DeepSeek团队（幻方量化背景）推出的推理增强模型",
+      "overview_zh": "DeepSeek-R1是DeepSeek团队发布的开源大语言模型，专注于text-generation任务，采用MIT开源协议。模型在HuggingFace上已获得638万次下载和1.3万点赞，显示出较高的社区关注度。从pipeline_tag和tags来看，这是一个支持conversational对话、具备推理能力的生成模型，使用了DeepSeek V3架构。模型支持transformers框架和safetensors格式，有custom_code实现，并有对应的学术论文(arxiv:2501.12948)支撑。DeepSeek团队背靠幻方量化，在中国AI开源社区有一定影响力，但从提供的信息看，缺乏明确的商业化路径和产品化应用场景的具体描述。",
+      "biz_model_zh": "作为开源模型项目，DeepSeek-R1采用MIT协议完全开源，当前阶段没有明确的直接变现模式。可能的商业路径包括：①为企业提供私有化部署和定制化服务收费 ②通过API调用服务收取费用（类似OpenAI模式）③依托母公司幻方量化的资金支持，作为技术品牌建设和人才吸引的战略投入。但从现有信息看，缺乏清晰的付费产品形态、定价策略和目标客户群体的描述。开源模型的商业化通常面临与闭源商业模型的竞争压力，需要在服务、生态或特定场景上建立差异化优势。",
+      "insight_zh": "Creekstone视角分析：①开源大模型赛道已高度拥挤，Meta的Llama、Mistral等已占据生态位，DeepSeek需要在特定能力(如推理)上建立明显优势才有Alpha ②中国团队在开源AI领域的全球影响力仍在建设中，638万下载量显示有一定采用度，但与头部开源模型(Llama系列数亿下载)仍有差距 ③幻方量化背景意味着有资金支持长期投入，但量化交易公司做开源AI的战略意图不明确，可能是内部工具外溢而非独立商业实体 ④风险在于：缺乏清晰的商业模式、与闭源商业模型(GPT-4/Claude)和其他开源模型的差异化不明显、团队的AI产品化和商业化能力未知。这更像是技术展示项目而非投资标的",
+      "score_narrative_zh": "AI Native得18分：作为大语言模型本身是AI-native产品,支持对话和推理能力,但仅是模型而非完整的agent系统或应用产品,缺乏数据飞轮和自进化机制的证据,因此给予中等偏下分数。Niche得12分：通用大语言模型赛道竞争极其激烈,DeepSeek-R1未展现出明确的技术护城河或独特场景定位,与Llama、Mistral等开源模型高度同质化,壁垒较弱。商业模式得6分：完全开源且无明确变现路径,仅依靠下载量和社区关注度,商业逻辑不清晰。团队得9分：DeepSeek背靠幻方量化有资金实力,但缺乏团队具体信息,无法判断是否符合1990后、AI+domain双栈等标准。加分6分：638万下载+1.3万点赞显示社区认可度(+2),有学术论文支撑(+2),开源生态有一定影响力(+2)。减分-3分：信息严重不足,无法判断创始团队背景、具体产品应用、付费用户等关键信息。",
+      "metrics_summary": "HuggingFace下载量: 6,388,560次 | 点赞数: 13,581 | GitHub stars: 未提供 | 付费用户: 未提供 | ARR: 未提供 | 学术论文: arxiv:2501.12948 | 开源协议: MIT | 其他平台数据: 暂无",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
