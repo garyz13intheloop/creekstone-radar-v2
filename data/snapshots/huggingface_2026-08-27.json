@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-08-27T20:07:03Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 3,892,061.\n\nTitle: deepseek-ai/DeepSeek-R1 · Hugging Face\n\nURL Source: https://huggingface.co/deepseek-ai/DeepSeek-R1\n\nMarkdown Content:\n[![Image 1: Hugging Face's logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n        *   [Hardware](https://huggingface.co/hardware)\n        *   [Learn](https://huggingface.co/learn)\n        *   [Disc",
+    "description_zh": "DeepSeek-R1是一个开源的大语言模型，专注于推理能力增强(Reasoning)，采用text-generation pipeline。模型在HuggingFace上已获得390万次下载和1.36万个点赞，使用MIT开源协议。从技术标签看，基于deepseek_v3架构，支持transformers框架和safetensors格式，具备conversational对话能力和custom_code自定义代码功能。该模型有对应的学术论文(arxiv:2501.12948)支撑，并通过了eval-results评测，支持text-generation-inference推理加速。作为开源模型发布在HuggingFace平台，面向开发者和研究者提供基础推理能力。",
+    "keywords": [
+      "开源大模型",
+      "推理增强",
+      "DeepSeek",
+      "基础设施",
+      "中国AI"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 3892061,
+      "likes": 13589,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 9,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 48,
+      "reason": "开源基础模型，技术认可度高但商业模式缺失，赛道拥挤且信息不足，不符合应用层Alpha投资逻辑，48分反映其作为开源项目的影响力但非VC投资标的",
+      "plus": [
+        "HuggingFace平台390万下载量和1.36万点赞，证明技术社区认可度高",
+        "MIT开源协议降低使用门槛，有利于生态扩散",
+        "有对应学术论文(arxiv)支撑，技术路径有理论基础",
+        "支持主流框架(transformers)和推理加速(text-generation-inference)，工程化成熟"
+      ],
+      "minus": [
+        "纯开源模型无直接变现路径，商业模式缺失",
+        "开源大模型赛道极度拥挤，中美竞争激烈，差异化不足",
+        "信息严重不足：无创始人背景、融资情况、团队规模等关键信息(-3分)",
+        "基础设施层产品，非应用层agent，不符合Creekstone投资方向",
+        "下载量无法转化为付费用户，影响力≠商业价值"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 开源推理增强大模型，390万下载量，1.36万点赞，MIT协议，中国团队DeepSeek开发的text-generation模型",
+      "overview_zh": "DeepSeek-R1是一个开源的大语言模型，专注于推理能力增强(Reasoning)，采用text-generation pipeline。模型在HuggingFace上已获得390万次下载和1.36万个点赞，使用MIT开源协议。从技术标签看，基于deepseek_v3架构，支持transformers框架和safetensors格式，具备conversational对话能力和custom_code自定义代码功能。该模型有对应的学术论文(arxiv:2501.12948)支撑，并通过了eval-results评测，支持text-generation-inference推理加速。作为开源模型发布在HuggingFace平台，面向开发者和研究者提供基础推理能力。",
+      "biz_model_zh": "作为完全开源的MIT协议模型，DeepSeek-R1本身不直接收费，主要通过开源生态获取影响力。可能的商业路径包括：①企业级API服务收费(如DeepSeek官方API) ②私有化部署咨询服务 ③基于模型的SaaS产品订阅。但从当前信息看，这是纯开源模型发布，无明确变现计划。与OpenAI/Anthropic的闭源付费模式完全不同，更类似Meta的Llama策略——通过开源建立生态影响力，但缺乏直接商业闭环。下载量虽高但无法直接转化为收入。",
+      "insight_zh": "Creekstone视角：这是典型的开源基础模型，不是我们寻找的应用层Alpha机会。①方向无Alpha：开源大模型已是红海，中国有智谱、百川、MiniMax等多家竞争，国际有Meta Llama、Mistral等强敌。②市场被高估：开源模型下载量不等于商业价值，390万下载可能大部分是研究用途。③核心风险：无清晰变现路径，纯靠开源影响力难以支撑VC回报预期；中国AI基础模型赛道已过度拥挤，差异化不足。④投资论文不适配：我们关注应用层agent和垂直场景，而非基础设施层的模型开发，这类项目更适合战略投资者而非早期VC。",
+      "score_narrative_zh": "AI Native得18分：虽然是推理增强模型，但作为基础设施层产品，无用户行为数据闭环，无agent工作流，仅是模型能力本身，未达到应用层AI-native标准。Niche得12分：开源大模型赛道极度拥挤，中美都有大量玩家，技术路径(Reasoning增强)也非独特方向，壁垒主要靠算力投入而非场景护城河。商业模式得6分：MIT开源协议意味着无直接付费，缺乏清晰变现路径，仅靠生态影响力难以产生VC级回报。团队得9分：DeepSeek是中国AI团队，有技术实力(能发arxiv论文)，但信息严重不足，无创始人背景、融资情况等关键信息。加6分：HuggingFace高下载量(390万)和点赞(1.36万)证明技术认可度+2，开源>2k stars(实际1.36万likes)+2，有学术论文支撑+2。减3分：信息严重不足，无商业模式、团队背景、融资等核心信息。",
+      "metrics_summary": "HuggingFace下载量: 3,892,061次 | 点赞数: 13,589 | Pipeline类型: text-generation | 开源协议: MIT | 学术论文: arxiv:2501.12948 | 支持框架: transformers, safetensors | 暂无GitHub stars、用户数、ARR、融资额等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
