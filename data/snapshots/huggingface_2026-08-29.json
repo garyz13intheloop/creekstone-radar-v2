@@ -1,0 +1,91 @@
+[
+  {
+    "id": "9bd99ec699660e5a",
+    "source": "huggingface",
+    "collected_at": "2026-08-29T14:53:31Z",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "description_en": "HuggingFace model: deepseek-ai/DeepSeek-R1. Pipeline: text-generation. Downloads: 2,722,280.",
+    "description_zh": "DeepSeek-R1是DeepSeek-AI团队发布的开源大语言模型，专注于文本生成任务。该模型在HuggingFace平台已获得272万次下载和1.36万点赞，采用MIT开源许可证。模型基于DeepSeek V3架构，支持对话场景和自定义代码生成。从技术标签看，模型支持transformers框架、safetensors格式，并有相关学术论文支持(arxiv:2501.12948)。目标用户为开发者和研究者，用于构建AI应用的底层能力。但产品描述极度简略,缺乏关键的技术细节、训练数据规模、性能benchmark、实际应用案例等核心信息，无法判断其与GPT-4/Claude等模型的差异化竞争力。",
+    "keywords": [
+      "开源大模型",
+      "DeepSeek",
+      "中国AI",
+      "文本生成",
+      "MIT许可证"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 48.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 2722280,
+      "likes": 13594,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference"
+      ],
+      "type": "model",
+      "author": "deepseek-ai",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 6,
+      "team": 9,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 48,
+      "reason": "开源LLM基础能力层,信息严重不足无法判断商业价值,通用赛道无明显差异化,变现路径不清晰,不符合Creekstone寻找Alpha的投资逻辑",
+      "plus": [
+        "HuggingFace平台272万下载量证明一定市场接受度",
+        "MIT开源许可降低使用门槛,利于生态扩散",
+        "有学术论文支持(arxiv:2501.12948)显示技术严肃性",
+        "1.36万点赞数在HuggingFace属于中上水平"
+      ],
+      "minus": [
+        "信息严重不足:无性能benchmark、无应用案例、无团队背景(-3分惩罚)",
+        "商业模式完全不清晰,开源但无变现路径",
+        "通用LLM赛道极度拥挤,差异化定位不明",
+        "无任何付费用户或收入数据,无法证明商业价值",
+        "创始人和团队信息缺失,无法评估执行能力"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "DeepSeek-R1 — 中国团队开源大语言模型，270万+下载量，MIT许可证，DeepSeek-AI出品的text-generation模型，创始人信息未公开",
+      "overview_zh": "DeepSeek-R1是DeepSeek-AI团队发布的开源大语言模型，专注于文本生成任务。该模型在HuggingFace平台已获得272万次下载和1.36万点赞，采用MIT开源许可证。模型基于DeepSeek V3架构，支持对话场景和自定义代码生成。从技术标签看，模型支持transformers框架、safetensors格式，并有相关学术论文支持(arxiv:2501.12948)。目标用户为开发者和研究者，用于构建AI应用的底层能力。但产品描述极度简略,缺乏关键的技术细节、训练数据规模、性能benchmark、实际应用案例等核心信息，无法判断其与GPT-4/Claude等模型的差异化竞争力。",
+      "biz_model_zh": "采用完全开源策略,MIT许可证允许商业使用。当前阶段无明确直接变现模式,推测可能通过以下方式间接获益:①为DeepSeek公司其他商业产品(如API服务)导流 ②建立开发者生态获取企业级定制服务收入 ③通过开源影响力吸引投资。这种模式的问题在于:开源模型本身不产生收入,需要依赖生态或服务变现,但信息中未见任何付费API、企业版或增值服务的证据。与OpenAI的闭源付费、Anthropic的API订阅模式形成鲜明对比,商业化路径不清晰。",
+      "insight_zh": "Creekstone视角分析:①中国AI基础模型赛道已高度内卷,DeepSeek作为后来者面临字节、阿里、百度等巨头竞争,开源策略可能是突围手段但难以构成护城河 ②270万下载量显示一定社区接受度,但缺乏付费转化数据,无法证明商业价值 ③MIT开源虽利于传播,但也意味着任何人可免费商用,DeepSeek自身难以捕获价值 ④最大风险:信息严重不足,无法判断模型性能是否真正达到商业化水平,可能只是众多开源模型中的普通一员 ⑤Alpha机会微弱:除非DeepSeek有未公开的杀手级应用场景或独特数据飞轮,否则这是一个执行层面的开源项目,不是投资级Alpha机会。中国大模型创业窗口期已过,2024年后",
+      "score_narrative_zh": "AI Native得18分:作为大语言模型本身是AI-native产品,但仅是基础能力层,未见agent能力、工具调用、记忆系统等高阶特性,更像是传统LLM而非新一代reasoning模型。Niche得12分:通用文本生成赛道极度拥挤,OpenAI/Anthropic/Google占据高端,Meta Llama占据开源主流,DeepSeek的差异化定位不明确,中国市场虽有本地化需求但壁垒不高。商业模式得6分:完全开源无直接收入,变现路径模糊,可能依赖生态但未见证据。团队得9分:DeepSeek-AI是中国团队,但创始人背景、团队规模、融资情况完全未知,无法判断执行力。加6分:下载量272万显示一定采用度(+2),有学术论文支持(+2),开源社区1.36万stars证明认可度(+2)。减3分:关键信息严重不足导致评估困难(-3)。",
+      "metrics_summary": "HuggingFace下载量:2,722,280次 | 点赞数:13,594 | GitHub stars:未提供 | 付费用户:无数据 | ARR:无数据 | 融资信息:无数据 | 团队规模:无数据 | 模型参数量:未明确 | benchmark性能:无数据 | API调用量:无数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      ]
+    }
+  }
+]
