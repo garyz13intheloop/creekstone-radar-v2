@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ab0fb37bb83310fb",
+    "source": "openrouter",
+    "collected_at": "2026-09-17T14:35:29Z",
+    "title": "Kilo Code",
+    "url": "https://openrouter.ai/apps/kilo-code",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +17%.\n\nTitle: Kilo Code - Top Models & Usage Stats | OpenRouter\n\nURL Source: https://openrouter.ai/apps/kilo-code\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/kilo-code#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-sprite.png)](https://openrouter.ai/)[](https://openrouter.ai/workspaces)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Ori](https://openrouter.ai/ori)[Enterprise](https://openrouter.ai/enterprise)[Docs](https://openrouter.ai/docs/quickstart)\n\n*   [Models](https://openrouter.ai/models)\n*   [Rankings](https://openrouter.ai/rankings)\n*   [Ori](https://openrouter.ai/ori)\n\n[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Enterprise](https://openrouter.ai/enterprise)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\n![Image 2: Favicon for https://kilocode.ai/](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://kilocode.ai/&size=256)\n\n# Kilo Code\n\n[Spawn](https://openrouter.ai/spawn/",
+    "description_zh": "Kilo Code是一个面向开发者的AI编码工具，通过CLI命令行和IDE扩展形式提供代码生成、补全和重构能力。产品在OpenRouter平台上排名全球第3，周token使用量达508B且保持17%的周增长，显示出强劲的用户采用趋势。从分类标签看，产品定位在coding、CLI Agents和IDE Extensions三个方向，说明其试图覆盖开发者的多个工作场景。但目前公开信息极度有限，无法获知具体的技术实现方式、是否有独特的agent架构、数据飞轮机制，也不清楚与Cursor、GitHub Copilot等成熟产品的差异化在哪里。唯一确定的是产品已经获得了相当规模的真实使用，这在早期项目中是积极信号。",
+    "keywords": [
+      "coding agent",
+      "CLI工具",
+      "IDE扩展",
+      "OpenRouter生态",
+      "开发者工具"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 52.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 17.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "508B",
+      "tokens_int": 508000000000,
+      "wow_pct": 17.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "CLI Agents",
+        "IDE Extensions"
+      ],
+      "rank_global": 3,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 9,
+      "team": 10,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 52,
+      "reason": "有真实用户牵引(508B tokens)但信息严重不足，无法验证技术壁垒和团队能力，按'普通工具+用户验证'给52分而非更低的45分，也不敢给60+因为缺乏Alpha证据",
+      "plus": [
+        "OpenRouter平台排名第3，证明产品有真实用户采用和使用粘性",
+        "508B周token量显示出相当规模的使用深度，不是demo级产品",
+        "17%周增长率说明产品处于快速扩张期，有增长动能",
+        "同时覆盖CLI和IDE两个开发者高频场景，触达面广"
+      ],
+      "minus": [
+        "信息严重不足：无创始人背景、无技术细节、无商业模式说明，减3分",
+        "coding agent赛道极度拥挤，Cursor/Copilot/Cline等强敌环伺，差异化不明",
+        "依赖OpenRouter可能意味着缺乏模型层壁垒，容易被替代",
+        "无GitHub开源数据、无社区讨论、无媒体报道，品牌建设缺失",
+        "CLI+IDE双线作战可能导致产品定位模糊和资源分散"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Kilo Code — CLI/IDE级代码助手，OpenRouter排名第3周增17%，508B tokens使用量，创始人信息未知但产品已有真实用户牵引",
+      "overview_zh": "Kilo Code是一个面向开发者的AI编码工具，通过CLI命令行和IDE扩展形式提供代码生成、补全和重构能力。产品在OpenRouter平台上排名全球第3，周token使用量达508B且保持17%的周增长，显示出强劲的用户采用趋势。从分类标签看，产品定位在coding、CLI Agents和IDE Extensions三个方向，说明其试图覆盖开发者的多个工作场景。但目前公开信息极度有限，无法获知具体的技术实现方式、是否有独特的agent架构、数据飞轮机制，也不清楚与Cursor、GitHub Copilot等成熟产品的差异化在哪里。唯一确定的是产品已经获得了相当规模的真实使用，这在早期项目中是积极信号。",
+      "biz_model_zh": "商业模式信息严重缺失。从OpenRouter使用数据推测，产品可能采用API调用付费或订阅制，用户通过消耗tokens来使用AI编码能力。508B的周token量如果按市场价计算，潜在月收入可能在数万至数十万美元区间，但这只是推测。不清楚是否有企业版、团队协作功能或其他增值服务。与竞品相比，如果仅是通过OpenRouter转发模型调用，则缺乏定价权和用户粘性；如果有自己的模型微调或专有数据层，则有机会建立差异化的商业壁垒。当前信息不足以判断其长期变现能力和用户付费意愿的可持续性。",
+      "insight_zh": "Creekstone视角：这是一个典型的'数据先行、信息滞后'案例。OpenRouter排名第3和17%周增长证明产品找到了某种PMF，但我们无法判断这是否是可持续的Alpha还是短期流量红利。coding agent赛道已经极度拥挤，Cursor占据高端、Copilot占据规模、Cline等开源工具占据性价比，Kilo Code的生存空间取决于其未公开的差异化能力。风险在于：①信息不透明可能意味着团队不重视品牌建设或融资准备不足；②CLI/IDE双线作战可能导致资源分散；③依赖OpenRouter可能意味着缺乏模型层壁垒。如果团队是90后华人+有独特的agent架构或垂直场景切入，这个分数可",
+      "score_narrative_zh": "AI Native得18分：有CLI Agent和IDE扩展能力，说明不是简单的prompt wrapper，但无法确认是否有真正的agent规划、工具调用、内存机制或数据飞轮，按中等偏下给分。Niche得12分：coding agent是红海赛道，未见明显差异化，但508B token量说明找到了某个使用场景，给予基础认可分。商业模式得9分：推测是API/订阅付费，有真实使用但变现逻辑不明确，按模糊但可行给分。团队得10分：完全无信息，按默认中位数给分。加分+6：真实用户牵引+4分（508B tokens证明），OpenRouter排名第3+2分（平台认可）。减分-3：信息严重不足，无法验证核心能力和团队背景。总分52分反映了'有潜力但信息不足'的现状，需要更多尽调才能判断是否值得深入。",
+      "metrics_summary": "OpenRouter周token使用量: 508B | 周增长率: +17% | 全球排名: 第3位 | 分类标签: coding, CLI Agents, IDE Extensions | 其他数据: 暂无GitHub stars、融资信息、用户数、ARR等公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/kilo-code"
+      ]
+    }
+  }
+]
