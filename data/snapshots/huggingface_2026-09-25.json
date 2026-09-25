@@ -1,0 +1,91 @@
+[
+  {
+    "id": "f963e0b730662b65",
+    "source": "huggingface",
+    "collected_at": "2026-09-25T14:55:29Z",
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "description_en": "HuggingFace model: Qwen/Qwen3.8-27B. Pipeline: image-text-to-text. Downloads: 6,579,319.\n\nTitle: Qwen/Qwen3.8-27B · Hugging Face\n\nURL Source: https://huggingface.co/Qwen/Qwen3.8-27B\n\nPublished Time: Wed, 10 Sep 2025 21:05:01 GMT\n\nMarkdown Content:\n[![Image 1: Hugging Face's logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)Hugging Face](https://huggingface.co/)\n\n*   [Models](https://huggingface.co/models)\n*   [Datasets](https://huggingface.co/datasets)\n*   [Spaces](https://huggingface.co/spaces)\n*   [Buckets new](https://huggingface.co/storage)\n*   [Docs](https://huggingface.co/docs)\n*   [Enterprise](https://huggingface.co/enterprise)\n*   [Pricing](https://huggingface.co/pricing)\n*   \n    *   Website \n        *   [Tasks](https://huggingface.co/tasks)\n        *   [HuggingChat](https://huggingface.co/chat)\n        *   [Collections](https://huggingface.co/collections)\n        *   [Languages](https://huggingface.co/languages)\n        *   [Organizations](https://huggingface.co/organizations)\n\n    *   Community \n        *   [Blog](https://huggingface.co/blog)\n        *   [Posts](https://huggingface.co/posts)\n        *   [Daily Papers](https://huggingface.co/papers)\n        *   [Hardware](https://huggingface.co/hardware)\n        *   [Learn](https://huggin",
+    "description_zh": "Qwen3.8-27B是阿里巴巴Qwen团队开源的27B参数多模态大模型，支持image-text-to-text任务，可处理图像和文本混合输入并生成文本输出。该模型在HuggingFace上已获得650万+下载量和1.6万+点赞，采用Apache 2.0开源协议，支持商业使用。模型兼容Transformers框架，提供safetensors格式权重，支持Azure和SageMaker部署。作为Qwen系列的最新迭代，该模型延续了中国团队在开源大模型领域的技术积累，但本质上是基础模型而非面向终端用户的产品，主要服务开发者和研究者群体。",
+    "keywords": [
+      "开源大模型",
+      "多模态AI",
+      "基础设施",
+      "阿里巴巴",
+      "非商业化"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 6579319,
+      "likes": 16252,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:azure",
+        "deploy:sagemaker"
+      ],
+      "type": "model",
+      "author": "Qwen",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 8,
+      "niche": 10,
+      "business": 5,
+      "team": 12,
+      "bonus": 10,
+      "penalty": -3,
+      "total": 42,
+      "reason": "开源基础模型非应用层投资标的，虽有强社区认可但无商业壁垒和变现路径，不符合Creekstone寻找AI-native应用的投资论文，信息不足进一步降低评分",
+      "plus": [
+        "650万+下载量证明开发者社区强烈需求和认可",
+        "1.6万+点赞在HuggingFace上属于头部模型",
+        "Apache 2.0协议降低商业应用门槛",
+        "支持主流云平台部署，工程化成熟"
+      ],
+      "minus": [
+        "这是开源基础模型而非应用产品，不符合Creekstone投资方向",
+        "完全开源意味着零商业壁垒，任何人可免费使用",
+        "无直接变现路径，商业模式不清晰",
+        "通用多模态赛道极度拥挤，差异化不足",
+        "信息严重不足：无创始人背景、团队规模、融资情况、应用案例等关键信息"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Qwen3.8-27B — 阿里巴巴开源多模态大模型，支持图文理解，650万+下载量，1.6万+点赞，Apache 2.0协议，Qwen团队持续迭代中国顶级开源模型系列",
+      "overview_zh": "Qwen3.8-27B是阿里巴巴Qwen团队开源的27B参数多模态大模型，支持image-text-to-text任务，可处理图像和文本混合输入并生成文本输出。该模型在HuggingFace上已获得650万+下载量和1.6万+点赞，采用Apache 2.0开源协议，支持商业使用。模型兼容Transformers框架，提供safetensors格式权重，支持Azure和SageMaker部署。作为Qwen系列的最新迭代，该模型延续了中国团队在开源大模型领域的技术积累，但本质上是基础模型而非面向终端用户的产品，主要服务开发者和研究者群体。",
+      "biz_model_zh": "完全开源免费模式，Apache 2.0协议允许商业使用但无直接变现。阿里云可能通过API调用、企业部署服务、模型微调等方式间接变现，但模型本身不收费。这是典型的生态战略：通过开源建立技术影响力和开发者社区，为云服务和企业解决方案导流。与OpenAI/Anthropic的闭源付费模式完全相反，更接近Meta的LLaMA策略。商业价值主要体现在品牌建设和生态位卡位，而非直接收入。",
+      "insight_zh": "Creekstone视角：这是基础设施层而非应用层机会，不符合我们寻找AI-native应用的投资论文。虽然下载量和社区认可度高，但开源模型本身难以形成投资标的——真正的Alpha在于基于此类模型构建的垂直应用。中国开源模型正在快速追赶，但这更多是大厂的战略布局而非创业公司机会。我们应关注的是：谁在用Qwen做什么独特的应用？哪些场景因为Qwen的多模态能力被解锁？风险在于模型同质化严重，差异化越来越难，且开源意味着护城河极弱。",
+      "score_narrative_zh": "AI Native得8分：这是AI模型本身而非AI-native应用，虽然技术先进但不是我们定义的'用户行为即训练数据'的产品形态。Niche得10分：通用多模态模型，竞争极其激烈（GPT-4V/Claude/Gemini/LLaMA等），无独特场景护城河，完全开源意味着零壁垒。商业模式得5分：开源无直接变现，仅靠生态间接价值。团队得12分：阿里Qwen团队技术实力强但这是大厂项目非创业公司，加分有限。加10分：650万下载+1.6万stars证明强大社区认可。减3分：信息严重不足（无创始人背景、无商业数据、无应用案例），且这是基础模型非应用层投资标的。",
+      "metrics_summary": "HuggingFace下载量: 6,579,319 | 点赞数: 16,252 | Pipeline类型: image-text-to-text | 开源协议: Apache 2.0 | 支持部署: Azure, SageMaker | 暂无ARR/用户数/付费转化等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    }
+  }
+]
