@@ -1,0 +1,91 @@
+[
+  {
+    "id": "f963e0b730662b65",
+    "source": "huggingface",
+    "collected_at": "2026-09-28T17:55:58Z",
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "description_en": "HuggingFace model: Qwen/Qwen3.8-27B. Pipeline: image-text-to-text. Downloads: 6,844,348.",
+    "description_zh": "Qwen3.8-27B是阿里云通义千问团队发布的开源多模态大模型，参数规模27B，支持图像-文本到文本的转换任务（image-text-to-text pipeline）。该模型在HuggingFace平台已获得680万+下载量和1.6万+点赞，采用Apache 2.0开源协议，支持Azure和SageMaker部署。作为基础模型而非应用产品，Qwen系列是中国AI基础设施的重要组成部分，为开发者提供可商用的多模态能力。模型支持对话场景，具备eval-results标签表明经过标准化评测，transformers和safetensors标签显示其采用主流技术栈，便于集成。",
+    "keywords": [
+      "开源大模型",
+      "多模态AI",
+      "阿里云",
+      "基础设施",
+      "image-text-to-text"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 6844348,
+      "likes": 16476,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:azure",
+        "deploy:sagemaker"
+      ],
+      "type": "model",
+      "author": "Qwen",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 8,
+      "niche": 12,
+      "business": 4,
+      "team": 10,
+      "bonus": 11,
+      "penalty": -3,
+      "total": 42,
+      "reason": "这是开源基础模型而非应用产品，无独立商业模式。虽有强社区认可(680万下载)，但不符合我们投资'AI Native应用'的论文，且信息不足难以评估真实商业价值。",
+      "plus": [
+        "680万+下载量和1.6万+点赞证明强大的开发者社区认可度",
+        "Apache 2.0协议允许商用，降低企业使用门槛",
+        "支持Azure和SageMaker等主流云平台，便于企业集成",
+        "中国团队在开源AI领域的标杆项目，有政策和生态支持"
+      ],
+      "minus": [
+        "这是基础模型而非应用产品，无独立商业模式和现金流",
+        "开源模型赛道极度拥挤，Llama/Mistral/DeepSeek等竞品众多，差异化不明显",
+        "大公司防御性项目，缺乏创业公司的灵活性和Alpha潜力",
+        "信息严重不足：无实际应用案例、付费用户数据、benchmark对比等关键信息(-3分惩罚)",
+        "不符合Creekstone投资论文：我们寻找AI Native应用而非基础设施"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Qwen3.8-27B — 阿里云通义千问开源多模态大模型，27B参数支持图文理解，680万+下载量，1.6万+点赞，阿里达摩院团队",
+      "overview_zh": "Qwen3.8-27B是阿里云通义千问团队发布的开源多模态大模型，参数规模27B，支持图像-文本到文本的转换任务（image-text-to-text pipeline）。该模型在HuggingFace平台已获得680万+下载量和1.6万+点赞，采用Apache 2.0开源协议，支持Azure和SageMaker部署。作为基础模型而非应用产品，Qwen系列是中国AI基础设施的重要组成部分，为开发者提供可商用的多模态能力。模型支持对话场景，具备eval-results标签表明经过标准化评测，transformers和safetensors标签显示其采用主流技术栈，便于集成。",
+      "biz_model_zh": "这是一个开源基础模型，本身不直接产生收入。商业模式依赖阿里云生态：①开发者免费使用模型构建应用，带动阿里云API调用和算力消费 ②企业客户通过阿里云购买私有化部署服务 ③模型开源降低竞争对手（如OpenAI/Anthropic）的护城河，为阿里云争取AI时代的生态位。Apache 2.0协议允许商用，吸引开发者但无直接变现路径。与OpenAI闭源收费模式完全相反，是典型的'开源换生态'策略，短期无收入但长期绑定云服务消费。",
+      "insight_zh": "Creekstone视角：这不是我们投资的标的类型，原因有三：①这是基础设施而非应用层产品，无法产生独立现金流，不符合我们寻找'AI Native应用'的论文 ②阿里云作为大厂，通过开源模型巩固云服务护城河，但这个策略本质是防御性的——在OpenAI/Anthropic已建立领先优势的情况下，开源是追赶者的必然选择，而非创新者的进攻武器 ③真正的Alpha在于'用这个模型能做什么独特应用'，而不是模型本身。我们应该关注基于Qwen构建的垂直场景Agent或工具，那些才是投资机会。风险：开源模型同质化严重，Llama/Mistral/Qwen差异在缩小，单纯的参数规模和benchmark分数已不",
+      "score_narrative_zh": "AI Native得8分：虽然是大模型但仅是基础设施，不是完整的AI Native产品，无用户行为数据闭环。Niche得12分：多模态能力有一定技术门槛，但开源模型赛道已极度拥挤，Llama 3/Mistral/DeepSeek等竞品众多，差异化不足。商业模式得4分：开源无直接变现，依赖阿里云生态的间接收益难以量化，不符合我们对清晰商业模式的要求。团队得10分：阿里达摩院背景强但这是大公司项目而非创业团队，缺乏我们偏好的'1990后+AI Native'特质。加分11：680万下载+1.6万点赞证明社区认可(+4)，Apache 2.0开源协议降低使用门槛(+2)，支持主流云平台部署(+2)，中国团队在开源领域的代表性项目(+3)。减分-3：信息严重不足，无法判断实际应用场景、付费用户、商业化进展等关键指标。",
+      "metrics_summary": "HuggingFace下载量: 6,844,348 | 点赞数: 16,476 | Pipeline类型: image-text-to-text | 开源协议: Apache 2.0 | 支持部署平台: Azure, SageMaker | GitHub stars/用户数/ARR: 暂无公开数据 | 模型参数: 27B | 技术标签: transformers, safetensors, eval-results",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    }
+  }
+]
