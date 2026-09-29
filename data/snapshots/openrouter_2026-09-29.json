@@ -1,0 +1,83 @@
+[
+  {
+    "id": "5d021342ca30a88d",
+    "source": "openrouter",
+    "collected_at": "2026-09-29T16:18:02Z",
+    "title": "Cline",
+    "url": "https://openrouter.ai/apps/cline",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +70%.",
+    "description_zh": "Cline是一个面向开发者的AI编码助手，以CLI Agent和IDE扩展形式存在。从OpenRouter平台数据看，本周token使用量达978B，周环比增长70%，在全球排名第2位，显示出强劲的使用增长势头。产品定位在编码辅助领域，可能提供代码生成、调试、重构等功能。但目前公开信息极度有限，无法确认具体产品机制、用户规模、是否开源、团队背景等核心要素。仅从OpenRouter的分类标签（coding, IDE Extensions, CLI Agents）推测其为命令行或IDE集成的编程助手工具。",
+    "keywords": [
+      "Coding Agent",
+      "CLI工具",
+      "IDE扩展",
+      "OpenRouter生态",
+      "开发者工具"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 52.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 70.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "978B",
+      "tokens_int": 978000000000,
+      "wow_pct": 70.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "IDE Extensions",
+        "CLI Agents"
+      ],
+      "rank_global": 2,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 18,
+      "niche": 12,
+      "business": 8,
+      "team": 9,
+      "bonus": 8,
+      "penalty": -3,
+      "total": 52,
+      "reason": "70%增长显示潜力，但信息严重不足（-3分惩罚），无团队/商业模式/技术壁垒验证，赛道竞争激烈，保守给52分等待更多信息",
+      "plus": [
+        "OpenRouter平台WoW增长+70%，显示产品有市场吸引力和用户增长动能",
+        "978B周token使用量暗示有一定规模的真实用户在持续使用",
+        "全球排名第2说明在OpenRouter生态内有较高采用率"
+      ],
+      "minus": [
+        "信息严重不足：无团队背景、融资历史、开源社区验证、商业模式细节",
+        "赛道竞争激烈：Cursor、GitHub Copilot等已占据市场，差异化不明确",
+        "依赖OpenRouter平台：可能缺乏独立护城河，平台政策变化或竞品入驻会影响地位",
+        "无法验证技术壁垒：不知是否有私有数据、独特算法或场景深耕",
+        "商业化路径不清晰：不确定收入来源、付费用户比例、单位经济模型"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Cline — CLI/IDE扩展的Coding Agent，OpenRouter平台WoW增长+70%，类别标签显示为编码工具，但缺乏团队、商业模式等关键信息",
+      "overview_zh": "Cline是一个面向开发者的AI编码助手，以CLI Agent和IDE扩展形式存在。从OpenRouter平台数据看，本周token使用量达978B，周环比增长70%，在全球排名第2位，显示出强劲的使用增长势头。产品定位在编码辅助领域，可能提供代码生成、调试、重构等功能。但目前公开信息极度有限，无法确认具体产品机制、用户规模、是否开源、团队背景等核心要素。仅从OpenRouter的分类标签（coding, IDE Extensions, CLI Agents）推测其为命令行或IDE集成的编程助手工具。",
+      "biz_model_zh": "商业模式完全不明确。作为OpenRouter平台上的应用，可能采用API调用付费模式（用户为token使用付费），也可能是免费工具通过OpenRouter获取模型能力。978B token的周使用量暗示有一定用户基数，但无法确认是付费用户还是免费试用。缺乏定价信息、订阅模式、目标客户画像等关键商业要素。与Cursor等成熟IDE Agent相比，商业化路径不清晰，可能仍处于早期获客阶段或依赖平台生态补贴。",
+      "insight_zh": "Creekstone视角：①70%的WoW增长显示产品有一定市场吸引力，但缺乏更长时间维度数据验证可持续性；②CLI/IDE Agent赛道已有Cursor、GitHub Copilot等强势玩家，Cline需证明差异化价值；③OpenRouter平台排名第2说明在该生态内有地位，但OpenRouter本身是模型路由平台，Cline可能只是其上众多应用之一，护城河存疑；④最大风险是信息严重不足——无团队背景、无融资信息、无开源社区验证、无商业数据，难以判断是真实Alpha还是短期流量波动；⑤若是1-2人小团队的开源项目，可能有技术亮点但商业化能力存疑。需要补充GitHub stars、创始人L",
+      "score_narrative_zh": "AI Native得18分：从CLI Agent和IDE扩展定位看，产品应具备基本的代码理解和生成能力，但无法确认是否有工具调用、上下文记忆、自主规划等高级agent特性，保守给予中低分。Niche得12分：编码助手赛道竞争激烈，Cursor已占据IDE Agent高地，GitHub Copilot有微软生态，Cline未展示明确的场景差异化或技术壁垒，仅凭OpenRouter平台数据无法证明独特价值。商业模式得8分：完全不透明，可能依赖平台分成或API付费，但无确切证据，给予低分。团队得9分：零信息，无法判断创始人背景、技术能力或AI domain expertise，按信息不足给予偏低分。加分8分：OpenRouter平台WoW+70%增长+2，全球排名第2显示一定采用率+2，978B token使用量暗示有真实用户+4。减分-3：信息严重不足导致无法全面评估，按规则扣3分。",
+      "metrics_summary": "OpenRouter平台数据：周token使用量978B，WoW增长+70%，全球排名第2位。分类标签：coding, IDE Extensions, CLI Agents。其他关键指标（GitHub stars、用户数、ARR、融资信息、团队规模）暂无公开数据。",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/cline"
+      ]
+    }
+  }
+]
