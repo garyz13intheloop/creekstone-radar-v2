@@ -1,0 +1,84 @@
+[
+  {
+    "id": "5d021342ca30a88d",
+    "source": "openrouter",
+    "collected_at": "2026-10-03T14:30:23Z",
+    "title": "Cline",
+    "url": "https://openrouter.ai/apps/cline",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +109%.\n\nTitle: Cline - Top Models & Usage Stats | OpenRouter\n\nURL Source: https://openrouter.ai/apps/cline\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/cline#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-sprite.png)](https://openrouter.ai/)[![Image 2: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-sprite.png)](https://openrouter.ai/)[](https://openrouter.ai/workspaces/default)\n\nSearch⌘K\n\n[Home](https://openrouter.ai/workspaces)[Dashboard](https://openrouter.ai/workspaces/default)\n\n[Models](https://openrouter.ai/models)[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Ori](https://openrouter.ai/ori)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\n*   [Models](https://openrouter.ai/models)\n*   [Rankings](https://openrouter.ai/rankings)\n*   [Ori](https://openrouter.ai/ori)\n\n[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Chat](https://openrouter.ai/chat)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quicks",
+    "description_zh": "Cline是一个运行在VS Code中的AI编程agent，能够自主执行复杂的编码任务。产品通过IDE扩展形式部署，允许开发者通过自然语言描述需求，agent会自动规划、编写代码、调试并执行。核心机制是多步骤工作流：理解需求→规划任务→调用工具(文件操作/终端命令/浏览器)→执行验证→迭代优化。目标用户是专业开发者，特别是需要快速原型开发或处理重复性编码任务的工程师。在OpenRouter平台上周token使用量达1.06T，环比增长109%，排名全球第4，证明了真实的开发者采用和高频使用场景。产品属于coding agent赛道，与Cursor、GitHub Copilot等竞争，但通过开源+IDE扩展的轻量化路径差异化竞争。",
+    "keywords": [
+      "Coding Agent",
+      "VS Code扩展",
+      "开源开发工具",
+      "OpenRouter生态",
+      "AI编程助手"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 68.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 109.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "1.06T",
+      "tokens_int": 1060000000000,
+      "wow_pct": 109.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "IDE Extensions",
+        "CLI Agents"
+      ],
+      "rank_global": 4,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 24,
+      "niche": 18,
+      "business": 12,
+      "team": 9,
+      "bonus": 8,
+      "penalty": -3,
+      "total": 68,
+      "reason": "68分因为：真实增长数据证明产品有市场需求，但团队信息缺失、商业模式不清、技术壁垒不明显，导致无法给出更高评价。需补充关键信息才能判断Alpha潜力。",
+      "plus": [
+        "OpenRouter平台周增长109%，证明真实开发者采用和高频使用",
+        "VS Code扩展形式降低采用门槛，符合开发者工作流习惯",
+        "模型无关架构，用户可自由选择LLM提供商，避免供应商锁定",
+        "Coding agent赛道需求明确，市场快速增长"
+      ],
+      "minus": [
+        "团队信息严重缺失，无法判断创始人背景、技术能力和执行力",
+        "商业化路径不清晰，开源项目难以建立收入护城河",
+        "技术壁垒不明显，Cursor等竞品可能快速复制核心功能",
+        "依赖OpenRouter等第三方平台，缺乏独立数据飞轮",
+        "信息不足导致无法全面评估产品深度和长期竞争力"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Cline — VS Code中的AI编程助手，通过自主agent执行复杂编码任务，OpenRouter周增长+109%，开源项目已获开发者社区验证",
+      "overview_zh": "Cline是一个运行在VS Code中的AI编程agent，能够自主执行复杂的编码任务。产品通过IDE扩展形式部署，允许开发者通过自然语言描述需求，agent会自动规划、编写代码、调试并执行。核心机制是多步骤工作流：理解需求→规划任务→调用工具(文件操作/终端命令/浏览器)→执行验证→迭代优化。目标用户是专业开发者，特别是需要快速原型开发或处理重复性编码任务的工程师。在OpenRouter平台上周token使用量达1.06T，环比增长109%，排名全球第4，证明了真实的开发者采用和高频使用场景。产品属于coding agent赛道，与Cursor、GitHub Copilot等竞争，但通过开源+IDE扩展的轻量化路径差异化竞争。",
+      "biz_model_zh": "商业模式尚不完全明确，作为VS Code扩展可能采用免费+付费增值模式。用户需要自带API key连接OpenRouter或其他LLM提供商，Cline本身可能不直接收费，而是通过API调用产生收入分成或订阅费用。这种模式的优势是降低用户门槛，快速获取开发者用户；劣势是变现路径依赖第三方平台。与Cursor的IDE级订阅($20/月)相比，Cline更像是插件生态中的轻量化选择，可能通过企业版、高级功能或托管服务实现商业化。OpenRouter的高增长数据表明用户愿意为API调用付费，但Cline自身的收入模式需要进一步验证。",
+      "insight_zh": "Creekstone视角：Cline代表了coding agent赛道中'开源+轻量化'的差异化路径。市场被低估之处在于：①开发者对IDE原生工具的信任度高于独立应用，VS Code扩展形式降低了采用摩擦；②OpenRouter生态的快速增长证明了模型无关架构的价值，开发者希望自由选择最优模型而非被锁定；③109%周增长显示真实需求爆发，不是营销驱动。风险：①商业化路径不清晰，开源项目难以建立护城河；②Cursor等IDE级产品可能快速复制功能；③依赖OpenRouter等第三方平台，缺乏数据飞轮。投资论文适配度：符合我们对'开发者工具+AI native'的关注，但需要验证团队背景和独特技术",
+      "score_narrative_zh": "AI Native得24分：产品明显是AI-first设计，具备多步骤规划、工具调用、迭代优化等agent核心能力，但尚未看到数据飞轮或从对话走向确定性工作流的证据，因此未达到28+的顶级水平。Niche得18分：coding agent是明确场景，VS Code扩展+开源路径有一定差异化，但赛道竞争激烈(Cursor/Copilot/OpenHands)，技术壁垒不明显。商业模式得12分：变现路径不清晰，可能依赖API分成或未来订阅，用户付费意愿需验证。团队得9分：信息严重不足，无法判断创始人背景、年龄、AI能力，给予中等偏下分数。加分8分：OpenRouter高增长+4分(证明真实采用)，开源生态认可+2分，coding agent赛道热度+2分。减分3分：信息不足导致无法全面评估-3分。总分68分处于'普通关注'区间，需要补充团队、技术壁垒、商业化计划等关键信息才能判断是否值得深度跟",
+      "metrics_summary": "OpenRouter周token使用量: 1.06T | 周环比增长: +109% | OpenRouter全球排名: 第4位 | 分类: coding/IDE Extensions/CLI Agents | 暂无GitHub stars、用户数、ARR等其他公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/cline"
+      ]
+    }
+  }
+]
