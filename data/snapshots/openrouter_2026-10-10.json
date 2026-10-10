@@ -1,0 +1,81 @@
+[
+  {
+    "id": "85d667ab2bd0b007",
+    "source": "openrouter",
+    "collected_at": "2026-10-10T15:39:52Z",
+    "title": "Freebuff",
+    "url": "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +230%.\n\nTitle: Not Found | OpenRouter\n\nURL Source: https://openrouter.ai/apps/url/https://freebuff.com/\n\nWarning: Target URL returned error 404: Not Found\n\nMarkdown Content:\n## 404: Not Found\n\n[Go Home](https://openrouter.ai/)[Browse Models](https://openrouter.ai/models)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/openrouter-dark.svg)![Image 2: OpenRouter](https://openrouter.ai/brand/v2/openrouter-light.svg)](https://openrouter.ai/)\n\n© 2026 OpenRouter, Inc\n\n### Product\n\n*   [Chat](https://openrouter.ai/chat)\n*   [Rankings](https://openrouter.ai/rankings)\n*   [Benchmarks](https://openrouter.ai/benchmarks)\n*   [Apps](https://openrouter.ai/apps)\n*   [Discover](https://openrouter.ai/discover)\n*   [Models](https://openrouter.ai/models)\n*   [Ori](https://openrouter.ai/ori)\n*   [Collections](https://openrouter.ai/collections)\n*   [Providers](https://openrouter.ai/providers)\n*   [Tools](https://openrouter.ai/tools)\n*   [Pricing](https://openrouter.ai/pricing)\n*   [Business](https://openrouter.ai/business)\n*   [Enterprise](https://openrouter.ai/enterprise)\n*   [Labs](https://openrouter.ai/labs)\n\n### Company\n\n*   [About](https://openrouter.ai/about)\n*   [Blog](https://openrouter.ai/blog)",
+    "description_zh": "Freebuff是在OpenRouter平台上出现的一个应用，本周token使用量达到453B，周环比增长230%，在全球排名第6位，被归类为coding类别。然而，产品官网返回404错误，无法获取任何实质性的产品信息、功能描述、团队背景或商业模式。仅从OpenRouter的分类和高增长数据推测，这可能是一个与AI编程相关的工具或服务，但缺乏任何可验证的细节来支持进一步判断。目前无法确认产品是否真实运营、是否有付费用户、技术实现方式或创始团队情况。",
+    "keywords": [
+      "信息缺失",
+      "OpenRouter",
+      "Coding工具",
+      "高增长异常",
+      "验证待定"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 38.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 230.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "453B",
+      "tokens_int": 453000000000,
+      "wow_pct": 230.0,
+      "section": "trending",
+      "categories": [
+        "coding"
+      ],
+      "rank_global": 6,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 8,
+      "niche": 6,
+      "business": 5,
+      "team": 0,
+      "bonus": 4,
+      "penalty": -15,
+      "total": 38,
+      "reason": "官网404且零公开信息，虽有OpenRouter高增长数据但无法验证真实性和商业价值，信息严重不足给予低分",
+      "plus": [
+        "OpenRouter平台周增长+230%显示有显著使用活动",
+        "453B token消费量暗示有一定规模的实际应用场景",
+        "全球排名#6显示在OpenRouter生态中有一定位置"
+      ],
+      "minus": [
+        "官网404错误，无法获取任何产品信息（-3分信息不足惩罚）",
+        "完全没有团队背景、创始人信息（-5分无AI背景惩罚）",
+        "无法验证产品真实性、商业模式、技术实现（-7分额外惩罚）",
+        "Coding类别高度饱和，无差异化信息支持",
+        "可能存在数据异常或刷量风险"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Freebuff — OpenRouter平台上周增长+230%的应用，具体产品信息未知，目标页面404错误，仅知归类为coding类别",
+      "overview_zh": "Freebuff是在OpenRouter平台上出现的一个应用，本周token使用量达到453B，周环比增长230%，在全球排名第6位，被归类为coding类别。然而，产品官网返回404错误，无法获取任何实质性的产品信息、功能描述、团队背景或商业模式。仅从OpenRouter的分类和高增长数据推测，这可能是一个与AI编程相关的工具或服务，但缺乏任何可验证的细节来支持进一步判断。目前无法确认产品是否真实运营、是否有付费用户、技术实现方式或创始团队情况。",
+      "biz_model_zh": "商业模式完全未知。从OpenRouter平台的token消费数据看，该应用在调用AI模型，但无法判断是B2B还是B2C、是订阅制还是按量付费、是否有收入或仅在测试阶段。coding类别暗示可能面向开发者，但没有定价信息、用户规模或收入数据可供参考。高token消费量可能意味着有实际使用场景,但也可能是测试或刷量行为。",
+      "insight_zh": "从Creekstone视角看，这是一个高度不确定的信号。230%周增长和453B token用量显示有显著活动，但404页面和零公开信息是重大红旗。可能情况：①产品处于隐秘开发/内测阶段 ②域名/品牌变更导致链接失效 ③数据异常或刷量行为 ④真实产品但刻意低调。Coding类别在当前市场已高度饱和，除非有独特的niche或技术突破，否则难以形成Alpha。建议：需要通过其他渠道(GitHub/社交媒体/创始人LinkedIn)验证产品真实性，在获得基本信息前不建议投入资源跟进。",
+      "score_narrative_zh": "AI Native得8分：仅从OpenRouter token消费推测有AI集成，但无法验证是否真正AI-native设计，给予最低可能分。Niche得6分：coding类别竞争激烈，无差异化信息，给予低分。商业模式得5分：完全未知，给予接近最低分。团队得0分：无任何团队信息。加分4分：OpenRouter高增长数据(+2)和高token消费量显示有实际使用(+2)。减分-15分：官网404严重信息缺失(-3)、无团队背景(-5)、无产品验证(-7)。总分38分反映了在几乎零信息情况下的极度谨慎评估。",
+      "metrics_summary": "OpenRouter本周token使用: 453B | 周环比增长: +230% | 全球排名: #6 | 分类: coding | 官网状态: 404错误 | GitHub stars: 未知 | 用户数: 未知 | ARR: 未知 | 团队规模: 未知 | 融资情况: 未知",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/url/https%3A%2F%2Ffreebuff.com%2F"
+      ]
+    }
+  }
+]
