@@ -1,0 +1,92 @@
+[
+  {
+    "id": "f963e0b730662b65",
+    "source": "huggingface",
+    "collected_at": "2026-10-11T16:06:25Z",
+    "title": "Qwen/Qwen3.8-27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "description_en": "HuggingFace model: Qwen/Qwen3.8-27B. Pipeline: image-text-to-text. Downloads: 6,843,108.",
+    "description_zh": "Qwen3.8-27B是阿里云通义千问(Qwen)团队发布的开源多模态大语言模型，参数规模27B，支持image-text-to-text任务。该模型在HuggingFace平台已获得680万+下载量和1.7万+点赞，采用Apache 2.0开源协议。作为基础模型而非应用产品，主要面向开发者和研究者，可用于构建多模态AI应用。模型支持对话场景，兼容Transformers框架，可部署在Azure和SageMaker等云平台。从技术角度看，这是中国科技巨头在开源AI基础设施领域的重要布局，但本身不是一个独立的商业产品或应用。",
+    "keywords": [
+      "开源大模型",
+      "多模态AI",
+      "阿里云",
+      "基础设施",
+      "非投资标的"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 42.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": null,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "downloads": 6843108,
+      "likes": 17484,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:azure",
+        "deploy:sagemaker"
+      ],
+      "type": "model",
+      "author": "Qwen",
+      "cross_sources": [
+        "huggingface"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 8,
+      "niche": 12,
+      "business": 4,
+      "team": 10,
+      "bonus": 11,
+      "penalty": -3,
+      "total": 42,
+      "reason": "这是大厂开源基础模型而非可投资的创业公司产品。虽有技术实力和社区认可，但缺乏独立商业闭环和投资逻辑，不符合Creekstone寻找Alpha的标准。真正机会在基于此构建的应用层。",
+      "plus": [
+        "680万+下载量证明开发者社区强烈需求和认可度",
+        "1.7万+点赞显示在开源AI社区的影响力",
+        "Apache 2.0协议对商业应用友好，降低使用门槛",
+        "阿里达摩院技术背书，中国市场本地化优势明显",
+        "多模态能力(图文理解)符合AI发展趋势"
+      ],
+      "minus": [
+        "这是开源基础模型而非独立商业产品，无法作为投资标的评估",
+        "缺乏独立商业模式和收入数据，依附于阿里云生态",
+        "开源大模型领域竞争激烈(Meta/Google/Mistral等)，差异化不足",
+        "信息严重不足：无创始团队、融资、用户案例等关键投资决策信息",
+        "大厂项目存在战略调整风险，开源承诺可持续性存疑"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Qwen3.8-27B — 阿里云通义千问开源多模态大模型，27B参数支持图文理解，680万+下载量，阿里达摩院团队",
+      "overview_zh": "Qwen3.8-27B是阿里云通义千问(Qwen)团队发布的开源多模态大语言模型，参数规模27B，支持image-text-to-text任务。该模型在HuggingFace平台已获得680万+下载量和1.7万+点赞，采用Apache 2.0开源协议。作为基础模型而非应用产品，主要面向开发者和研究者，可用于构建多模态AI应用。模型支持对话场景，兼容Transformers框架，可部署在Azure和SageMaker等云平台。从技术角度看，这是中国科技巨头在开源AI基础设施领域的重要布局，但本身不是一个独立的商业产品或应用。",
+      "biz_model_zh": "作为开源基础模型，Qwen3.8-27B本身不直接产生收入。阿里云的商业逻辑是：①通过开源模型吸引开发者生态，推动阿里云计算资源消费；②为通义千问商业API服务导流；③在企业级场景提供私有化部署和技术支持服务收费。这是典型的「开源基础设施+云服务变现」模式，类似Meta的LLaMA策略。但作为单独的投资标的，该模型缺乏独立的商业闭环，更多是阿里云整体AI战略的一部分，而非可独立估值的创业公司产品。",
+      "insight_zh": "从Creekstone视角看，这不是一个可投资的独立项目，而是大厂开源基础设施。真正的Alpha机会在于：①基于Qwen构建的垂直应用层创业公司（如专注某行业的Agent）；②利用开源模型降低成本的niche场景解决方案；③中国市场特有的模型微调/部署服务商。风险在于：阿里作为大厂随时可能调整开源策略，且基础模型领域已是红海竞争（OpenAI/Anthropic/Meta/Google）。我们应关注的是「用Qwen做什么」而非Qwen本身——寻找那些因开源模型成本下降而成为可能的新商业模式。",
+      "score_narrative_zh": "AI Native得8分：这是纯AI模型但不是应用产品，无用户行为数据飞轮，仅是基础设施层。Niche得12分：多模态能力有一定技术门槛，但开源模型同质化严重，Meta LLaMA、Google Gemma等竞品众多。商业模式得4分：开源无直接变现，依赖云服务间接收益，作为独立项目商业逻辑不成立。团队得10分：阿里达摩院背景强但这是大厂项目非创业团队。加分11分：680万下载量证明社区认可(+4)，1.7万stars显示生态活跃(+2)，阿里云背书(+3)，Apache 2.0开源协议友好(+2)。减分-3：信息严重不足，无法评估作为独立商业实体的可行性。",
+      "metrics_summary": "HuggingFace下载量: 6,843,108次 | 点赞数: 17,484 | Pipeline类型: image-text-to-text | 开源协议: Apache 2.0 | 支持平台: Azure, SageMaker | 暂无ARR、用户数、融资等商业数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    }
+  }
+]
