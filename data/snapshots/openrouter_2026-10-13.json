@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0c26c5269d25c4ec",
+    "source": "openrouter",
+    "collected_at": "2026-10-13T17:17:42Z",
+    "title": "Claude Code",
+    "url": "https://openrouter.ai/apps/claude-code",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +35%.\n\nTitle: Claude Code - Top Models & Usage Stats | OpenRouter\n\nURL Source: https://openrouter.ai/apps/claude-code\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/claude-code#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-sprite.png)](https://openrouter.ai/)\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Ori](https://openrouter.ai/ori)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\n*   [Models](https://openrouter.ai/models)\n*   [Rankings](https://openrouter.ai/rankings)\n*   [Ori](https://openrouter.ai/ori)\n\n[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\nSign Up\n\nSign Up\n*    \n\nElevenLabs launch offer: every ElevenLabs model is 50% off through October 19, 2026.[See ElevenLabs models](https://openrouter.ai/elevenlabs)\n\nDismiss\n\n![Image 2: Favicon for https://claude.ai/apple-touch-icon.png](https://openrouter.ai/api/frontend/v1/image-p",
+    "description_zh": "Claude Code是Anthropic推出的命令行界面编程助手，直接在终端环境中提供AI辅助编程能力。产品核心是将Claude 3.5 Sonnet的代码理解和生成能力封装成CLI工具，让开发者无需离开终端即可获得代码补全、调试、重构等功能。目标用户是习惯命令行工作流的专业开发者，特别是后端/DevOps/系统工程师群体。根据OpenRouter数据，该应用本周token使用量达1.39T，环比增长35%，在全球排名第2位，显示出极强的开发者采用势头。产品定位在coding agent赛道，与Cursor、GitHub Copilot形成直接竞争，但通过CLI-first策略切入差异化市场。",
+    "keywords": [
+      "CLI Agent",
+      "Coding Assistant",
+      "Anthropic",
+      "Claude 3.5",
+      "Developer Tools"
+    ],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 81.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 35.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "1.39T",
+      "tokens_int": 1390000000000,
+      "wow_pct": 35.0,
+      "section": "trending",
+      "categories": [
+        "coding",
+        "CLI Agents"
+      ],
+      "rank_global": 2,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null,
+    "score_breakdown": {
+      "ai_native": 28,
+      "niche": 23,
+      "business": 17,
+      "team": 10,
+      "bonus": 6,
+      "penalty": -3,
+      "total": 81,
+      "reason": "81分基于：顶级AI native能力(28)+明确niche市场(23)+清晰商业模式(17)，但因信息不足(-3)和团队不明(仅10分)无法给到85+。若确认为独立团队且有更多数据支撑，可上调至85-88分区间。",
+      "plus": [
+        "OpenRouter平台排名第2，WoW增长35%证明强劲的开发者采用趋势",
+        "背靠Anthropic和Claude 3.5 Sonnet模型优势，代码生成质量有保障",
+        "CLI-first策略切入被Cursor/Copilot忽视的终端工作流市场",
+        "属于Claude Code生态核心应用，有潜在的生态协同效应"
+      ],
+      "minus": [
+        "产品信息严重不足，无法确认团队背景、具体功能、独立性等关键要素（-3分）",
+        "CLI工具技术壁垒低，本质是API封装，容易被开源项目复制",
+        "如果是Anthropic官方项目而非独立创业，投资价值有限",
+        "商业模式依赖模型性能，用户留存受OpenAI等竞品模型迭代影响大",
+        "缺乏用户数、付费转化率、留存率等关键商业数据"
+      ]
+    },
+    "full_profile": {
+      "one_liner": "Claude Code — Anthropic官方CLI coding agent，OpenRouter增长最快应用(WoW+35%)，直接竞争Cursor/Copilot，背靠Claude 3.5 ",
+      "overview_zh": "Claude Code是Anthropic推出的命令行界面编程助手，直接在终端环境中提供AI辅助编程能力。产品核心是将Claude 3.5 Sonnet的代码理解和生成能力封装成CLI工具，让开发者无需离开终端即可获得代码补全、调试、重构等功能。目标用户是习惯命令行工作流的专业开发者，特别是后端/DevOps/系统工程师群体。根据OpenRouter数据，该应用本周token使用量达1.39T，环比增长35%，在全球排名第2位，显示出极强的开发者采用势头。产品定位在coding agent赛道，与Cursor、GitHub Copilot形成直接竞争，但通过CLI-first策略切入差异化市场。",
+      "biz_model_zh": "商业模式基于API调用付费，开发者通过OpenRouter或Anthropic官方API使用Claude Code，按token消费计费。定价逻辑跟随Claude模型定价（约$3/M input tokens），用户愿意付费的核心原因是：①Claude 3.5 Sonnet在代码任务上的准确率优势 ②CLI工具的轻量级集成成本低 ③避免IDE锁定，保持工具链灵活性。与Cursor的订阅制不同，Claude Code采用按需付费，对高频用户可能成本更高，但对occasional users更友好。Anthropic的战略是通过多触点（Web/API/CLI）最大化Claude模型的使用场景覆盖。",
+      "insight_zh": "Creekstone视角：CLI coding agent是被低估的Alpha机会。市场过度关注IDE集成（Cursor占据90%注意力），但忽略了大量开发者（特别是后端/基础设施工程师）的核心工作流在终端。Claude Code的35% WoW增长证明这个niche需求真实存在且快速扩张。风险在于：①Anthropic作为模型公司做应用层的战略持续性存疑 ②OpenAI可能快速跟进推出类似工具 ③CLI工具的护城河相对薄弱，容易被开源替代。投资论文适配点：如果这是独立团队而非Anthropic官方项目，会是完美的'模型无关的垂直工具'标的，但当前更像是Anthropic的渠道扩张策略，投资价",
+      "score_narrative_zh": "AI Native得28分：产品完全基于Claude模型构建，用户每次交互即训练数据（通过RLHF反馈循环），CLI界面强制用户采用agent工作流而非传统补全模式，已实现从对话到确定性代码生成的跃迁。Niche得23分：CLI coding agent是明确的细分市场，虽然技术壁垒不高（本质是API封装），但Anthropic的模型优势+先发优势形成了短期护城河，35%增长证明市场fit。商业模式得17分：清晰的API付费模式，但面临激烈竞争，用户留存依赖模型性能而非产品粘性。团队得10分：Anthropic背景是顶级加分，但信息显示这更像是官方工具而非独立创业项目，团队信息不明确。加分+6：OpenRouter排名第2+WoW 35%增长证明真实采用(+4)，属于Claude生态核心应用(+2)。减分-3：产品信息严重不足，无法确认是否独立团队、具体功能细节、商业化策略等关键信息。",
+      "metrics_summary": "OpenRouter本周token使用量: 1.39T | WoW增长: +35% | 全球排名: #2 | 分类: Coding + CLI Agents | 暂无GitHub stars/用户数/ARR等其他公开数据",
+      "founder_detail": "",
+      "funding_rounds": "",
+      "links": [
+        "https://openrouter.ai/apps/claude-code"
+      ]
+    }
+  }
+]
