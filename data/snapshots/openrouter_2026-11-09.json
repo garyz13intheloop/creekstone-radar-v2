@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1e785d212724b37e",
+    "source": "openrouter",
+    "collected_at": "2026-11-09T20:20:42Z",
+    "title": "Portkey AI",
+    "url": "https://openrouter.ai/apps/portkey-ai",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +374%.",
+    "description_zh": "",
+    "keywords": [],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 0.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 374.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "75.4B",
+      "tokens_int": 75400000000,
+      "wow_pct": 374.0,
+      "section": "trending",
+      "categories": [
+        "Programming App"
+      ],
+      "rank_global": 16,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null
+  }
+]
