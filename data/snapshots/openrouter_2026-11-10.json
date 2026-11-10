@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c21e87277b3be0d0",
+    "source": "openrouter",
+    "collected_at": "2026-11-10T17:25:10Z",
+    "title": "OpenClaw",
+    "url": "https://openrouter.ai/apps/openclaw",
+    "description_en": "Trending on OpenRouter App Rankings. WoW growth: +52%.\n\nTitle: OpenClaw - Top Models & Usage Stats | OpenRouter\n\nURL Source: https://openrouter.ai/apps/openclaw\n\nMarkdown Content:\n[Skip to content](https://openrouter.ai/apps/openclaw#skip)\n\n[![Image 1: OpenRouter](https://openrouter.ai/brand/v2/nav-lockup-sprite.png)](https://openrouter.ai/)\n\nAlpha\n\nSearch⌘K\n\n[Models](https://openrouter.ai/models)[Benchmarks](https://openrouter.ai/benchmarks)[Chat](https://openrouter.ai/chat)[Rankings](https://openrouter.ai/rankings)[Apps](https://openrouter.ai/apps)[Ori](https://openrouter.ai/ori)[Pricing](https://openrouter.ai/pricing)[Docs](https://openrouter.ai/docs/quickstart)\n\n*   [Models](https://openrouter.ai/models)\n*   [Rankings](https://openrouter.ai/rankings)\n*   [Ori](https://openrouter.ai/ori)\n\n[Docs](https://openrouter.ai/docs/quickstart)[Chat](https://openrouter.ai/chat)[Pricing](https://openrouter.ai/pricing)\n\nSign Up\n\n[Talk to sales](https://openrouter.ai/enterprise/form?ref=nav)Sign in Sign up\n\nSign Up\n\n*    \n\n![Image 2: Favicon for https://openclaw.ai/](https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://openclaw.ai/&size=256)\n\n# OpenClaw\n\n[Docs](https://openrouter.ai/docs/cookbook/codi",
+    "description_zh": "",
+    "keywords": [],
+    "track": "unknown",
+    "track_reason": "",
+    "track_confidence": "low",
+    "fde_index": 0,
+    "fde_stage": "",
+    "score": 0.0,
+    "is_new": false,
+    "is_trending": true,
+    "is_spike": false,
+    "wow_growth_pct": 52.0,
+    "has_video": false,
+    "feedback_state": "pending",
+    "feedback_note": "",
+    "sourcing_synced": false,
+    "metrics": {
+      "tokens_week": "492B",
+      "tokens_int": 492000000000,
+      "wow_pct": 52.0,
+      "section": "trending",
+      "categories": [
+        "Personal Agents",
+        "CLI Agents"
+      ],
+      "rank_global": 5,
+      "cross_sources": [
+        "openrouter"
+      ]
+    },
+    "thumbnail_url": null
+  }
+]
